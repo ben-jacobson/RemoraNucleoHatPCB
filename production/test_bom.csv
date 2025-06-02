@@ -1,0 +1,30 @@
+Comment,JLCPCB Part #（optional）,Footprint
+HT26LS31ARZ,C3019542,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+ADuM1201AR,C660256,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+500R trimpot,C116324,Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical
+50R trimpot,C56340,Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical
+TPS5430DDAR,C9864,Package_SO:TI_SO-PowerPAD-8_ThermalVias
+~,,W5500EvalModule:W5500EvalModule
+5K6 1%,,
+3K2 1%,,
+1K 1%,,
+10K 1%,,
+22uH / 3A / 66mOhm,,
+10uH / 3A / 31mOhm,,
+33uH / 3A / 33mOhm,,
+EXT_5V_GND_JMP,,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+EXT_5V_SUPPLY_JMP,,Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+5V_AUXOUT,,
+Conn_01x06_Socket,,
+5V_SUPPLY,,
+Conn_01x02_Socket,,
+NucleoF446RE CN7 Header,,Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical
+NucleoF446RE CN10 Header,,Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical
+B340A,,
+330uF,,
+4.7uF,,
+220uF,,
+10nF low ESR,,
+100nF,,
+22uF,,
+10uF,,

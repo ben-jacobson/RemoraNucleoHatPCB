@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "W5500EvalModule")(type "KiCad")(uri "${KIPRJMOD}/W5500EvalModule.kicad_sym")(options "")(descr ""))
+)
