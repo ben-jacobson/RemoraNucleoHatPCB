@@ -2390,6 +2390,16 @@
 		)
 		(uuid "60fcb8c9-580c-4e33-aac8-840b005f21fd")
 	)
+	(text "Todo - redo regulators once you know the current draw of all device, \nideally within the 60-70% range of current limit for peak efficiency"
+		(exclude_from_sim no)
+		(at 161.036 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91b92fc2-8b1c-4dff-816a-f2831d73c68f")
+	)
 	(text "3.3v sub regulator"
 		(exclude_from_sim no)
 		(at 191.008 97.79 0)
