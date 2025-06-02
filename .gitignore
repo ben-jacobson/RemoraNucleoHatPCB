@@ -2,6 +2,7 @@
 # https://github.com/github/gitignore/blob/master/KiCad.gitignore
 
 /ReferenceDocs/**
+/Remora Nucleo F446RE Hat-backups/**
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
