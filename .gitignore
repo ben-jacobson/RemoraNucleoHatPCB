@@ -44,3 +44,4 @@ fp-info-cache
 .svg2shenzhen-cache
 _autosave*
 *.lck
+.~lock.*
