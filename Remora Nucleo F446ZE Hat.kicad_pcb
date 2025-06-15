@@ -474,7 +474,7 @@
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "06917464-3e86-4447-a957-d6f1df551b09")
-		(at 154.94 119.38)
+		(at 196.075 122.96)
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U14"
@@ -841,7 +841,7 @@
 	(footprint "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
 		(layer "F.Cu")
 		(uuid "07946d5c-594b-4eb9-a817-9063d99ddc35")
-		(at 127.575 123.085 90)
+		(at 59.405 124.395 90)
 		(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf")
 		(tags "HTSOP 1.27")
 		(property "Reference" "U10"
@@ -2860,7 +2860,7 @@
 	(footprint "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
 		(layer "F.Cu")
 		(uuid "1d9b8b69-198d-4cec-97f2-3a72ddd34572")
-		(at 114.245 123.085 90)
+		(at 46.075 124.395 90)
 		(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf")
 		(tags "HTSOP 1.27")
 		(property "Reference" "U2"
@@ -3265,7 +3265,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "1de642e2-a2a0-4571-b716-6784d5309d84")
-		(at 145.865 90.34)
+		(at 187 93.92)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
@@ -3950,7 +3950,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 		(layer "F.Cu")
 		(uuid "3455c64b-3eb6-45bd-bbaf-c4d0cf6f1a8c")
-		(at 119.93 115.635 90)
+		(at 51.76 116.945 90)
 		(descr "Potentiometer, vertical, Bourns 3224W, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
 		(tags "Potentiometer vertical Bourns 3224W")
 		(property "Reference" "RV2"
@@ -4794,7 +4794,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "499e2c90-4124-4bd5-842b-c1b60fb32e24")
-		(at 145.865 96.92)
+		(at 187 100.5)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
@@ -5081,7 +5081,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "52f8be3b-c92c-4114-ad9e-902caaa35ffd")
-		(at 145.865 103.5)
+		(at 187 107.08)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U5"
@@ -5965,7 +5965,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "641b3e66-2079-43a5-88f4-ae59c16fb146")
-		(at 145.865 116.66)
+		(at 187 120.24)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U7"
@@ -6252,7 +6252,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "654ec491-52d5-4648-a1b8-c9320fc571d8")
-		(at 138.17 125.185 90)
+		(at 70 126.495 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
@@ -8018,7 +8018,7 @@
 	(footprint "W5500EvalModule:W5500EvalModule"
 		(layer "F.Cu")
 		(uuid "7cbd5ff5-c45d-49bc-ae3a-40289147faf2")
-		(at 134.95 81.7)
+		(at 135.06 71)
 		(property "Reference" "U1"
 			(at -16.06 22.5 90)
 			(layer "F.SilkS")
@@ -8507,7 +8507,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 		(layer "F.Cu")
 		(uuid "81b72a4a-c128-4e9f-a5c5-31ab8893121a")
-		(at 125.98 115.635 90)
+		(at 57.81 116.945 90)
 		(descr "Potentiometer, vertical, Bourns 3224W, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
 		(tags "Potentiometer vertical Bourns 3224W")
 		(property "Reference" "RV3"
@@ -9607,7 +9607,7 @@
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "9f45773d-eda1-46f9-922e-9f4495c33830")
-		(at 155.005 92.88)
+		(at 196.14 96.46)
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U12"
@@ -10372,7 +10372,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
 		(layer "F.Cu")
 		(uuid "ab95b40f-0768-4cf2-8726-c6e51c200cc5")
-		(at 113.88 115.635 90)
+		(at 45.71 116.945 90)
 		(descr "Potentiometer, vertical, Bourns 3224W, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
 		(tags "Potentiometer vertical Bourns 3224W")
 		(property "Reference" "RV1"
@@ -10619,7 +10619,7 @@
 	(footprint "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
 		(layer "F.Cu")
 		(uuid "aba9afe2-69f4-458b-b580-efe2a61f5806")
-		(at 120.91 123.085 90)
+		(at 52.74 124.395 90)
 		(descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, thermal vias with large copper area, as proposed in http://www.ti.com/lit/ds/symlink/tps5430.pdf")
 		(tags "HTSOP 1.27")
 		(property "Reference" "U9"
@@ -11223,7 +11223,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "ae15565b-acfd-482e-8c66-39afb2a7ac05")
-		(at 134.62 125.185 90)
+		(at 66.45 126.495 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -12556,7 +12556,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "c101dfae-467c-4b14-b349-fae6d89169ea")
-		(at 145.865 110.08)
+		(at 187 113.66)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U6"
@@ -12843,7 +12843,7 @@
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "c5c01d58-e468-4c62-afbe-30e9c16f721d")
-		(at 154.875 106.045)
+		(at 196.01 109.625)
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U13"
@@ -13210,7 +13210,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "c6dec5b9-9759-49e4-a39d-af00f3fdf213")
-		(at 145.865 123.24)
+		(at 187 126.82)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8"
@@ -15213,34 +15213,12 @@
 			)
 		)
 	)
-	(gr_circle
-		(center 159.13 127.46)
-		(end 159.63 127.46)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "bcbd2c4d-ed01-4cfa-ab96-63b047409272")
-	)
-	(gr_circle
-		(center 110.87 127.46)
-		(end 111.37 127.46)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "c740e0b4-84dd-491e-8763-97dccc108a3a")
-	)
 	(gr_rect
-		(start 100 50)
-		(end 170 162)
+		(start 100 39.84)
+		(end 170 173.18)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -15256,6 +15234,15 @@
 		(uuid "37ccf7fe-85a1-45ef-8740-32f9183a0e11")
 	)
 	(via
+		(at 157.86 143.97)
+		(size 4)
+		(drill 3.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "41f3f655-a9b8-48ea-b82b-bc23f3434f6d")
+	)
+	(via
 		(at 110.87 77.93)
 		(size 4)
 		(drill 3.5)
@@ -15263,6 +15250,15 @@
 		(free yes)
 		(net 3)
 		(uuid "aac31828-7b9a-402a-91c1-910301336bfc")
+	)
+	(via
+		(at 112.14 143.97)
+		(size 4)
+		(drill 3.5)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 3)
+		(uuid "b03758df-8ac6-4636-a1bc-98783f82c30c")
 	)
 	(via
 		(at 143.89 130)

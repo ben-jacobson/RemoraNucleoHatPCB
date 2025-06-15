@@ -16,8 +16,8 @@ Note this repo is very much WIP, large chunks of the design have yet to be desig
 - Console logging available via the STLink Virtual Comm port, simply connect a USB and you should be able to view
 
 ## Todos
-- Validate mechanical fit of pin headers and screw locations
-- Validate the isolated stepper driver design, up to 1Mhz
+- Validate mechanical fit of pin headers and screw locations against physical hardware
+- Validate the isolated stepper driver design, ensure can deliver up to 1Mhz
 - Create a test configuration and determine maximum number of IO to complete spec
 - Redesign 12V, 5V and 3.3V switch mode supplies for better efficiency and ripple rejection after calculating the overall current draw.
 - Isolated spindle control DAC circuitry for 0-10V DAC and direction control.
@@ -27,6 +27,9 @@ Note this repo is very much WIP, large chunks of the design have yet to be desig
 - Reset button that connects to underlying Nucleo reset button
 - Programmable user button
 - User LED
+- Issue a BOM for Digikey ordering of parts
+- Export gerbers for JLCPCB or PCBWay production
+- Put up some photos of the completed design
 
 ## Firmware
 WIP firmware can be found in separate repo: https://github.com/ben-jacobson/Remora-STM32F4xx-W5500

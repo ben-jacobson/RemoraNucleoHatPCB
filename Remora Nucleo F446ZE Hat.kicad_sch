@@ -3774,16 +3774,6 @@
 		)
 		(uuid "161f404f-621d-4f63-9666-bc84d2ae4bfa")
 	)
-	(text "Todos!\nSpindle control. 0-10V DAC, Direction. Ideally isolated from main board\nDo we want a 24V mosfet output too for big relays?\nHow to support encoder input and additional IO for pendant? \nSet up a reset button, a user button and a user LED"
-		(exclude_from_sim no)
-		(at 154.432 -9.906 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b6e83a0c-0816-420d-bc93-72df4b28bf2b")
-	)
 	(junction
 		(at 92.71 124.46)
 		(diameter 0)
