@@ -3,6 +3,8 @@ Kicad 9 Project.
 
 Cost effective 6 Axis CNC motion controller card PCB design. Designed to be a hat for the ST Nucleo F446ZE which can be purchased from Digikey, Mouser or Element14 inexpensively. Uses a custom port of [Remora](https://github.com/scottalford75/Remora), making this a fully programmable real time motion control system, primarily designed for complex milling our router machines.
 
+Note this repo is very much WIP, large chunks of the design have yet to be designed. 
+
 ## Design specifications / features
 - Nucleo F446ZE Hat for 6 axis CNC control
 - Isolated Programmable IO for digital inputs, outputs and PWM
