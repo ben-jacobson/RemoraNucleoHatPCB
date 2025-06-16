@@ -620,6 +620,30 @@
     [
       "3603a739-1baf-4b1e-89fd-5fc90e1d2276",
       "Stepper_drivers"
+    ],
+    [
+      "dba2eedd-e199-4553-8868-6f92749d6177",
+      "2CH digital output driver 1"
+    ],
+    [
+      "122cb5f1-5319-4d11-ac20-612ca4d03f4e",
+      "2CH digital output driver 3"
+    ],
+    [
+      "3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e",
+      "2CH digital output driver 2"
+    ],
+    [
+      "08e14f69-5335-473d-8cc0-79680e4318b7",
+      "2CH digital output driver 4"
+    ],
+    [
+      "458f9f01-9a48-4496-b16f-53817e478d50",
+      "2CH digital output driver 5"
+    ],
+    [
+      "7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee",
+      "2CH digital output driver 6"
     ]
   ],
   "text_variables": {}
