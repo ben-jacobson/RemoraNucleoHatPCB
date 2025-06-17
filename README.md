@@ -1,33 +1,32 @@
 # Remora Nucleo F446ZE Hat PCB.
-Kicad 9 Project. 
+Design for a cost effective 6 Axis CNC motion controller card PCB. Designed to be a hat or shield for the ST Nucleo F446ZE. Uses a custom port of [Remora](https://github.com/scottalford75/Remora), making this a fully programmable real time motion control system for LinuxCNC with a lot of IO flexibility. Primarily designed for complex CNC milling our router machine builds. 
 
-Cost effective 6 Axis CNC motion controller card PCB design. Designed to be a hat for the ST Nucleo F446ZE which can be purchased from Digikey, Mouser or Element14 inexpensively. Uses a custom port of [Remora](https://github.com/scottalford75/Remora), making this a fully programmable real time motion control system, primarily designed for complex milling our router machines.
+Kicad 9 Project. Note this repo is pre-release, large chunks of this circuit are still in design stages.  
 
-Note this repo is very much WIP, large chunks of this have yet to be designed. 
-
-## Design specifications / features
-- Nucleo F446ZE Hat for 6 axis CNC control using custom Remora firmware port. 
-- Up to 6 axis of isolated step generators
-- Programmable IO: *Specs TBC* - up to XX analog inputs, xx digital inputs, XX digital outputs, xx high current MOSFET driven outputs, XX PWM outputs
-- *Specs TBC* - 0-10v DAC for isolated spindle control
-- Console logging available via the STLink Virtual Comm port, simply connect a USB and you should be able to view
+## Goals - Our target design spec - To be revised as design progresses
+- Nucleo F446ZE Hat/Shield for 6 axis LinuxCNC motion control using custom port of Remora built for STM32.
+- Up to 6 axes of isolated, real time hardware step generation, configurable up to 200Khz. Can be used with any 5V single ended or differential stepper driver. Each output can be programmed to be additional differential digital outputs. 
+- IO: 4 analog inputs, 28 digital inputs, 16 digital outputs - Outputs are configurable to be sink logic GPIO or PWM. Max 50mA sinking or sourcing capability. 
+- 1x Isolated 0-10v DAC for spindle control. Additional indexing or direction control can be done with existing GPIO.
+- Console logging available via the STLink Virtual Comm port to view and debug Remora's console logging.
+- 24V DC power input, configurable isolation via jumpers of 5V and GND lines used for stepper drivers and IO.
+- 1x User programmable button
 
 ## Todos
-- Validate mechanical fit of pin headers and screw locations against physical hardware
-- Convert isolated stepper drivers to use heirarchical pins and variables, rather than an entire dedicated monolithic sheet.
-- Validate the isolated stepper driver design, ensure can deliver up to 1Mhz
-- Create a test configuration and determine maximum number of IO to complete spec
-- Isolated spindle control DAC circuitry for 0-10V DAC and direction control.
+- Validate mechanical fit of pin headers and mounting screw locations against physical hardware.
+- Validate the isolated stepper driver design, min 200Khz, ideally up to 1Mhz. What is LinuxCNC / Remora maximum? Ensure we can exceed it and update specs once cap is set.
+- Create a test Remora configuration and determine maximum number of IO to complete the spec and inform physical wiring.
+- Isolated spindle control DAC circuitry for 0-10V DAC and direction control. What PWM frequency is target? 1KHz, 10Khz? 
 - Digital outputs: Finish design for output driver using sink logic with at least 50mA sinking capabilities.
-- Digital outputs : Allocate 8x IO for MosFet driver boards, enable up to 5-24v 500mA current sink for inductive loads (solenoids, )
-- Inputs: make some decisions around how we can allow for analog inputs and isolated digital inputs. Ensure speed on digital inputs is sufficient enough for spindle encoder / MPG jogging. 
-- Verify design before committing to PCB Layout build. 
-- After verification, measure current draw
-- Redesign 12V, 5V and 3.3V switch mode supplies for better efficiency and ripple rejection after calculating this current draw.
-- Export gerbers for JLCPCB or PCBWay production
-- Issue a BOM for Digikey ordering of parts
-- Put up some photos of the completed design
-- Write a build guide
+- Inputs: make some decisions around how we can allow for analog inputs and isolated digital inputs side by side. Ensure adequate over voltage protection on analog inputs. Ensure speed on digital inputs is sufficient enough for spindle encoder / MPG jogging matching firmware limitations. 
+- Test if USART LED design will work on standard vanilla Nucleo jumper configuration, if it requires alteration, the feature will be deleted. 
+- Verify a sample of each peripheral design before committing to laying out PCB. 
+- After verification, estimate current draw. Redesign 12V, 5V and 3.3V switch mode supplies for peak efficiency and ripple rejection. Add in some thermal resets.
+- PCB Layout of verified design along with new PSUs. Send for prototyping
+- Once physical hardware tested and verified, commit gerbers
+- Issue a BOM with Digikey part numbers
+- Put up some photos of the completed PCB
+- Write a build guide. Including J1 and J3 settings from Nucleo Manual needed to use on board power supplies. 
 
 ## Firmware
 WIP firmware can be found in separate repo: https://github.com/ben-jacobson/Remora-STM32F4xx-W5500
