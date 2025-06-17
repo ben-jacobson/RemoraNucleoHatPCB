@@ -5,171 +5,6 @@
 	(uuid "5473abc6-7b93-43cc-a401-f691c4d7d7cf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x31_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2408,306 +2243,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "W5500EvalModule:W5500EvalModule"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3200,232 +2735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5VD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND1"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
@@ -3665,16 +2974,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "5V Power Supply can be provided externally if you want isolation from the \nfrom 24V input, regulated 12v and 3.3v supplies.\nIdeally do not connect both at once to avoid back feeding\n"
-		(exclude_from_sim no)
-		(at 215.392 20.828 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "161f404f-621d-4f63-9666-bc84d2ae4bfa")
-	)
 	(junction
 		(at 101.6 120.65)
 		(diameter 0)
@@ -3682,34 +2981,10 @@
 		(uuid "063e3ec0-785b-45d2-b041-af1011c1b716")
 	)
 	(junction
-		(at 223.52 90.17)
+		(at 83.82 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2897d96b-a195-4f14-b625-8ec6f205a918")
-	)
-	(junction
-		(at 259.08 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "329817b5-939c-4da1-a345-077f6b9726ac")
-	)
-	(junction
-		(at 80.01 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66cc47b9-e008-41e8-bac5-fe0f1539ae03")
-	)
-	(junction
-		(at 189.23 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b747f782-c297-4a5a-ae51-9bbc18e170bd")
-	)
-	(junction
-		(at 189.23 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00f00be-dd89-4dd9-9da8-2e89ded9e605")
+		(uuid "9891507e-f6d8-4ba6-9db2-ec80e3678358")
 	)
 	(junction
 		(at 275.59 153.67)
@@ -4153,7 +3428,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 118.11) (xy 80.01 118.11)
+			(xy 59.69 118.11) (xy 83.82 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4183,36 +3458,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 90.17) (xy 259.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8d0145-0696-47b7-a854-572202573090")
-	)
-	(wire
-		(pts
-			(xy 259.08 90.17) (xy 265.43 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9b6155-611f-400d-b3c6-d5b6aa978939")
-	)
-	(wire
-		(pts
-			(xy 259.08 87.63) (xy 259.08 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1fbc68-eff9-4f0e-a2a4-434df8aed980")
-	)
-	(wire
-		(pts
 			(xy 252.73 143.51) (xy 256.54 143.51)
 		)
 		(stroke
@@ -4220,46 +3465,6 @@
 			(type default)
 		)
 		(uuid "1116dae2-a754-463b-8f1c-f8c709b73d42")
-	)
-	(wire
-		(pts
-			(xy 189.23 60.96) (xy 189.23 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11cf9eab-178c-4e95-b7ed-dce5f8cf7e23")
-	)
-	(wire
-		(pts
-			(xy 240.03 38.1) (xy 241.3 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "123e8bb8-724d-411a-8bfd-25071c749338")
-	)
-	(wire
-		(pts
-			(xy 259.08 77.47) (xy 259.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7ed4d7-4cf7-4bc4-8f3a-fb760f5c878a")
-	)
-	(wire
-		(pts
-			(xy 240.03 58.42) (xy 241.3 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204b0e37-764a-4bc9-b5c3-0f1388af3190")
 	)
 	(wire
 		(pts
@@ -4280,16 +3485,6 @@
 			(type default)
 		)
 		(uuid "2481fcbb-e768-4766-b96b-d90728e33ee0")
-	)
-	(wire
-		(pts
-			(xy 275.59 90.17) (xy 275.59 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ccfb98-00d8-454e-9093-488a382761f9")
 	)
 	(wire
 		(pts
@@ -4343,7 +3538,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 135.89) (xy 80.01 135.89)
+			(xy 83.82 135.89) (xy 83.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8ea2a3-79f1-433a-b87c-7cb70378b46c")
+	)
+	(wire
+		(pts
+			(xy 59.69 135.89) (xy 83.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4353,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 53.34) (xy 271.78 53.34)
+			(xy 190.5 161.29) (xy 199.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4363,53 +3568,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 171.45) (xy 26.67 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45cb0192-2fdb-49ea-9594-52cd34c6f8b7")
-	)
-	(wire
-		(pts
-			(xy 189.23 60.96) (xy 194.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47cf2f8b-375f-4325-aaf9-e30b3d8e7591")
-	)
-	(wire
-		(pts
-			(xy 228.6 38.1) (xy 229.87 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4361cf-2097-42f5-ab6a-81d2d3c8816f")
-	)
-	(wire
-		(pts
-			(xy 59.69 184.15) (xy 80.01 184.15)
+			(xy 59.69 184.15) (xy 83.82 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ded2e8a-82fd-4d1c-a831-7b57ee22121a")
-	)
-	(wire
-		(pts
-			(xy 223.52 90.17) (xy 229.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e741180-855e-4172-be9c-ecbf2fd9acd9")
 	)
 	(wire
 		(pts
@@ -4423,43 +3588,13 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 38.1) (xy 262.89 40.64)
+			(xy 190.5 146.05) (xy 190.5 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a354896-a5da-40ea-8c1c-288b421ca370")
-	)
-	(wire
-		(pts
-			(xy 189.23 38.1) (xy 194.31 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5beaf484-67fc-4d18-a776-1be9b06e7825")
-	)
-	(wire
-		(pts
-			(xy 223.52 101.6) (xy 223.52 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f5c4c67-2fee-4749-a374-9f419398d9a9")
-	)
-	(wire
-		(pts
-			(xy 228.6 58.42) (xy 229.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606193da-abb6-438f-9526-42d0556c1bc8")
 	)
 	(wire
 		(pts
@@ -4483,33 +3618,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 171.45) (xy 46.99 171.45)
+			(xy 21.59 133.35) (xy 46.99 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63aede05-9049-4af0-af25-62d3d1a110c7")
-	)
-	(wire
-		(pts
-			(xy 189.23 38.1) (xy 189.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b29cc3-d48f-489b-83c4-a8a3c4da7932")
-	)
-	(wire
-		(pts
-			(xy 240.03 80.01) (xy 240.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f0ef2b-8122-4c79-a5d6-e609e1b28c5a")
+		(uuid "63cb609a-99bb-4ad7-a12d-0ce91372972c")
 	)
 	(wire
 		(pts
@@ -4523,43 +3638,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 184.15) (xy 80.01 186.69)
+			(xy 83.82 184.15) (xy 83.82 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6eb0270a-a7ed-49a4-b03d-1766d9c691ae")
-	)
-	(wire
-		(pts
-			(xy 80.01 133.35) (xy 80.01 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705197c8-45d4-4e10-bbde-46c837e30183")
-	)
-	(wire
-		(pts
-			(xy 26.67 133.35) (xy 46.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715e3cee-9b1e-4c40-8157-13f485531293")
-	)
-	(wire
-		(pts
-			(xy 190.5 99.06) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cf1fe44-f424-4d44-ad51-c4303dde9732")
 	)
 	(wire
 		(pts
@@ -4583,23 +3668,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 118.11) (xy 80.01 120.65)
+			(xy 83.82 118.11) (xy 83.82 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "823de8d8-7e72-486f-b42c-83869a7d3320")
-	)
-	(wire
-		(pts
-			(xy 189.23 35.56) (xy 194.31 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82634c2b-5316-43c2-9a60-936c6cd3c80c")
 	)
 	(wire
 		(pts
@@ -4623,6 +3698,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 171.45) (xy 46.99 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f1a124-d980-45d8-b807-d25e35667299")
+	)
+	(wire
+		(pts
 			(xy 107.95 158.75) (xy 107.95 161.29)
 		)
 		(stroke
@@ -4633,23 +3718,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 55.88) (xy 189.23 58.42)
+			(xy 21.59 171.45) (xy 21.59 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a790ff9-68a3-489d-9ccf-add297a7ceba")
-	)
-	(wire
-		(pts
-			(xy 218.44 90.17) (xy 223.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bcf7945-a236-4689-9cf4-97febb296fa3")
+		(uuid "a7d79f26-6a8e-4e97-bcca-1047f3547c5c")
 	)
 	(wire
 		(pts
@@ -4673,17 +3748,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 77.47) (xy 195.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46f990e-34e4-429c-acd5-e12cb094c0d4")
-	)
-	(wire
-		(pts
-			(xy 26.67 133.35) (xy 26.67 135.89)
+			(xy 21.59 133.35) (xy 21.59 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4693,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 135.89) (xy 80.01 138.43)
+			(xy 83.82 133.35) (xy 83.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4703,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 80.01 133.35)
+			(xy 59.69 133.35) (xy 83.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4713,37 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8bc5b7f-8e83-4b87-953e-d3dca5c0022b")
-	)
-	(wire
-		(pts
-			(xy 189.23 58.42) (xy 194.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c971ac32-24e6-4371-aea5-1dd95439c2b6")
-	)
-	(wire
-		(pts
-			(xy 189.23 33.02) (xy 189.23 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d3ff37-c793-42f3-b8e2-8b49eb9938aa")
-	)
-	(wire
-		(pts
-			(xy 262.89 26.67) (xy 262.89 30.48)
+			(xy 190.5 134.62) (xy 190.5 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 48.26) (xy 262.89 53.34)
+			(xy 190.5 156.21) (xy 190.5 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4823,16 +3858,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 90.17) (xy 223.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed23a1b9-fd21-47de-a7ab-a588d5c39c95")
-	)
-	(wire
-		(pts
 			(xy 252.73 148.59) (xy 259.08 148.59)
 		)
 		(stroke
@@ -4840,16 +3865,6 @@
 			(type default)
 		)
 		(uuid "ee608efe-a19d-4aed-8df5-7e86aadcf256")
-	)
-	(wire
-		(pts
-			(xy 190.5 77.47) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8d6cb5-a7c9-4587-9b1e-d28438cebddb")
 	)
 	(wire
 		(pts
@@ -4891,16 +3906,6 @@
 		)
 		(uuid "316764b7-ed52-499a-9d9f-75badb7a8481")
 	)
-	(label "USR_LED"
-		(at 147.32 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "436f1d6b-6cb7-4009-b55c-ef42f7a57c9c")
-	)
 	(label "WIZ_CS"
 		(at 121.92 130.81 180)
 		(effects
@@ -4921,26 +3926,6 @@
 		)
 		(uuid "516991b8-2cd4-41be-8619-adc1a2af1c7a")
 	)
-	(label "USR_BTN"
-		(at 40.64 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5773a844-8db8-4d81-8d3f-4af8d03d5929")
-	)
-	(label "USR_BTN"
-		(at 218.44 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ce426db-38dc-45d8-8cf9-1ec122f3a360")
-	)
 	(label "WIZ_RST"
 		(at 259.08 148.59 0)
 		(effects
@@ -4951,16 +3936,6 @@
 		)
 		(uuid "6133f92e-df34-4759-8d43-67441da9b6b2")
 	)
-	(label "MCU_RST"
-		(at 66.04 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f0f979e-e146-40b6-9b6c-3d38917ec7ae")
-	)
 	(label "SPI1_CLK"
 		(at 121.92 123.19 180)
 		(effects
@@ -4970,16 +3945,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ed68b25-cb14-4517-8355-ff380b04225c")
-	)
-	(label "USR_LED"
-		(at 195.58 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4e08e99-8a2b-41ce-ada7-e68a1e209a05")
 	)
 	(label "WIZ_RST"
 		(at 121.92 146.05 180)
@@ -5002,7 +3967,7 @@
 		(uuid "d4fa43ea-b988-4128-b8d0-7a9427367637")
 	)
 	(label "UART_TX"
-		(at 271.78 53.34 0)
+		(at 199.39 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5021,16 +3986,6 @@
 		)
 		(uuid "f104d301-461c-488c-8f31-070b3bbf8f13")
 	)
-	(label "MCU_RST"
-		(at 254 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6167c48-4206-4f03-9257-fee29f05eb46")
-	)
 	(label "SPI1_CLK"
 		(at 227.33 153.67 180)
 		(effects
@@ -5041,134 +3996,69 @@
 		)
 		(uuid "ff8022fe-c3fb-4776-ab3d-210671fb76af")
 	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 259.08 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b78081f-c8a8-410b-9e30-fdf3357f7b9a")
-		(property "Reference" "#PWR0146"
-			(at 259.08 81.28 0)
+	(global_label "USR_BTN"
+		(shape input)
+		(at 40.64 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0aa46c7-f8b4-496b-9503-eeff7a8796cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9633 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 258.318 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e155daad-15be-4b6a-b5f5-ba30108ce5e0")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR0146")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 189.23 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(global_label "MCU_RST"
+		(shape input)
+		(at 66.04 125.73 0)
 		(fields_autoplaced yes)
-		(uuid "1052744e-be2a-4cec-ae92-2193ed7cc23a")
-		(property "Reference" "#PWR013"
-			(at 189.23 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3d5d11a-af7c-4b1e-8c17-6d83ce67d4bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8376 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_GND"
-			(at 189.23 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	)
+	(global_label "USR_LED"
+		(shape input)
+		(at 147.32 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 189.23 62.23 0)
+		(uuid "df69f335-9ee5-4e04-8390-036bd8694023")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.8757 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 189.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbe26502-cd23-4780-a3c9-1dd9b725e554")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR013")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5233,210 +4123,6 @@
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 234.95 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cf19f69-b9d7-4bb8-92af-3a883ad57073")
-		(property "Reference" "SW2"
-			(at 234.95 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 235.204 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "445b665b-6567-4d32-9bef-8766698f3796")
-		)
-		(pin "1"
-			(uuid "563ff482-c9ec-4437-93f1-85b68a4935b5")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 241.3 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29070347-ed32-4fe2-8606-29bf8359269b")
-		(property "Reference" "#PWR018"
-			(at 247.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 245.11 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09a26694-296a-4a7f-84cf-6a15bdd41dfd")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 199.39 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f1cbdd8-2bb7-4b85-b643-4be5cb5b7430")
-		(property "Reference" "J4"
-			(at 200.66 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_AUXOUT"
-			(at 200.66 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 199.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2c489cf-ad4f-4f07-9fae-943762562b80")
-		)
-		(pin "2"
-			(uuid "d5f3542d-7b1e-4388-a593-954f028965e7")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5509,277 +4195,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3682b63e-7afe-4339-9361-f9ad91572048")
-		(property "Reference" "#PWR017"
-			(at 237.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 245.11 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 241.3 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b827e6a3-9e0e-4edd-a1c4-8c30097e3978")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 223.52 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38e3295e-0211-4266-a73b-e834c7c7dfd2")
-		(property "Reference" "#PWR0149"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 223.52 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 223.52 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e34c370-6a2a-45ea-a432-df35ea82daf1")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 223.52 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ed92cc0-a05c-4f02-a592-bc076764b4a4")
-		(property "Reference" "R12"
-			(at 226.06 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 226.06 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.536 98.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 223.52 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5020793d-176d-47c2-a2b0-172712b8b0ea")
-		)
-		(pin "2"
-			(uuid "a5efb98f-8376-49b5-9b0c-9ebe32e17527")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 234.95 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46c464fe-7f1a-4b68-b2e7-b8a672761941")
-		(property "Reference" "JP2"
-			(at 234.95 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT_5V_GND_JMP"
-			(at 234.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 234.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 234.95 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24b74ac0-4668-4ef2-9240-5ebe57554c4e")
-		)
-		(pin "1"
-			(uuid "83a2085f-5c7e-45b8-a0a1-b4882364f22d")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 101.6 123.19 0)
 		(unit 1)
@@ -5846,78 +4261,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 199.39 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "527e4a2d-82b7-446e-86a6-f97f8c74b65c")
-		(property "Reference" "J3"
-			(at 200.66 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_SUPPLY"
-			(at 200.66 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 199.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "510a4945-f799-47a3-b041-ab02675c7b93")
-		)
-		(pin "2"
-			(uuid "e2d3950b-f83f-43c3-9989-1ce4c820160d")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 26.67 173.99 0)
+		(at 21.59 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5926,7 +4271,7 @@
 		(fields_autoplaced yes)
 		(uuid "5484deca-77ea-4e7b-9b30-bd31e57bf166")
 		(property "Reference" "#PWR02"
-			(at 26.67 180.34 0)
+			(at 21.59 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +4280,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 26.67 179.07 0)
+			(at 21.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +4288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 173.99 0)
+			(at 21.59 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +4297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 173.99 0)
+			(at 21.59 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +4306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 26.67 173.99 0)
+			(at 21.59 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,138 +4321,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 189.23 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b9850e1-c991-407f-9643-ec477d4ad08a")
-		(property "Reference" "#FLG02"
-			(at 187.325 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 185.42 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 189.23 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b96cea3c-9152-4faf-a3fd-6fdb62e5acf7")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 240.03 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c75fce6-2971-46e8-b9a8-521057d7a516")
-		(property "Reference" "#PWR0148"
-			(at 240.03 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 239.268 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "965f9a9d-a947-4d63-85ba-3a6ecc23da5e")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6181,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 262.89 44.45 90)
+		(at 190.5 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6189,7 +4402,7 @@
 		(dnp no)
 		(uuid "753e02fc-1920-4137-873a-894741be92b9")
 		(property "Reference" "D1"
-			(at 265.176 42.926 90)
+			(at 192.786 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +4411,7 @@
 			)
 		)
 		(property "Value" "TXLED"
-			(at 267.462 45.72 0)
+			(at 195.072 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,7 +4420,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 262.89 44.45 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 44.45 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +4438,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 262.89 44.45 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6234,7 +4447,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 262.89 44.45 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,10 +4478,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "76977cfb-3734-4c5c-bf1f-be8cafb6c7e1")
 		(property "Reference" "J2"
-			(at 134.62 104.14 0)
+			(at 134.112 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6507,72 +4719,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 190.5 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dd6b655-d1b3-41f1-99c1-bf0ca9423609")
-		(property "Reference" "#PWR0151"
-			(at 190.5 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 197.104 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c3299ea-1694-4d79-8798-7c873c91366a")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 80.01 186.69 0)
+		(at 83.82 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6581,7 +4728,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f3696d2-8921-4833-814a-23dea666a49b")
 		(property "Reference" "#PWR05"
-			(at 80.01 193.04 0)
+			(at 83.82 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +4737,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 80.01 191.77 0)
+			(at 83.82 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +4745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 186.69 0)
+			(at 83.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +4754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 186.69 0)
+			(at 83.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +4763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 80.01 186.69 0)
+			(at 83.82 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,144 +4784,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 189.23 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e5cec82-666e-4c89-8dcf-0de62e538706")
-		(property "Reference" "#FLG03"
-			(at 187.325 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 185.42 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4baeb4e3-e19b-4b7f-aaa7-238b2709cb2c")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f4ab5fc-946c-4acf-9c10-56a1036d7f8a")
-		(property "Reference" "R13"
-			(at 194.31 83.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 193.548 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 191.516 85.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a3f2956-076c-41f1-b950-6da20fbe7d3d")
-		)
-		(pin "2"
-			(uuid "2b5bd546-8d70-4023-81af-2e59c052313f")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 80.01 138.43 0)
+		(at 83.82 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6783,7 +4794,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fe13bc6-0ec9-4e6c-bf8f-1ecfcab9b6b2")
 		(property "Reference" "#PWR04"
-			(at 80.01 144.78 0)
+			(at 83.82 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +4803,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 80.01 143.51 0)
+			(at 83.82 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6800,7 +4811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 138.43 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +4820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 138.43 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +4829,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 80.01 138.43 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,154 +4915,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 259.08 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98fa17a4-4fda-4e2a-9b41-ad45d9853308")
-		(property "Reference" "R11"
-			(at 261.62 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 261.62 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.096 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 259.08 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbfa8711-2a5c-41e9-950c-b15fc9e7758a")
-		)
-		(pin "2"
-			(uuid "69139fac-e8de-4943-ab27-5e3f7ffe6875")
-		)
-		(instances
-			(project ""
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 190.5 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a018c0b7-7342-48a3-aa81-08d39f6eaca8")
-		(property "Reference" "D8"
-			(at 194.31 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3LED"
-			(at 194.056 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d447ec1-0163-45c3-8733-29b09411f215")
-		)
-		(pin "2"
-			(uuid "014ae414-0f28-4894-830c-06bcb98af689")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 161.29 135.89 0)
 		(unit 1)
@@ -7112,274 +4975,6 @@
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 228.6 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aad52124-f7ff-4c15-88fd-1fd8c98bcffe")
-		(property "Reference" "#PWR015"
-			(at 222.25 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_GND"
-			(at 224.79 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 228.6 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ac9e8b2-f772-4ce4-8f8d-e0631684e8cf")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 189.23 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abd3a41b-7658-49e9-b5f3-a69fac6391dd")
-		(property "Reference" "#PWR010"
-			(at 189.23 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 189.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3311c80-67df-4981-a0b9-db44d3ef35e8")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 234.95 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ada91d2c-76f0-45a1-9fb5-6e961890dece")
-		(property "Reference" "JP1"
-			(at 234.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXT_5V_SUPPLY_JMP"
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83dbc413-a194-411f-bf4b-f47f0f1d4555")
-		)
-		(pin "1"
-			(uuid "ef1565f2-7ed8-445d-80d8-09bdbaf42c1c")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 228.6 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeaa9922-a185-4781-a174-874d533a9774")
-		(property "Reference" "#PWR014"
-			(at 232.41 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 224.79 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 228.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31c77eba-f149-4689-bea5-142f121101a2")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7479,7 +5074,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 262.89 26.67 0)
+		(at 190.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7487,7 +5082,7 @@
 		(dnp no)
 		(uuid "b50f66b2-4265-4ea0-ab1d-4b9669d4784f")
 		(property "Reference" "#PWR020"
-			(at 262.89 30.48 0)
+			(at 190.5 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,7 +5091,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 262.128 22.606 0)
+			(at 189.738 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +5099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 26.67 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +5108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 26.67 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7522,7 +5117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 262.89 26.67 0)
+			(at 190.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +5139,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 80.01 120.65 0)
+		(at 83.82 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7553,7 +5148,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9408314-6baa-4c18-a95e-8e1f544b93c8")
 		(property "Reference" "#PWR03"
-			(at 80.01 127 0)
+			(at 83.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +5157,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 80.01 125.73 0)
+			(at 83.82 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +5165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 120.65 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +5174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 120.65 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,7 +5183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 80.01 120.65 0)
+			(at 83.82 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,205 +5198,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 189.23 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1475632-2bbe-4237-8797-a6baa8ef398f")
-		(property "Reference" "#PWR011"
-			(at 189.23 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_GND"
-			(at 189.23 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 189.23 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a6d7c21-9f74-4ef3-a5e7-ef250a236311")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 270.51 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dbd91b7d-476b-4b48-86e3-13374b078bf5")
-		(property "Reference" "SW1"
-			(at 270.51 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 270.764 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 270.51 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8736b4f-5a68-4dd4-a83f-a9cbe621f458")
-		)
-		(pin "1"
-			(uuid "71354242-a5f6-4a7b-b126-014926d4af07")
-		)
-		(instances
-			(project ""
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 275.59 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea3a5ac7-2b1c-4617-93e5-3a0006eabf8c")
-		(property "Reference" "#PWR0147"
-			(at 275.59 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 275.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 275.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b00dc4c9-b902-454c-9af2-7b205036fea3")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -7875,7 +5271,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 26.67 135.89 0)
+		(at 21.59 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7884,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "effb0264-ef58-4997-a10a-e53498f35f40")
 		(property "Reference" "#PWR01"
-			(at 26.67 142.24 0)
+			(at 21.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +5289,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 26.67 140.97 0)
+			(at 21.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 135.89 0)
+			(at 21.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +5306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 135.89 0)
+			(at 21.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7919,7 +5315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 26.67 135.89 0)
+			(at 21.59 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +5337,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 262.89 34.29 0)
+		(at 190.5 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7950,7 +5346,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1586b53-b47b-4a2d-8a79-dcf11e2eba41")
 		(property "Reference" "R1"
-			(at 265.43 33.0199 0)
+			(at 193.04 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +5355,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 265.43 35.5599 0)
+			(at 193.04 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +5364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 263.906 34.544 90)
+			(at 191.516 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +5373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 34.29 0)
+			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +5382,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 262.89 34.29 0)
+			(at 190.5 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,72 +5400,6 @@
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 189.23 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe0f0382-8ce0-4cbf-97b5-16861bbc0de2")
-		(property "Reference" "#PWR012"
-			(at 189.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 189.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0299af64-779e-4139-a09f-bf57a69159c7")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8389,7 +5719,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 54.61)
+		(at 182.88 57.15)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8404,7 +5734,7 @@
 		)
 		(uuid "08e14f69-5335-473d-8cc0-79680e4318b7")
 		(property "Sheetname" "2CH digital output driver 4"
-			(at 53.594 56.896 0)
+			(at 183.134 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +5743,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 62.8146 0)
+			(at 182.88 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +5752,7 @@
 			)
 		)
 		(property "CH_N" "7_8"
-			(at 82.042 60.452 0)
+			(at 211.582 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +5760,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 58.42 180)
+			(at 182.88 60.96 180)
 			(uuid "60c5000f-6707-470f-888d-013999bc5508")
 			(effects
 				(font
@@ -8440,7 +5770,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 60.96 180)
+			(at 182.88 63.5 180)
 			(uuid "930af39c-cd14-4439-b5c2-1dc5f8dbb851")
 			(effects
 				(font
@@ -8458,7 +5788,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 41.91)
+		(at 182.88 44.45)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8473,7 +5803,7 @@
 		)
 		(uuid "122cb5f1-5319-4d11-ac20-612ca4d03f4e")
 		(property "Sheetname" "2CH digital output driver 3"
-			(at 53.594 44.196 0)
+			(at 183.134 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8482,7 +5812,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 50.1146 0)
+			(at 182.88 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8491,7 +5821,7 @@
 			)
 		)
 		(property "CH_N" "5_6"
-			(at 82.042 47.752 0)
+			(at 211.582 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +5829,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 45.72 180)
+			(at 182.88 48.26 180)
 			(uuid "5b538b38-0d4a-49ef-9e72-9628a0d37e23")
 			(effects
 				(font
@@ -8509,7 +5839,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 48.26 180)
+			(at 182.88 50.8 180)
 			(uuid "86aa2456-13dc-4647-9726-810a7fd2c8ad")
 			(effects
 				(font
@@ -8527,13 +5857,12 @@
 		)
 	)
 	(sheet
-		(at 19.05 29.21)
-		(size 29.21 7.62)
+		(at 247.65 19.05)
+		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8542,8 +5871,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3603a739-1baf-4b1e-89fd-5fc90e1d2276")
-		(property "Sheetname" "Stepper_drivers"
-			(at 19.05 28.4984 0)
+		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+			(at 250.444 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,12 +5881,68 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 19.05 37.4146 0)
+			(at 247.65 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "STEPGEN_CH1_NAME" "X"
+			(at 274.066 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STEPGEN_CH2_NAME" "Y"
+			(at 275.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_DIR" input
+			(at 247.65 24.13 180)
+			(uuid "21c2f3b7-9ed3-40b2-9dda-95d073cadb85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_STEP" input
+			(at 247.65 27.94 180)
+			(uuid "d9f17903-1777-4609-a467-e4b88c8b46dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_DIR" input
+			(at 247.65 31.75 180)
+			(uuid "fae323fc-c39c-4f77-80a4-dd26988e1358")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_STEP" input
+			(at 247.65 35.56 180)
+			(uuid "979b79e1-be28-4e80-9d96-178e0b2ce4dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -8569,7 +5954,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 29.21)
+		(at 182.88 31.75)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8584,7 +5969,7 @@
 		)
 		(uuid "3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e")
 		(property "Sheetname" "2CH digital output driver 2"
-			(at 53.594 31.496 0)
+			(at 183.134 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +5978,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 37.4146 0)
+			(at 182.88 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +5987,7 @@
 			)
 		)
 		(property "CH_N" "3_4"
-			(at 82.042 35.052 0)
+			(at 211.582 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +5995,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 33.02 180)
+			(at 182.88 35.56 180)
 			(uuid "962e9d4f-5e8b-4d32-9521-ce5765a6a359")
 			(effects
 				(font
@@ -8620,7 +6005,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 35.56 180)
+			(at 182.88 38.1 180)
 			(uuid "19b9ec4f-c31b-4141-a501-fc2df2e6308a")
 			(effects
 				(font
@@ -8638,7 +6023,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 67.31)
+		(at 182.88 69.85)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8653,7 +6038,7 @@
 		)
 		(uuid "458f9f01-9a48-4496-b16f-53817e478d50")
 		(property "Sheetname" "2CH digital output driver 5"
-			(at 53.594 69.596 0)
+			(at 183.134 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +6047,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 75.5146 0)
+			(at 182.88 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +6056,7 @@
 			)
 		)
 		(property "CH_N" "9_10"
-			(at 82.042 73.152 0)
+			(at 211.582 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +6064,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 71.12 180)
+			(at 182.88 73.66 180)
 			(uuid "27a73450-861e-43ec-aaf4-cad44bddf762")
 			(effects
 				(font
@@ -8689,7 +6074,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 73.66 180)
+			(at 182.88 76.2 180)
 			(uuid "ef960abe-a4e4-4438-aabc-f5984ffccb88")
 			(effects
 				(font
@@ -8707,7 +6092,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 80.01)
+		(at 182.88 82.55)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8722,7 +6107,7 @@
 		)
 		(uuid "7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee")
 		(property "Sheetname" "2CH digital output driver 6"
-			(at 53.594 82.296 0)
+			(at 183.134 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +6116,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 88.2146 0)
+			(at 182.88 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +6125,7 @@
 			)
 		)
 		(property "CH_N" "11_12"
-			(at 82.042 85.852 0)
+			(at 211.582 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +6133,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 83.82 180)
+			(at 182.88 86.36 180)
 			(uuid "33566d3b-a8ca-42c4-978b-fd8bc659fb76")
 			(effects
 				(font
@@ -8758,7 +6143,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 86.36 180)
+			(at 182.88 88.9 180)
 			(uuid "361f9d95-d9e6-4bd5-b290-ff3bb75791b2")
 			(effects
 				(font
@@ -8776,7 +6161,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 16.51)
+		(at 182.88 19.05)
 		(size 31.75 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8791,7 +6176,7 @@
 		)
 		(uuid "dba2eedd-e199-4553-8868-6f92749d6177")
 		(property "Sheetname" "2CH digital output driver 1"
-			(at 53.594 18.796 0)
+			(at 183.134 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +6185,7 @@
 			)
 		)
 		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 53.34 24.7146 0)
+			(at 182.88 27.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,7 +6194,7 @@
 			)
 		)
 		(property "CH_N" "1_2"
-			(at 82.042 22.352 0)
+			(at 211.582 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +6202,7 @@
 			)
 		)
 		(pin "CH1" input
-			(at 53.34 20.32 180)
+			(at 182.88 22.86 180)
 			(uuid "86199192-b688-4ca1-acc5-0f2609d46a71")
 			(effects
 				(font
@@ -8827,7 +6212,7 @@
 			)
 		)
 		(pin "CH2" input
-			(at 53.34 22.86 180)
+			(at 182.88 25.4 180)
 			(uuid "a435835c-4d28-4ad4-a8a1-da4f49c2d5d9")
 			(effects
 				(font
@@ -8845,8 +6230,105 @@
 		)
 	)
 	(sheet
-		(at 19.304 16.637)
-		(size 28.956 7.493)
+		(at 247.65 69.85)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de6abc2f-b4f3-405f-80dc-20e6ec6edfe3")
+		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+			(at 250.444 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepper_drivers.kicad_sch"
+			(at 247.65 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "STEPGEN_CH1_NAME" "B"
+			(at 274.066 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STEPGEN_CH2_NAME" "C"
+			(at 275.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_DIR" input
+			(at 247.65 74.93 180)
+			(uuid "83eb7d52-990e-4c5a-aab6-192031c33a37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_STEP" input
+			(at 247.65 78.74 180)
+			(uuid "a3adc851-39a7-46fa-97ca-aa7a2eb0166c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_DIR" input
+			(at 247.65 82.55 180)
+			(uuid "889dc5cd-ef8a-4d1e-9ed9-56eaec99f1c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_STEP" input
+			(at 247.65 86.36 180)
+			(uuid "0def41da-b626-44b4-b60d-996b6b5cd1d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.494 17.907)
+		(size 39.116 7.493)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8860,8 +6342,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e0dc83df-f7d9-4488-bd0b-6c0af36f8703")
-		(property "Sheetname" "Regulators"
-			(at 19.304 15.9254 0)
+		(property "Sheetname" "Regulators and Power Management"
+			(at 15.494 17.1954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +6352,7 @@
 			)
 		)
 		(property "Sheetfile" "Regulators.kicad_sch"
-			(at 19.304 24.7146 0)
+			(at 15.494 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,6 +6364,145 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 35.56)
+		(size 39.37 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0f94f66-f67a-46dc-b55b-a3f70607aba8")
+		(property "Sheetname" "RST and USR Buttons, Status LEDs"
+			(at 15.24 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons_LEDs.kicad_sch"
+			(at 15.24 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 44.45)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee859447-e27b-4f56-862a-3601314a5b43")
+		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+			(at 250.444 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Stepper_drivers.kicad_sch"
+			(at 247.65 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "STEPGEN_CH1_NAME" "Z"
+			(at 274.066 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STEPGEN_CH2_NAME" "A"
+			(at 275.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_DIR" input
+			(at 247.65 49.53 180)
+			(uuid "0998741b-a139-4782-8562-cea92f67dd3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH1_NAME}_STEP" input
+			(at 247.65 53.34 180)
+			(uuid "2d18d407-f1e4-4a33-ac49-de4848cc5803")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_DIR" input
+			(at 247.65 57.15 180)
+			(uuid "27b7d284-2429-470d-a809-cc9aba9e6f06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "${STEPGEN_CH2_NAME}_STEP" input
+			(at 247.65 60.96 180)
+			(uuid "5b72eebb-304a-40d5-a7a8-33a1cb637dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "10")
 				)
 			)
 		)

@@ -615,11 +615,11 @@
     ],
     [
       "e0dc83df-f7d9-4488-bd0b-6c0af36f8703",
-      "Regulators"
+      "Regulators and Power Management"
     ],
     [
       "3603a739-1baf-4b1e-89fd-5fc90e1d2276",
-      "Stepper_drivers"
+      "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
     ],
     [
       "dba2eedd-e199-4553-8868-6f92749d6177",
@@ -644,6 +644,18 @@
     [
       "7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee",
       "2CH digital output driver 6"
+    ],
+    [
+      "ee859447-e27b-4f56-862a-3601314a5b43",
+      "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+    ],
+    [
+      "de6abc2f-b4f3-405f-80dc-20e6ec6edfe3",
+      "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+    ],
+    [
+      "e0f94f66-f67a-46dc-b55b-a3f70607aba8",
+      "RST and USR Buttons, Status LEDs"
     ]
   ],
   "text_variables": {}
