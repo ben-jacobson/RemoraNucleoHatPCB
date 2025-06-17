@@ -310,10 +310,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:ADuM1201AR"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Isolator:ADuM1200AR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -326,7 +323,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADuM1201AR"
+			(property "Value" "ADuM1200AR"
 				(at -2.032 8.89 0)
 				(effects
 					(font
@@ -346,7 +343,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf"
-				(at 0 -2.54 0)
+				(at -11.43 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -354,7 +351,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
+			(property "Description" "Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -381,7 +378,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADuM1201AR_0_1"
+			(symbol "ADuM1200AR_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -443,7 +440,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -1.27) (xy -0.635 -2.54) (xy 0.635 -1.905) (xy -0.635 -1.27)
+						(xy -0.635 1.27) (xy 0.635 1.905) (xy -0.635 2.54) (xy -0.635 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -455,7 +452,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 2.54) (xy 0.635 1.27) (xy -0.635 1.905) (xy 0.635 2.54)
+						(xy -0.635 -1.27) (xy -0.635 -2.54) (xy 0.635 -1.905) (xy -0.635 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -514,7 +511,7 @@
 					)
 				)
 			)
-			(symbol "ADuM1201AR_1_1"
+			(symbol "ADuM1200AR_1_1"
 				(pin power_in line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -533,10 +530,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "VOA"
+					(name "VIA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -605,10 +602,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "VIA"
+					(name "VOA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,16 +1149,26 @@
 		)
 	)
 	(junction
-		(at 125.73 95.25)
+		(at 104.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e910265-4671-4588-82df-a7c78800abdb")
+		(uuid "78cd5082-49b6-40fc-8f5d-b6f06ca188ba")
 	)
 	(junction
-		(at 158.75 95.25)
+		(at 181.61 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddbc5e3b-651d-44fc-919c-18c5199a4647")
+		(uuid "b1bca333-bedc-48b9-bdd0-ce936f11c7b7")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0786fc97-37a7-4aea-ad61-40636b4168ab")
 	)
 	(wire
 		(pts
@@ -1175,7 +1182,47 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 118.11 95.25)
+			(xy 104.14 81.28) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170de927-8842-4da4-ad7d-cd35884cacc3")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1710ab18-0154-4d0a-8192-8788b2f9ef90")
+	)
+	(wire
+		(pts
+			(xy 181.61 81.28) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca4f339-b4c8-4917-b8bf-aef433e168b9")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad85c69-4634-45ab-ae31-e75a1f30e6a4")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 104.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 158.75 97.79)
+			(xy 129.54 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1195,13 +1242,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 161.29 95.25)
+			(xy 175.26 83.82) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45c7bbbf-234f-4b3e-8a81-90b39fd0480d")
+		(uuid "3c894e91-7a04-4d10-b808-158dbe93149b")
 	)
 	(wire
 		(pts
@@ -1225,17 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 80.01) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7926e099-1760-4123-851f-d4600e1afb38")
-	)
-	(wire
-		(pts
-			(xy 166.37 95.25) (xy 167.64 95.25)
+			(xy 181.61 90.17) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1255,67 +1292,57 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 129.54 95.25)
+			(xy 158.75 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a13dfb37-3981-4831-b1c2-de7b76680347")
+		(uuid "94f5dcf8-e502-445c-9f34-042d731a81d8")
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 80.01)
+			(xy 113.03 95.25) (xy 129.54 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afefb8d4-ed26-4610-83c5-4eef62e3f2d1")
+		(uuid "95c6d415-8c55-407d-a5c6-d89a077a72ca")
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 158.75 95.25)
+			(xy 158.75 97.79) (xy 158.75 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbfcf798-6902-461e-aa82-f72d70bb3b64")
+		(uuid "98abf7e8-ef6e-4f5d-9938-471bb592ac57")
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 129.54 97.79)
+			(xy 113.03 83.82) (xy 113.03 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfd36e2a-3052-4e1c-9e88-9b61ce720dd3")
+		(uuid "9ff6e8da-24b3-4789-be9f-39f850dd7f7e")
 	)
 	(wire
 		(pts
-			(xy 101.6 80.01) (xy 181.61 80.01)
+			(xy 104.14 83.82) (xy 113.03 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce569f5d-678f-4270-a7ac-972d72c017cc")
+		(uuid "bc3f2348-fa82-4ee5-ab46-a702e4378d94")
 	)
 	(wire
 		(pts
-			(xy 125.73 92.71) (xy 125.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2907364-7d09-4d79-831c-98eb855c147b")
-	)
-	(wire
-		(pts
-			(xy 154.94 95.25) (xy 158.75 95.25)
+			(xy 154.94 95.25) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1335,16 +1362,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 95.25) (xy 125.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8356b67-485a-44e3-84ea-ee5538cce88b")
-	)
-	(wire
-		(pts
 			(xy 125.73 105.41) (xy 129.54 105.41)
 		)
 		(stroke
@@ -1355,22 +1372,22 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 100.33) (xy 191.77 100.33)
+			(xy 154.94 97.79) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbdfad7f-aa6d-4414-ae3f-badddd9f766f")
+		(uuid "f84e296e-59ad-478f-8a3e-b67ef5a399e2")
 	)
 	(hierarchical_label "CH1"
 		(shape input)
-		(at 158.75 97.79 0)
+		(at 125.73 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1545214a-60d6-43e6-83b4-349edc883bb5")
 	)
@@ -1477,7 +1494,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 125.73 92.71 0)
+		(at 104.14 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1485,7 +1502,7 @@
 		(dnp no)
 		(uuid "1a88990d-9ce4-4f5c-881c-9103895257c6")
 		(property "Reference" "#PWR0111"
-			(at 125.73 96.52 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1511,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 88.392 0)
+			(at 106.68 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1502,7 +1519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 92.71 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 92.71 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 125.73 92.71 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1579,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 163.83 95.25 90)
+		(at 181.61 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1570,7 +1587,7 @@
 		(dnp no)
 		(uuid "4c70babd-f548-4516-9695-8669a59cc7d6")
 		(property "Reference" "C23"
-			(at 163.8363 88.9 90)
+			(at 186.436 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1595,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.8363 91.44 90)
+			(at 187.452 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 163.83 95.25 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 95.25 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 95.25 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,16 +1666,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 120.65 95.25 90)
+		(at 104.14 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f1dda50-0cbf-4de9-a11a-015fbe92e073")
 		(property "Reference" "C22"
-			(at 120.6563 88.9 90)
+			(at 97.79 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1682,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 120.6563 91.44 90)
+			(at 98.298 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 120.65 95.25 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 95.25 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1708,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 120.65 95.25 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,6 +1746,113 @@
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/dba2eedd-e199-4553-8868-6f92749d6177"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:ADuM1200AR")
+		(at 142.24 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68285c5e-2357-4f59-b3b2-941bccd09771")
+		(property "Reference" "U20"
+			(at 142.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADuM1200AR"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf"
+			(at 130.81 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "46ee6817-7df4-4464-a939-5c147bbb4332")
+		)
+		(pin "2"
+			(uuid "35f54cd1-9383-4044-b492-ac60a4a453e3")
+		)
+		(pin "5"
+			(uuid "9299dabc-7a81-4b69-b4c2-f7c32ec2bc71")
+		)
+		(pin "1"
+			(uuid "634f7223-d49b-4e8c-b63d-9e6b0cb6be35")
+		)
+		(pin "6"
+			(uuid "d608b809-0712-45c0-8303-b3e425f2738d")
+		)
+		(pin "3"
+			(uuid "c844866f-200f-4253-851a-5b3cf2559c91")
+		)
+		(pin "8"
+			(uuid "7aefb5d4-109b-4ecf-8427-8efb331d65f6")
+		)
+		(pin "4"
+			(uuid "3aedfdc0-1597-4abb-8c31-1040118356eb")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/08e14f69-5335-473d-8cc0-79680e4318b7"
+					(reference "U23")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/122cb5f1-5319-4d11-ac20-612ca4d03f4e"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/458f9f01-9a48-4496-b16f-53817e478d50"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/dba2eedd-e199-4553-8868-6f92749d6177"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -1823,7 +1946,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 158.75 92.71 0)
+		(at 181.61 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1831,7 +1954,7 @@
 		(dnp no)
 		(uuid "a86c3d3c-667c-43b8-8057-509024f60f06")
 		(property "Reference" "#PWR0113"
-			(at 158.75 96.52 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1963,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 155.702 88.9 0)
+			(at 186.436 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 92.71 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 92.71 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 158.75 92.71 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,122 +2116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:ADuM1201AR")
-		(at 142.24 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc6e41f6-47cb-472b-a591-cc831573f2f3")
-		(property "Reference" "U14"
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADuM1201AR"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 142.24 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #（optional）" "C660256"
-			(at 142.24 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "2108e493-e287-49ca-85d4-f0fcd54409a3")
-		)
-		(pin "3"
-			(uuid "ec941a7f-7eb9-4ffd-b6c8-9333c78f1a1e")
-		)
-		(pin "2"
-			(uuid "20c390f0-2be3-407d-b96e-48dce62abff0")
-		)
-		(pin "4"
-			(uuid "950fb3f4-c3eb-459b-b8a2-9014df902a75")
-		)
-		(pin "8"
-			(uuid "acc9cdbd-2665-481a-a05b-7dbefe2b5ba8")
-		)
-		(pin "6"
-			(uuid "b6cf82a6-0c96-4a29-b7bb-415f691bb674")
-		)
-		(pin "5"
-			(uuid "243129d6-4395-40d6-bddd-a2a8b3cc69d2")
-		)
-		(pin "1"
-			(uuid "5aeac129-dda2-4a83-b02a-134313cf9b68")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/08e14f69-5335-473d-8cc0-79680e4318b7"
-					(reference "U17")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/122cb5f1-5319-4d11-ac20-612ca4d03f4e"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/458f9f01-9a48-4496-b16f-53817e478d50"
-					(reference "U18")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee"
-					(reference "U19")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/dba2eedd-e199-4553-8868-6f92749d6177"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 116.84 95.25 270)
+		(at 104.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2116,7 +2125,7 @@
 		(dnp no)
 		(uuid "e5536af9-1068-47ee-bfe6-3ccdfce252e5")
 		(property "Reference" "#PWR0110"
-			(at 110.49 95.25 0)
+			(at 104.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2134,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 116.332 92.71 90)
+			(at 108.204 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 95.25 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 95.25 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 116.84 95.25 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,16 +2203,15 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 167.64 95.25 90)
+		(at 181.61 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2124192-b5da-4fe1-b2f9-328b9987aff4")
 		(property "Reference" "#PWR0115"
-			(at 173.99 95.25 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2220,7 @@
 			)
 		)
 		(property "Value" "5V_GND"
-			(at 171.45 95.2499 90)
+			(at 185.42 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 95.25 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 95.25 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 167.64 95.25 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
