@@ -2974,6 +2974,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To Be Placed\n"
+		(exclude_from_sim no)
+		(at 115.316 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4a1be0d-43fe-463d-ad5c-43bd62b30219")
+	)
 	(junction
 		(at 101.6 120.65)
 		(diameter 0)
@@ -3418,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 58.42) (xy 212.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00519e74-e0eb-42e5-97d9-a0c69a3b3ef3")
+	)
+	(wire
+		(pts
 			(xy 227.33 153.67) (xy 232.41 153.67)
 		)
 		(stroke
@@ -3458,6 +3478,36 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 46.99) (xy 212.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04863131-c2ee-45f6-bfe2-2de2984b96a0")
+	)
+	(wire
+		(pts
+			(xy 207.01 54.61) (xy 212.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc12071-0083-4f52-8dca-932d79028ab8")
+	)
+	(wire
+		(pts
+			(xy 207.01 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea489de-7691-48fa-a8e8-ccdd6a8b696c")
+	)
+	(wire
+		(pts
 			(xy 252.73 143.51) (xy 256.54 143.51)
 		)
 		(stroke
@@ -3465,6 +3515,16 @@
 			(type default)
 		)
 		(uuid "1116dae2-a754-463b-8f1c-f8c709b73d42")
+	)
+	(wire
+		(pts
+			(xy 207.01 25.4) (xy 212.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1474224d-5557-44a5-b510-606676e7de55")
 	)
 	(wire
 		(pts
@@ -3528,6 +3588,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 29.21) (xy 212.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390fcaa8-77fa-47e2-a9ee-645c3a245a28")
+	)
+	(wire
+		(pts
 			(xy 275.59 153.67) (xy 275.59 157.48)
 		)
 		(stroke
@@ -3558,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 50.8) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb1ad42-7334-40d4-aa63-89ddff1d3e42")
+	)
+	(wire
+		(pts
 			(xy 190.5 161.29) (xy 199.39 161.29)
 		)
 		(stroke
@@ -3565,6 +3645,16 @@
 			(type default)
 		)
 		(uuid "4420a3e3-794c-43e0-82ad-736f0627a9f2")
+	)
+	(wire
+		(pts
+			(xy 207.01 80.01) (xy 212.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a8fdb9-6169-4856-8b39-d7616f48083f")
 	)
 	(wire
 		(pts
@@ -3688,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 21.59) (xy 212.09 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e856a9-2b23-4ae6-9703-5007afc400f3")
+	)
+	(wire
+		(pts
 			(xy 275.59 146.05) (xy 275.59 153.67)
 		)
 		(stroke
@@ -3715,6 +3815,16 @@
 			(type default)
 		)
 		(uuid "89ef7dbf-43cf-4029-ab8c-57d288027939")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 212.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958e0d22-d8c7-456e-810d-d75b01ffb56a")
 	)
 	(wire
 		(pts
@@ -3775,6 +3885,16 @@
 			(type default)
 		)
 		(uuid "c078e306-3b24-425d-8a24-00ae1f924562")
+	)
+	(wire
+		(pts
+			(xy 207.01 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4c73a6-8c85-47d1-914e-e9b354632f96")
 	)
 	(wire
 		(pts
@@ -3868,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 33.02) (xy 212.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ff793b-4780-42a7-9d9e-d54e10eebf31")
+	)
+	(wire
+		(pts
 			(xy 59.69 125.73) (xy 66.04 125.73)
 		)
 		(stroke
@@ -3875,6 +4005,96 @@
 			(type default)
 		)
 		(uuid "ff20955c-5ae1-4045-9a29-f0d87682d8e2")
+	)
+	(label "MCU_Z_DIR"
+		(at 105.41 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "039ea065-c751-4468-b3c1-5f0a7a4dcfbb")
+	)
+	(label "MCU_Z_STEP"
+		(at 105.41 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09597870-8120-41b6-abb3-31829fa0f7f6")
+	)
+	(label "MCU_A_DIR"
+		(at 207.01 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c7c8f18-985e-450a-a6f9-a31d61fb5bfb")
+	)
+	(label "MCU_B_DIR"
+		(at 105.41 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10fc9a3c-3cf7-4a97-a816-a16754c6e608")
+	)
+	(label "MCU_Y_DIR"
+		(at 105.41 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "180edb3b-e061-4a89-ae5f-e3dad7c08440")
+	)
+	(label "MCU_Y_STEP"
+		(at 105.41 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "189cccc4-d1c8-4ae6-a9ee-8f860b2d5f43")
+	)
+	(label "MCU_Z_DIR"
+		(at 207.01 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b2ec78b-8872-4932-a6cb-0818770898b0")
+	)
+	(label "MCU_Y_DIR"
+		(at 207.01 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f74b089-f9a2-48fc-8aea-01ff4a78a0c7")
+	)
+	(label "MCU_A_DIR"
+		(at 105.41 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fa2a9a1-9e03-419e-a8ee-359e09d42acc")
 	)
 	(label "WIZ_CS"
 		(at 226.06 151.13 180)
@@ -3906,6 +4126,36 @@
 		)
 		(uuid "316764b7-ed52-499a-9d9f-75badb7a8481")
 	)
+	(label "MCU_Y_STEP"
+		(at 207.01 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "392226c0-b09a-4f52-8412-820c87b9715a")
+	)
+	(label "MCU_B_DIR"
+		(at 207.01 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "395f2149-d695-46a7-a07d-832c771ef5e0")
+	)
+	(label "MCU_B_STEP"
+		(at 207.01 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45c116a1-1222-4907-80dd-dd3855165797")
+	)
 	(label "WIZ_CS"
 		(at 121.92 130.81 180)
 		(effects
@@ -3915,6 +4165,16 @@
 			(justify right bottom)
 		)
 		(uuid "47ac3cdd-8367-4528-a7ae-2810aeedb879")
+	)
+	(label "MCU_A_STEP"
+		(at 207.01 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "483bbfdd-eba9-49f5-b20b-7419700277b3")
 	)
 	(label "SPI1_MISO"
 		(at 121.92 125.73 180)
@@ -3936,6 +4196,26 @@
 		)
 		(uuid "6133f92e-df34-4759-8d43-67441da9b6b2")
 	)
+	(label "MCU_X_STEP"
+		(at 207.01 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75f7c9c0-b55c-41e9-8f13-e72a3730c557")
+	)
+	(label "MCU_X_DIR"
+		(at 207.01 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "843b887e-3ca8-4d93-90e2-9e39920a306b")
+	)
 	(label "SPI1_CLK"
 		(at 121.92 123.19 180)
 		(effects
@@ -3945,6 +4225,36 @@
 			(justify right bottom)
 		)
 		(uuid "8ed68b25-cb14-4517-8355-ff380b04225c")
+	)
+	(label "MCU_X_DIR"
+		(at 105.41 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90a8ec82-c8c4-4426-b369-2a4234d6b2a6")
+	)
+	(label "MCU_Z_STEP"
+		(at 207.01 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9df50e70-7dea-4fb1-8634-284999efa4b1")
+	)
+	(label "MCU_C_DIR"
+		(at 105.41 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2832855-c7d1-4e51-b494-be6d2b915793")
 	)
 	(label "WIZ_RST"
 		(at 121.92 146.05 180)
@@ -3966,6 +4276,36 @@
 		)
 		(uuid "d4fa43ea-b988-4128-b8d0-7a9427367637")
 	)
+	(label "MCU_C_STEP"
+		(at 105.41 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d780efe3-e944-41ae-8f95-7231bdf57aae")
+	)
+	(label "MCU_B_STEP"
+		(at 105.41 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dba70fb1-7d4a-452e-a9ff-bb29b546d56a")
+	)
+	(label "MCU_C_STEP"
+		(at 207.01 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e39c1d88-05a5-44e9-bb7a-d4505a13ac44")
+	)
 	(label "UART_TX"
 		(at 199.39 161.29 0)
 		(effects
@@ -3975,6 +4315,16 @@
 			(justify left bottom)
 		)
 		(uuid "edebd110-c3b2-46be-ba29-8dc85461578b")
+	)
+	(label "MCU_C_DIR"
+		(at 207.01 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0797fcb-5372-4c95-8a00-ac4f811c2b8d")
 	)
 	(label "SPI1_MOSI"
 		(at 227.33 148.59 180)
@@ -3986,6 +4336,26 @@
 		)
 		(uuid "f104d301-461c-488c-8f31-070b3bbf8f13")
 	)
+	(label "MCU_A_STEP"
+		(at 105.41 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f796fb11-5735-405a-9bac-7136b163a5cc")
+	)
+	(label "MCU_X_STEP"
+		(at 105.41 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fabe2ef6-be06-4e6c-9774-96a32ee32992")
+	)
 	(label "SPI1_CLK"
 		(at 227.33 153.67 180)
 		(effects
@@ -3995,6 +4365,138 @@
 			(justify right bottom)
 		)
 		(uuid "ff8022fe-c3fb-4776-ab3d-210671fb76af")
+	)
+	(global_label "MCU_DIGITAL_OUT_1"
+		(shape input)
+		(at 133.35 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "296f9a74-c6e0-4856-99d3-b024ad6fc22e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_10"
+		(shape input)
+		(at 133.35 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61cbe5cc-22b1-4f5c-8568-e4f9e615db6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.1828 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_8"
+		(shape input)
+		(at 133.35 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bcf0c13-a141-4595-b1fa-feb816e5ac91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_5"
+		(shape input)
+		(at 133.35 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e12969a-aab3-44a7-befa-93cf634d021c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_4"
+		(shape input)
+		(at 133.35 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82400be5-16e5-4828-8037-fe2147b4ba3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_2"
+		(shape input)
+		(at 133.35 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5ce35cd-2c36-40d1-9d2c-3c5d36f350f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USR_BTN"
 		(shape input)
@@ -4009,6 +4511,50 @@
 		(uuid "b0aa46c7-f8b4-496b-9503-eeff7a8796cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.9633 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_6"
+		(shape input)
+		(at 133.35 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6322e00-b3fb-4d28-8026-43225f788c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_9"
+		(shape input)
+		(at 133.35 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be4d0175-46b7-44df-aa0d-09124268c747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,6 +4604,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_3"
+		(shape input)
+		(at 133.35 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4f37440-db7e-41af-bdd7-5f35b677b741")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_OUT_7"
+		(shape input)
+		(at 133.35 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc12c2c2-fb68-40a9-8ab5-0a0b9c9757c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3923 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4336,7 +4926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711244cf-d6dc-45b6-a50b-84f14ac7fe06")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 275.59 163.83 0)
 			(effects
 				(font
@@ -4386,7 +4976,7 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4858,7 +5448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90bd0bd4-de51-4404-bb88-df505ff40dcc")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 256.54 144.78 0)
 			(effects
 				(font
@@ -4908,7 +5498,7 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5081,7 +5671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b50f66b2-4265-4ea0-ab1d-4b9669d4784f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR010"
 			(at 190.5 138.43 0)
 			(effects
 				(font
@@ -5131,7 +5721,7 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR020")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5662,7 +6252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff5ec000-083b-4435-ad00-363f5b26b4ff")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -5712,152 +6302,14 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 182.88 57.15)
-		(size 31.75 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "08e14f69-5335-473d-8cc0-79680e4318b7")
-		(property "Sheetname" "2CH digital output driver 4"
-			(at 183.134 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 65.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "CH_N" "7_8"
-			(at 211.582 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 60.96 180)
-			(uuid "60c5000f-6707-470f-888d-013999bc5508")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 63.5 180)
-			(uuid "930af39c-cd14-4439-b5c2-1dc5f8dbb851")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 182.88 44.45)
-		(size 31.75 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "122cb5f1-5319-4d11-ac20-612ca4d03f4e")
-		(property "Sheetname" "2CH digital output driver 3"
-			(at 183.134 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 52.6546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "CH_N" "5_6"
-			(at 211.582 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 48.26 180)
-			(uuid "5b538b38-0d4a-49ef-9e72-9628a0d37e23")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 50.8 180)
-			(uuid "86aa2456-13dc-4647-9726-810a7fd2c8ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 247.65 19.05)
+		(at 212.09 16.51)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5872,7 +6324,7 @@
 		)
 		(uuid "3603a739-1baf-4b1e-89fd-5fc90e1d2276")
 		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
-			(at 250.444 21.844 0)
+			(at 214.884 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6333,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 247.65 40.894 0)
+			(at 212.09 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6342,7 @@
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "X"
-			(at 274.066 38.1 0)
+			(at 238.506 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6350,7 @@
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "Y"
-			(at 275.59 38.1 0)
+			(at 240.03 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +6358,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
-			(at 247.65 24.13 180)
+			(at 212.09 21.59 180)
 			(uuid "21c2f3b7-9ed3-40b2-9dda-95d073cadb85")
 			(effects
 				(font
@@ -5916,7 +6368,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_STEP" input
-			(at 247.65 27.94 180)
+			(at 212.09 25.4 180)
 			(uuid "d9f17903-1777-4609-a467-e4b88c8b46dd")
 			(effects
 				(font
@@ -5926,7 +6378,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_DIR" input
-			(at 247.65 31.75 180)
+			(at 212.09 29.21 180)
 			(uuid "fae323fc-c39c-4f77-80a4-dd26988e1358")
 			(effects
 				(font
@@ -5936,7 +6388,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_STEP" input
-			(at 247.65 35.56 180)
+			(at 212.09 33.02 180)
 			(uuid "979b79e1-be28-4e80-9d96-178e0b2ce4dd")
 			(effects
 				(font
@@ -5954,12 +6406,13 @@
 		)
 	)
 	(sheet
-		(at 182.88 31.75)
-		(size 31.75 7.62)
+		(at 246.38 16.51)
+		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5967,9 +6420,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e")
-		(property "Sheetname" "2CH digital output driver 2"
-			(at 183.134 34.036 0)
+		(uuid "a10f9653-3098-46b3-8571-958500eea49a")
+		(property "Sheetname" "Digital Outputs"
+			(at 246.38 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,8 +6430,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 39.9546 0)
+		(property "Sheetfile" "DigitalOutputs.kicad_sch"
+			(at 246.38 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,251 +6439,16 @@
 				(justify left top)
 			)
 		)
-		(property "CH_N" "3_4"
-			(at 211.582 37.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 35.56 180)
-			(uuid "962e9d4f-5e8b-4d32-9521-ce5765a6a359")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 38.1 180)
-			(uuid "19b9ec4f-c31b-4141-a501-fc2df2e6308a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "6")
+					(page "17")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 182.88 69.85)
-		(size 31.75 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "458f9f01-9a48-4496-b16f-53817e478d50")
-		(property "Sheetname" "2CH digital output driver 5"
-			(at 183.134 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 78.0546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "CH_N" "9_10"
-			(at 211.582 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 73.66 180)
-			(uuid "27a73450-861e-43ec-aaf4-cad44bddf762")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 76.2 180)
-			(uuid "ef960abe-a4e4-4438-aabc-f5984ffccb88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 182.88 82.55)
-		(size 31.75 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee")
-		(property "Sheetname" "2CH digital output driver 6"
-			(at 183.134 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "CH_N" "11_12"
-			(at 211.582 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 86.36 180)
-			(uuid "33566d3b-a8ca-42c4-978b-fd8bc659fb76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 88.9 180)
-			(uuid "361f9d95-d9e6-4bd5-b290-ff3bb75791b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 182.88 19.05)
-		(size 31.75 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dba2eedd-e199-4553-8868-6f92749d6177")
-		(property "Sheetname" "2CH digital output driver 1"
-			(at 183.134 21.336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "2ch_output_driver.kicad_sch"
-			(at 182.88 27.2546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "CH_N" "1_2"
-			(at 211.582 24.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "CH1" input
-			(at 182.88 22.86 180)
-			(uuid "86199192-b688-4ca1-acc5-0f2609d46a71")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CH2" input
-			(at 182.88 25.4 180)
-			(uuid "a435835c-4d28-4ad4-a8a1-da4f49c2d5d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 247.65 69.85)
+		(at 212.09 67.31)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6245,7 +6463,7 @@
 		)
 		(uuid "de6abc2f-b4f3-405f-80dc-20e6ec6edfe3")
 		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
-			(at 250.444 72.644 0)
+			(at 214.884 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6472,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 247.65 91.694 0)
+			(at 212.09 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6481,7 @@
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "B"
-			(at 274.066 88.9 0)
+			(at 238.506 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6489,7 @@
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "C"
-			(at 275.59 88.9 0)
+			(at 240.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6497,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
-			(at 247.65 74.93 180)
+			(at 212.09 72.39 180)
 			(uuid "83eb7d52-990e-4c5a-aab6-192031c33a37")
 			(effects
 				(font
@@ -6289,7 +6507,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_STEP" input
-			(at 247.65 78.74 180)
+			(at 212.09 76.2 180)
 			(uuid "a3adc851-39a7-46fa-97ca-aa7a2eb0166c")
 			(effects
 				(font
@@ -6299,7 +6517,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_DIR" input
-			(at 247.65 82.55 180)
+			(at 212.09 80.01 180)
 			(uuid "889dc5cd-ef8a-4d1e-9ed9-56eaec99f1c6")
 			(effects
 				(font
@@ -6309,7 +6527,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_STEP" input
-			(at 247.65 86.36 180)
+			(at 212.09 83.82 180)
 			(uuid "0def41da-b626-44b4-b60d-996b6b5cd1d5")
 			(effects
 				(font
@@ -6411,7 +6629,7 @@
 		)
 	)
 	(sheet
-		(at 247.65 44.45)
+		(at 212.09 41.91)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6426,7 +6644,7 @@
 		)
 		(uuid "ee859447-e27b-4f56-862a-3601314a5b43")
 		(property "Sheetname" "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
-			(at 250.444 47.244 0)
+			(at 214.884 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6653,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 247.65 66.294 0)
+			(at 212.09 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6662,7 @@
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "Z"
-			(at 274.066 63.5 0)
+			(at 238.506 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6670,7 @@
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "A"
-			(at 275.59 63.5 0)
+			(at 240.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6678,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
-			(at 247.65 49.53 180)
+			(at 212.09 46.99 180)
 			(uuid "0998741b-a139-4782-8562-cea92f67dd3e")
 			(effects
 				(font
@@ -6470,7 +6688,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_STEP" input
-			(at 247.65 53.34 180)
+			(at 212.09 50.8 180)
 			(uuid "2d18d407-f1e4-4a33-ac49-de4848cc5803")
 			(effects
 				(font
@@ -6480,7 +6698,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_DIR" input
-			(at 247.65 57.15 180)
+			(at 212.09 54.61 180)
 			(uuid "27b7d284-2429-470d-a809-cc9aba9e6f06")
 			(effects
 				(font
@@ -6490,7 +6708,7 @@
 			)
 		)
 		(pin "${STEPGEN_CH2_NAME}_STEP" input
-			(at 247.65 60.96 180)
+			(at 212.09 58.42 180)
 			(uuid "5b72eebb-304a-40d5-a7a8-33a1cb637dab")
 			(effects
 				(font

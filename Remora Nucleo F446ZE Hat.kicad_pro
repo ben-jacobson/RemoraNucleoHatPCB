@@ -559,12 +559,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #（optional）",
+          "name": "JLCPCB Part #（optional）",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -622,28 +646,28 @@
       "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
     ],
     [
-      "dba2eedd-e199-4553-8868-6f92749d6177",
-      "2CH digital output driver 1"
+      "75bfee9f-dba1-4332-b42b-f74c9030c21f",
+      "1CH digital output driver 1"
     ],
     [
-      "122cb5f1-5319-4d11-ac20-612ca4d03f4e",
-      "2CH digital output driver 3"
+      "455c10af-7b62-4794-9ad7-d5e1944edd00",
+      "1CH digital output driver 2"
     ],
     [
-      "3989c3f6-4fd8-4abf-93dd-5a299dc3ed0e",
-      "2CH digital output driver 2"
+      "7e7c735f-9b06-4a77-82b5-cd52d4798a5a",
+      "1CH digital output driver 3"
     ],
     [
-      "08e14f69-5335-473d-8cc0-79680e4318b7",
-      "2CH digital output driver 4"
+      "c9335f60-c03a-4512-bd65-d0261a984930",
+      "1CH digital output driver 4"
     ],
     [
-      "458f9f01-9a48-4496-b16f-53817e478d50",
-      "2CH digital output driver 5"
+      "fe21da7f-7aa5-41b9-995f-11902d4a289b",
+      "1CH digital output driver 5"
     ],
     [
-      "7c7ec75a-6bb9-4b71-9ff2-28a09c54dcee",
-      "2CH digital output driver 6"
+      "511cd8b7-3e67-472f-9a06-23d9f7789ea5",
+      "1CH digital output driver 6"
     ],
     [
       "ee859447-e27b-4f56-862a-3601314a5b43",
@@ -656,6 +680,26 @@
     [
       "e0f94f66-f67a-46dc-b55b-a3f70607aba8",
       "RST and USR Buttons, Status LEDs"
+    ],
+    [
+      "be37db14-01b9-4658-a2ab-e736ce09f7af",
+      "1CH digital output driver 7"
+    ],
+    [
+      "262aff85-41f1-4da9-8699-86dfa1e841b0",
+      "1CH digital output driver 8"
+    ],
+    [
+      "dcb3f0e6-0f43-4944-b372-1b15f6985d9f",
+      "1CH digital output driver 9"
+    ],
+    [
+      "49370d92-281f-43fd-85e2-bd3930420692",
+      "1CH digital output driver 10"
+    ],
+    [
+      "a10f9653-3098-46b3-8571-958500eea49a",
+      "Digital Outputs"
     ]
   ],
   "text_variables": {}

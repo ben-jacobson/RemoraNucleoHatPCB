@@ -5,8 +5,8 @@ Kicad 9 Project. Note this repo is pre-release, large chunks of this circuit are
 
 ## Goals - Our target design spec - To be revised as design progresses
 - Nucleo F446ZE Hat/Shield for 6 axis LinuxCNC motion control using custom port of Remora built for STM32.
-- Up to 6 axes of isolated, real time hardware step generation, configurable up to 200Khz. Can be used with any 5V single ended or differential stepper driver. Each output can be programmed to be additional differential digital outputs. 
-- IO: 4 analog inputs, 28 digital inputs, 16 digital outputs - Outputs are configurable to be sink logic GPIO or PWM. Max 50mA sinking or sourcing capability. 
+- Up to 6 axes of isolated, real time hardware step generation, configurable up to 200Khz. Can be used with any 5V single ended or differential stepper drivers. Unused axes can be reconfigured as differential digital outputs.   
+- IO: 4 analog inputs, 28 digital inputs, 10 digital outputs - Outputs are configurable to be sink logic GPIO or PWM. Max 30mA sinking or sourcing capability. 
 - 1x Isolated 0-10v DAC for spindle control. Additional indexing or direction control can be done with existing GPIO.
 - Console logging available via the STLink Virtual Comm port to view and debug Remora's console logging.
 - 24V DC power input, configurable isolation via jumpers of 5V and GND lines used for stepper drivers and IO.
@@ -17,7 +17,7 @@ Kicad 9 Project. Note this repo is pre-release, large chunks of this circuit are
 - Validate the isolated stepper driver design, min 200Khz, ideally up to 1Mhz. What is LinuxCNC / Remora maximum? Ensure we can exceed it and update specs once cap is set.
 - Create a test Remora configuration and determine maximum number of IO to complete the spec and inform physical wiring.
 - Isolated spindle control DAC circuitry for 0-10V DAC and direction control. What PWM frequency is target? 1KHz, 10Khz? 
-- Digital outputs: Finish design for output driver using sink logic with at least 50mA sinking capabilities.
+- Digital outputs: Finish design for output driver using sink logic with at least 30mA sinking capabilities.
 - Inputs: make some decisions around how we can allow for analog inputs and isolated digital inputs side by side. Ensure adequate over voltage protection on analog inputs. Ensure speed on digital inputs is sufficient enough for spindle encoder / MPG jogging matching firmware limitations. 
 - Test if USART LED design will work on standard vanilla Nucleo jumper configuration, if it requires alteration, the feature will be deleted. 
 - Verify a sample of each peripheral design before committing to laying out PCB. 
