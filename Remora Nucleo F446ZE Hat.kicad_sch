@@ -6406,6 +6406,48 @@
 		)
 	)
 	(sheet
+		(at 16.51 71.12)
+		(size 29.21 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cdad347-c6ad-4791-9d53-e4d1ad999196")
+		(property "Sheetname" "Spindle DAC"
+			(at 16.51 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SpindleDAC.kicad_sch"
+			(at 16.51 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 246.38 16.51)
 		(size 34.29 20.32)
 		(exclude_from_sim no)

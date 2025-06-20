@@ -4359,7 +4359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
 			(at 195.58 118.11 0)
 			(effects
 				(font

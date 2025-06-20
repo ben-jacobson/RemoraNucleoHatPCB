@@ -700,6 +700,10 @@
     [
       "a10f9653-3098-46b3-8571-958500eea49a",
       "Digital Outputs"
+    ],
+    [
+      "5cdad347-c6ad-4791-9d53-e4d1ad999196",
+      "Spindle DAC"
     ]
   ],
   "text_variables": {}
