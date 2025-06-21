@@ -1101,7 +1101,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO - Choose an opamp. Target is 10Khz PWM\n"
+	(text "TODO - Choose an opamp. Target is 10Khz PWM. Gain is approx 2.5-3 (3.3v to 10v)"
 		(exclude_from_sim no)
 		(at 119.634 36.576 0)
 		(effects
@@ -1124,10 +1124,10 @@
 		(uuid "ae2f9c01-c198-43c8-9a7f-df511d9a1ea2")
 	)
 	(junction
-		(at 157.48 88.9)
+		(at 184.15 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b10e4b46-2a9a-479f-81f3-52e4c0db7054")
+		(uuid "b7a3aa8e-7ebf-4279-93d3-2aa81059fe50")
 	)
 	(junction
 		(at 143.51 73.66)
@@ -1140,6 +1140,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec782af6-068a-4c5e-a09c-29bc95ece858")
+	)
+	(wire
+		(pts
+			(xy 184.15 92.71) (xy 160.02 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c57c53-b5f5-4b7a-a572-696769cb1c74")
 	)
 	(wire
 		(pts
@@ -1203,26 +1213,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322a9119-a4df-47ae-9a71-29fedc1e3a21")
-	)
-	(wire
-		(pts
-			(xy 149.86 88.9) (xy 157.48 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4210b9c1-ae12-4ea4-8fc3-b7bd2e1c6f49")
-	)
-	(wire
-		(pts
 			(xy 110.49 71.12) (xy 127 71.12)
 		)
 		(stroke
@@ -1230,6 +1220,16 @@
 			(type default)
 		)
 		(uuid "42e359ef-69bf-457d-b631-9f81fcf347db")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59443416-507a-42a9-b3d7-20e7005721e5")
 	)
 	(wire
 		(pts
@@ -1293,6 +1293,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 78.74) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af12598d-92af-44fc-a1b4-0a2de8b347d5")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd1cb7d-23ee-4c34-a28b-4aaab17d9c21")
+	)
+	(wire
+		(pts
 			(xy 149.86 85.09) (xy 149.86 88.9)
 		)
 		(stroke
@@ -1310,6 +1330,26 @@
 			(type default)
 		)
 		(uuid "b583277d-de0a-4269-98f7-6c88334eb88e")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b930fc8d-889a-40ae-bb54-67b01b98aa66")
+	)
+	(wire
+		(pts
+			(xy 194.31 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c41ef5-1da2-4140-b18c-6334ce6ef421")
 	)
 	(wire
 		(pts
@@ -1333,23 +1373,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 76.2) (xy 157.48 88.9)
+			(xy 160.02 78.74) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc33a373-dc67-4784-9a06-58d928a93b91")
-	)
-	(wire
-		(pts
-			(xy 157.48 88.9) (xy 157.48 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e322b1ca-f753-4c7a-863e-ffaa5eaa0570")
+		(uuid "c5b43daf-4374-40d8-834a-7c96de795826")
 	)
 	(wire
 		(pts
@@ -1360,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "e8827fb8-a25e-4934-bb41-38764f2cd174")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b6d904-f726-40e2-90a4-c36c5b958c76")
 	)
 	(wire
 		(pts
@@ -1410,7 +1450,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 120.65 103.124 90)
 			(effects
 				(font
@@ -1527,8 +1567,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 172.72 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bc88597-9b62-41dd-a4a2-729aa074359a")
+		(property "Reference" "U24"
+			(at 173.99 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 181.61 72.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational amplifier, single"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fae28cc-f608-42fe-83ef-a1a67fe2ea3d")
+		)
+		(pin "1"
+			(uuid "77a2fe9c-8dc1-44e6-970a-6abf0e12af3e")
+		)
+		(pin "3"
+			(uuid "3a9ec386-e75e-419d-a446-2fc317dd6a2a")
+		)
+		(pin "4"
+			(uuid "87efa51d-5885-4972-a8c2-17f04c9cfd34")
+		)
+		(pin "5"
+			(uuid "7b181e67-5f0b-4e6f-bc03-b0996ea6ce9e")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 157.48 92.71 0)
+		(at 149.86 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1537,7 +1690,7 @@
 		(fields_autoplaced yes)
 		(uuid "18e97b8d-2bda-43fd-8064-14b0520f6024")
 		(property "Reference" "#PWR0145"
-			(at 157.48 99.06 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1699,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 157.48 97.79 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 92.71 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 92.71 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 157.48 92.71 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1832,7 @@
 				)
 			)
 		)
-		(property "Value" "3K"
+		(property "Value" "22K"
 			(at 131.826 92.71 90)
 			(effects
 				(font
@@ -1796,7 +1949,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 170.18 73.66 0)
+		(at 199.39 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1805,7 +1958,7 @@
 		(fields_autoplaced yes)
 		(uuid "76413b1f-c262-4dc6-a31c-0910a886784e")
 		(property "Reference" "J13"
-			(at 171.45 73.6599 0)
+			(at 200.66 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1967,7 @@
 			)
 		)
 		(property "Value" "0-10V Spindle Out"
-			(at 171.45 76.1999 0)
+			(at 200.66 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 73.66 0)
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 73.66 0)
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1994,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 170.18 73.66 0)
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,6 +2018,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 190.5 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0638cf5-fad9-4396-92b6-184102de55bf")
+		(property "Reference" "#PWR0138"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72dacbda-a324-426c-a02b-0f816fc12e6a")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 101.6 71.12 270)
 		(unit 1)
@@ -1881,7 +2100,7 @@
 				)
 			)
 		)
-		(property "Value" "24K"
+		(property "Value" "10K"
 			(at 101.346 68.58 90)
 			(effects
 				(font

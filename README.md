@@ -16,7 +16,6 @@ Kicad 9 Project. Note this repo is pre-release, large chunks of this circuit are
 - Validate mechanical fit of pin headers and mounting screw locations against physical hardware.
 - Validate the isolated stepper driver design, min 200Khz, ideally up to 1Mhz. What is LinuxCNC / Remora maximum? Ensure we can exceed it and update specs once cap is set.
 - Create a test Remora configuration and determine maximum number of IO to complete the spec and inform physical wiring.
-- Isolated spindle control DAC circuitry for 0-10V DAC and direction control. What PWM frequency is target? 1KHz, 10Khz? 
 - Test if USART LED design will work on standard vanilla Nucleo jumper configuration, if it requires alteration, the feature will be deleted. 
 - Verify a sample of each peripheral design before committing to laying out PCB: Stepper driver, Digital Input, Analog Input, Digital Output + PWM, Spindle DAC, regulators, console logging, programmable button, reset button, user LED with default blinky program loaded into PRU.  
 - After verification, estimate current draw. Redesign 12V, 5V and 3.3V switch mode supplies for peak efficiency and ripple rejection. Add in some thermal resets.
