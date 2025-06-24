@@ -38,6 +38,7 @@ After what seemed like brick wall after brick wall I decided it'd be fun to try 
 ## Todos
 - Validate mechanical fit of pin headers and mounting screw locations against physical hardware.
 - Validate isolated stepper driver design, min 200Khz, ideally up to 1Mhz. What is LinuxCNC / Remora maximum? Ensure we can exceed it and update specs once cap is set.
+- Design inputs: low/high speed digital, analog ins
 - Verify a sample of each remaining peripheral designs before committing to laying out PCB: Digital Input, Analog Input, Digital Output + PWM, Spindle DAC, regulators, console logging, programmable button, reset button, user LED with default blinky program loaded into PRU.  
 - Create a test Remora configuration to determine maximum number of IO. Validate we have enough IO for the spec and start on wiring these IO.
 - Test if USART LED design will work without changing jumpers on a factory Nucleo. If resoldering is required, the feature will be deleted as it is only a nice to have. 

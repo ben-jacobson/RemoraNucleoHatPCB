@@ -704,6 +704,66 @@
     [
       "5cdad347-c6ad-4791-9d53-e4d1ad999196",
       "Spindle DAC"
+    ],
+    [
+      "181d5939-8311-41b3-8216-f7233e3a75eb",
+      "Inputs"
+    ],
+    [
+      "1fe6751c-d44f-4f1b-8c0c-fbb5540720e0",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "7a36167f-ee5c-4db1-bb2f-632179e1edeb",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "da9f89c4-3773-4e32-8800-541a3e7cebf5",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "09ea1db5-cc28-4565-8b71-14b18878d7ed",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "3e9a4623-8cf9-42bf-a408-86a7ec491b8c",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "78457638-3051-4bb8-845d-78da68d5cf98",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "42a25be0-442e-4dcc-b855-ecbfb0163906",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "ae2cbe7c-c523-429e-a513-85118a377daf",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "57f563b8-8dad-459c-a9de-b59db35b4e94",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "9bffca6e-6a9b-4873-98e7-40f142c06333",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "804ac362-c21b-42d1-9d9f-11bce0882908",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "4e7d9dfa-c1f9-4bb0-acbb-aa07bd76bc05",
+      "Digital Input ${CH1}&${CH2}"
+    ],
+    [
+      "0b4ac802-4178-4c63-adbc-9ba81f13d250",
+      "Digital Input ${CH1}&${CH2}"
     ]
   ],
   "text_variables": {}

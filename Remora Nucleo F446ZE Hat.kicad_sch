@@ -6309,6 +6309,48 @@
 		)
 	)
 	(sheet
+		(at 246.38 41.91)
+		(size 34.29 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "181d5939-8311-41b3-8216-f7233e3a75eb")
+		(property "Sheetname" "Inputs"
+			(at 246.38 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Inputs.kicad_sch"
+			(at 246.38 63.4496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 212.09 16.51)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
