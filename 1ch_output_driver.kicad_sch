@@ -1090,7 +1090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "765a1350-b333-417d-82e0-f1ef713db708")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR071"
 			(at 152.4 111.76 0)
 			(effects
 				(font
@@ -1156,7 +1156,7 @@
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/75bfee9f-dba1-4332-b42b-f74c9030c21f"
-					(reference "#PWR012")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/7e7c735f-9b06-4a77-82b5-cd52d4798a5a"
@@ -1164,7 +1164,7 @@
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/be37db14-01b9-4658-a2ab-e736ce09f7af"
-					(reference "#PWR083")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/c9335f60-c03a-4512-bd65-d0261a984930"
@@ -1296,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda5fd62-e91e-416e-be99-65dfeef234ae")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR070"
 			(at 129.54 111.76 0)
 			(effects
 				(font
@@ -1346,11 +1346,11 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/262aff85-41f1-4da9-8699-86dfa1e841b0"
-					(reference "#PWR084")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/455c10af-7b62-4794-9ad7-d5e1944edd00"
-					(reference "#PWR013")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/49370d92-281f-43fd-85e2-bd3930420692"
@@ -1362,7 +1362,7 @@
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/75bfee9f-dba1-4332-b42b-f74c9030c21f"
-					(reference "#PWR011")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/7e7c735f-9b06-4a77-82b5-cd52d4798a5a"
@@ -1370,7 +1370,7 @@
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/be37db14-01b9-4658-a2ab-e736ce09f7af"
-					(reference "#PWR082")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a/c9335f60-c03a-4512-bd65-d0261a984930"

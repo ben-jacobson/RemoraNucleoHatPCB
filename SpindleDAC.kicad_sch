@@ -1442,7 +1442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "079dbbc8-3706-4d23-8def-df76f9154dfb")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 126.492 102.616 90)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1510,7 +1510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0adf1429-909f-45b2-8aa7-8871df6243f0")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0141"
 			(at 132.08 90.17 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0144")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -1575,7 +1575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc88597-9b62-41dd-a4a2-729aa074359a")
-		(property "Reference" "U24"
+		(property "Reference" "U25"
 			(at 173.99 70.104 0)
 			(effects
 				(font
@@ -1673,7 +1673,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U24")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e97b8d-2bda-43fd-8064-14b0520f6024")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0142"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0145")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1824,7 +1824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fea516e-1747-4e1f-80a3-bf7107c5c9d5")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 132.334 98.552 90)
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1891,7 +1891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5be920d7-f4fe-436b-9ede-7241a47fa9e2")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0138"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0142")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OSTVTerminalBlocks:Conn01x02"
 			(at 199.39 76.2 0)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0638cf5-fad9-4396-92b6-184102de55bf")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0143"
 			(at 190.5 105.41 0)
 			(effects
 				(font
@@ -2077,7 +2077,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0138")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcea18b8-b77c-4155-a450-973b42b6b64c")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 101.854 74.422 90)
 			(effects
 				(font
@@ -2144,7 +2144,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df203b7f-e92b-4d35-b4d7-a214a420f36c")
-		(property "Reference" "U25"
+		(property "Reference" "U24"
 			(at 135.89 67.564 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U25")
+					(reference "U24")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25588b6-458f-4af1-87dc-ffcc8e59ae7e")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0140"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -2458,7 +2458,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0143")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)

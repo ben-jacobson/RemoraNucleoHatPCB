@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dc798784-0f84-4f71-83b8-90a9977e15b9")
+	(uuid "8637b97c-c70f-4395-95c6-a413c1f3d9db")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x30_Socket"
@@ -3544,7 +3544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dd7c30c-02b3-4fe8-b700-14dd656891b9")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0144"
 			(at 193.04 147.32 0)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "#PWR0150")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52792a25-0786-461a-835a-a308dc53bac5")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0145"
 			(at 205.74 54.61 0)
 			(effects
 				(font
@@ -3659,7 +3659,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "#PWR0151")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76e193d6-3d09-4c1d-90e2-55f6199ba13c")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 210.058 55.372 0)
 			(effects
 				(font
@@ -3726,7 +3726,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "C26")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3741,7 +3741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7e0937b-5814-4c0d-b4f7-20ed041be4b4")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0146"
 			(at 205.74 68.58 0)
 			(effects
 				(font
@@ -3792,7 +3792,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "#PWR0152")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -3817,7 +3817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x30_Socket"
+		(property "Value" "Digital Inputs"
 			(at 199.39 102.8699 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OSTVTerminalBlocks:Conn01x30"
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -5264,7 +5264,7 @@
 		)
 		(pin "INPUT${CH1}" input
 			(at 48.26 49.53 180)
-			(uuid "a91f10dd-f077-48a4-83ea-9f86e7fd1c45")
+			(uuid "a91f10dd-f077-48a4-83ea-9f86e7fd1c46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5274,7 @@
 		)
 		(pin "INPUT${CH2}" input
 			(at 48.26 52.07 180)
-			(uuid "d20b0eaa-26d7-4e8b-8967-b9189d84171a")
+			(uuid "d20b0eaa-26d7-4e8b-8967-b9189d84171b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5284,7 @@
 		)
 		(pin "MCU_IP${CH1}" input
 			(at 87.63 49.53 0)
-			(uuid "1fedf3a4-69fb-4fbb-9da9-008151764f77")
+			(uuid "1fedf3a4-69fb-4fbb-9da9-008151764f78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,7 +5294,7 @@
 		)
 		(pin "MCU_IP${CH2}" input
 			(at 87.63 52.07 0)
-			(uuid "e87b9325-8799-49e2-a3d7-7a7e5fd2500a")
+			(uuid "e87b9325-8799-49e2-a3d7-7a7e5fd2500b")
 			(effects
 				(font
 					(size 1.27 1.27)
