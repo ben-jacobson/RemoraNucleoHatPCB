@@ -23,10 +23,8 @@ Schematics and board layout can be read with Kicad 9 Project. Gerbers and PDF's 
 - 1x User programmable button
 
 ## Todos
-- Fix footprint mistake for the non lockin 2.54mm pitch connectors
-- Simple 18-24V regulator to generate 10V for the spindle DAC? Can use a 1:2 gain for 0-5V then.
+- Finish Spindle DAC design
 - Test if we still need 5V for WIZNET? What does this do for logic and peripheral side isolation?
-- Opamp selection for spindle DAC, target is 10Khz
 - Research speed limitations of Remora/LinuxCNC to validate desired specs
 - Design high speed and analog inputs
 - Fix the break in isolation for spindle DAC. Do we need a separate power in for this? How common is 0-5V? 

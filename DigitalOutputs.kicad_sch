@@ -1940,7 +1940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x12"
+		(property "Footprint" "EBWA_06_A:CONN_EBWA-12-A_ADM"
 			(at 205.74 96.52 0)
 			(effects
 				(font

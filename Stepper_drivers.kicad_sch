@@ -3753,11 +3753,11 @@
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/de6abc2f-b4f3-405f-80dc-20e6ec6edfe3"
-					(reference "#PWR0143")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/ee859447-e27b-4f56-862a-3601314a5b43"
-					(reference "#PWR0143")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -5124,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x06"
+		(property "Footprint" "EBWA_06_A:CONN_EBWA-06-A_ADM"
 			(at 200.66 80.01 0)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x06"
+		(property "Footprint" "EBWA_06_A:CONN_EBWA-06-A_ADM"
 			(at 200.66 105.41 0)
 			(effects
 				(font

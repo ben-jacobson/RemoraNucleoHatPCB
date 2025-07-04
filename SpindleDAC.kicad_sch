@@ -1602,6 +1602,16 @@
 		)
 		(uuid "42aec63b-dd86-4b26-b774-8ce0d675571c")
 	)
+	(text "Todo - the filter will not swing up to 10V, need to set up in simulator and adjust the ceiling"
+		(exclude_from_sim no)
+		(at 119.634 128.778 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a21ee81-1618-4c19-ab12-8358bb7c37bd")
+	)
 	(junction
 		(at 132.08 101.6)
 		(diameter 0)
@@ -2631,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x02"
+		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
 			(at 182.88 104.14 0)
 			(effects
 				(font

@@ -5058,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x02"
+		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
 			(at 24.13 40.64 0)
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSTVTerminalBlocks:Conn01x02"
+		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
 			(at 34.29 104.14 0)
 			(effects
 				(font
