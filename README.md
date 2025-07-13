@@ -3,7 +3,7 @@ Work in progress design for a cost-effective, highly customisable LinuxCNC motio
 
 The form factor will be a hat/shield for ST Nucleo-144 evaluation boards using a WIZNet TOE for Ethernet control. At this stage the firmware targets the F446ZE but may target other boards in future. The firmware was originally built for the smaller Nucleo-64 F446RE but lacked the GPIO for high IO requirements. The unit uses a custom port of [Remora](https://github.com/scottalford75/Remora), link to specific firmware below. This designed should work for CNC milling machines, routers and plasma cutters. Lathes and laser cutters are in plan for future support.  
 
-Schematics and board layout can be read with Kicad 9 Project. Gerbers and PDF's of the schematics will become available on initial release. At this stage the design is pre-release with a lot of validation pending.  
+Schematics and board layout can be read with Kicad 9. Gerbers and PDF's of the schematics will become available on initial release. At this stage the design is pre-release with a lot of validation pending. A preview of the schematics can be found in the PreviewSchematicMonthYear folder. 
 
 ## Proposed Features
 - **Flexibile**: Lots of flexible IO. Minimal hardware/firmware restrictions on number of joints up to 6 axes. Could theoretically create more axes pending testing.
@@ -25,7 +25,7 @@ Schematics and board layout can be read with Kicad 9 Project. Gerbers and PDF's 
 ## Todos
 - Finish Spindle DAC design
 - Test if we still need 5V for WIZNET? What does this do for logic and peripheral side isolation?
-- Research speed limitations of Remora/LinuxCNC to validate desired specs
+- Research speed limitations of Remora/LinuxCNC to validate design specs
 - Design high speed and analog inputs
 - Fix the break in isolation for spindle DAC. Do we need a separate power in for this? How common is 0-5V? 
 - Test to see if the all of the 3.3V powered components can be powered off internal 3.3V, and cut this regulator to save bom cost and space 
