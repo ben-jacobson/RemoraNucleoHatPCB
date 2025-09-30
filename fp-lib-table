@@ -3,4 +3,5 @@
   (lib (name "W5500EvalModule")(type "KiCad")(uri "${KIPRJMOD}/W5500EvalModule.pretty")(options "")(descr ""))
   (lib (name "EBWA_06_A")(type "KiCad")(uri "${KIPRJMOD}/Adam Tech Footprints/EBWA_06_A/footprints.pretty")(options "")(descr ""))
   (lib (name "EBWA_02_A")(type "KiCad")(uri "${KIPRJMOD}/Adam Tech Footprints/EBWA_02_A")(options "")(descr ""))
+  (lib (name "MSD1A Symbols")(type "KiCad")(uri "${KIPRJMOD}/MSD1A Symbols")(options "")(descr ""))
 )
