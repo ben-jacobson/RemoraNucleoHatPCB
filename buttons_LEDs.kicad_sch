@@ -775,20 +775,14 @@
 		)
 	)
 	(junction
-		(at 124.46 129.54)
+		(at 110.49 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf0d73fb-e920-4520-8aab-b3395b7fcfdf")
 	)
-	(junction
-		(at 124.46 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfc0b67d-7bbf-4c13-a030-9f64c7e8c139")
-	)
 	(wire
 		(pts
-			(xy 124.46 127) (xy 124.46 129.54)
+			(xy 110.49 93.98) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 124.46 119.38)
+			(xy 110.49 83.82) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -808,27 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "404686e5-1466-40b2-995b-72499c141e99")
-	)
-	(wire
-		(pts
-			(xy 140.97 69.85) (xy 140.97 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57da6427-d37a-4a48-a4e1-3e82d9269a2a")
-	)
-	(wire
-		(pts
-			(xy 124.46 24.13) (xy 124.46 27.94)
+			(xy 177.8 76.2) (xy 177.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -838,37 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 124.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fde4c1b-3d2e-4fbc-b115-78650bf4964d")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 130.81 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76afc601-5b31-484d-8488-c90a8010f1f2")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85bf0a88-80ad-4bc6-a633-d853681bd86c")
-	)
-	(wire
-		(pts
-			(xy 124.46 129.54) (xy 130.81 129.54)
+			(xy 110.49 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -878,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 124.46 48.26)
+			(xy 177.8 97.79) (xy 177.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 35.56) (xy 124.46 38.1)
+			(xy 177.8 87.63) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 124.46 129.54)
+			(xy 105.41 96.52) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -908,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 24.13) (xy 129.54 24.13)
+			(xy 177.8 76.2) (xy 182.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -918,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 140.97 133.35)
+			(xy 127 96.52) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +872,7 @@
 	)
 	(global_label "USR_LED"
 		(shape input)
-		(at 129.54 24.13 0)
+		(at 182.88 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -938,7 +882,7 @@
 		)
 		(uuid "5458e855-d32b-4cb7-a486-24b771b814cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.0957 24.13 0)
+			(at 193.4357 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +894,7 @@
 	)
 	(global_label "MCU_RST"
 		(shape input)
-		(at 119.38 129.54 180)
+		(at 105.41 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,29 +904,7 @@
 		)
 		(uuid "7ad86c8c-c074-48a4-bb4f-f9ed648f9ffc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.5824 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USR_BTN"
-		(shape input)
-		(at 119.38 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8efd0f2f-2c83-4ab3-add9-8f0e4b33e51d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7033 80.01 0)
+			(at 94.6124 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +916,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 116.84 0)
+		(at 110.49 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1002,7 +924,7 @@
 		(dnp no)
 		(uuid "0b78081f-c8a8-410b-9e30-fdf3357f7b9a")
 		(property "Reference" "#PWR0124"
-			(at 124.46 120.65 0)
+			(at 110.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +933,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 123.698 112.776 0)
+			(at 109.728 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 116.84 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 116.84 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 116.84 0)
+			(at 110.49 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,276 +980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 135.89 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cf19f69-b9d7-4bb8-92af-3a883ad57073")
-		(property "Reference" "SW1"
-			(at 135.89 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 136.144 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "445b665b-6567-4d32-9bef-8766698f3796")
-		)
-		(pin "1"
-			(uuid "563ff482-c9ec-4437-93f1-85b68a4935b5")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0f94f66-f67a-46dc-b55b-a3f70607aba8"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
-		(at 124.46 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38e3295e-0211-4266-a73b-e834c7c7dfd2")
-		(property "Reference" "#PWR0123"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 124.46 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e34c370-6a2a-45ea-a432-df35ea82daf1")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0f94f66-f67a-46dc-b55b-a3f70607aba8"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 124.46 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ed92cc0-a05c-4f02-a592-bc076764b4a4")
-		(property "Reference" "R18"
-			(at 127 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 127 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.476 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5020793d-176d-47c2-a2b0-172712b8b0ea")
-		)
-		(pin "2"
-			(uuid "a5efb98f-8376-49b5-9b0c-9ebe32e17527")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0f94f66-f67a-46dc-b55b-a3f70607aba8"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 140.97 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c75fce6-2971-46e8-b9a8-521057d7a516")
-		(property "Reference" "#PWR0125"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.208 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.97 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "965f9a9d-a947-4d63-85ba-3a6ecc23da5e")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0f94f66-f67a-46dc-b55b-a3f70607aba8"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 124.46 48.26 0)
+		(at 177.8 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1335,7 +989,7 @@
 		(dnp no)
 		(uuid "7dd6b655-d1b3-41f1-99c1-bf0ca9423609")
 		(property "Reference" "#PWR0122"
-			(at 124.46 54.61 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +998,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 131.064 49.53 0)
+			(at 184.404 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 48.26 0)
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 48.26 0)
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 124.46 48.26 0)
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1046,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 124.46 31.75 0)
+		(at 177.8 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +1054,7 @@
 		(dnp no)
 		(uuid "8f4ab5fc-946c-4acf-9c10-56a1036d7f8a")
 		(property "Reference" "R17"
-			(at 128.27 29.972 0)
+			(at 181.61 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1063,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 127.508 33.02 0)
+			(at 180.848 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 125.476 32.004 90)
+			(at 178.816 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 31.75 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1090,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 124.46 31.75 0)
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1115,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 124.46 123.19 0)
+		(at 110.49 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1470,7 +1124,7 @@
 		(fields_autoplaced yes)
 		(uuid "98fa17a4-4fda-4e2a-9b41-ad45d9853308")
 		(property "Reference" "R19"
-			(at 127 121.9199 0)
+			(at 113.03 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1133,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 127 124.4599 0)
+			(at 113.03 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,8 +1141,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 125.476 123.444 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 111.506 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 123.19 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1160,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 124.46 123.19 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1185,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 41.91 90)
+		(at 177.8 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1539,7 +1193,7 @@
 		(dnp no)
 		(uuid "a018c0b7-7342-48a3-aa81-08d39f6eaca8")
 		(property "Reference" "D8"
-			(at 128.27 39.878 90)
+			(at 181.61 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,8 +1201,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3V3LED"
-			(at 128.016 42.926 90)
+		(property "Value" "USR_LED"
+			(at 181.356 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1211,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 124.46 41.91 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1220,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 41.91 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1229,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 124.46 41.91 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1238,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 41.91 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,7 +1263,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 135.89 129.54 0)
+		(at 121.92 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1617,7 +1271,7 @@
 		(dnp no)
 		(uuid "dbd91b7d-476b-4b48-86e3-13374b078bf5")
 		(property "Reference" "SW2"
-			(at 135.89 124.714 0)
+			(at 121.92 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1279,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 136.144 131.826 0)
+			(at 122.174 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 124.46 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 124.46 0)
+			(at 121.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1305,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 129.54 0)
+			(at 121.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 140.97 133.35 0)
+		(at 127 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1685,7 +1339,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea3a5ac7-2b1c-4617-93e5-3a0006eabf8c")
 		(property "Reference" "#PWR0126"
-			(at 140.97 139.7 0)
+			(at 127 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1348,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 140.97 138.43 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 133.35 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 133.35 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 140.97 133.35 0)
+			(at 127 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

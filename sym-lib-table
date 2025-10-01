@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "W5500EvalModule")(type "KiCad")(uri "${KIPRJMOD}/W5500EvalModule.kicad_sym")(options "")(descr ""))
   (lib (name "MSD-1-A")(type "KiCad")(uri "${KIPRJMOD}/MSD1A Symbols/MSD-1-A.kicad_sym")(options "")(descr ""))
+  (lib (name "Raspberry_Pi_2_or_3")(type "Legacy")(uri "${KIPRJMOD}/RPI3FootPrint/Raspberry_Pi_2_or_3.lib")(options "")(descr ""))
 )
