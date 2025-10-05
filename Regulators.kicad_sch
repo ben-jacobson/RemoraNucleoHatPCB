@@ -2126,131 +2126,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5VD"
 			(power)
 			(pin_numbers
@@ -3023,6 +2898,16 @@
 		)
 		(uuid "ea5a2497-241c-4c3b-b10f-1f82a039a588")
 	)
+	(text "All PSUs Temporarily disabled\n"
+		(exclude_from_sim no)
+		(at 160.02 15.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa878946-f20c-4d3d-a2f4-fe5e12b803fa")
+	)
 	(junction
 		(at 97.79 148.59)
 		(diameter 0)
@@ -3124,6 +3009,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d5da50e-db4c-43ac-8789-d8185e32cb3d")
+	)
+	(junction
+		(at 46.99 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5ac8c9-1122-4a5d-8a66-d6e6c9cf71da")
 	)
 	(junction
 		(at 63.5 165.1)
@@ -3316,6 +3207,16 @@
 			(type default)
 		)
 		(uuid "191457c5-b674-4762-b83f-90c4ff458ce6")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19271ec0-a062-432d-87f5-625563f694c7")
 	)
 	(wire
 		(pts
@@ -3709,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 104.14) (xy 46.99 118.11)
+			(xy 46.99 104.14) (xy 46.99 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3866,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "894c2fd5-8de8-4647-90e8-e66742687551")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8976c563-0498-496d-a394-6d1636eec7c6")
 	)
 	(wire
 		(pts
@@ -4493,7 +4404,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00167fa3-7724-4e31-a5e7-a1f59e5622f9")
@@ -4563,7 +4474,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0620ebdb-5eb0-44a9-bbbd-58731fcd0eb6")
@@ -4629,7 +4540,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07cdba9d-8356-4c2c-973b-45dc18eedc18")
@@ -4695,7 +4606,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "08b57bca-fdf4-4280-b5df-f791e09427ea")
 		(property "Reference" "RV1"
@@ -4775,7 +4686,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1475a76a-0f91-4155-a426-4d3e8be78d19")
@@ -4842,7 +4753,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c00e41-b7ad-44c6-a523-3463fda3f8db")
@@ -4908,7 +4819,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b3172b-9374-49bd-ad5e-bc6b9e66c359")
@@ -4974,7 +4885,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1b3a6679-f82f-49ec-996b-13dabdee4d6f")
 		(property "Reference" "#PWR019"
@@ -5039,7 +4950,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "20a08b8b-2fe3-42b3-8946-59af1b8df1aa")
 		(property "Reference" "J5"
@@ -5106,7 +5017,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c1d2ac-9fb4-478e-9b26-4c7666f3280b")
@@ -5172,7 +5083,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "234bd2e0-de4b-4a2b-bcbf-77466df170ab")
 		(property "Reference" "U2"
@@ -5270,7 +5181,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27af8abb-f65d-4ba1-be30-b55ec97698a0")
@@ -5340,7 +5251,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2ac936a3-2f02-42f6-a6fb-ec5dca08890e")
 		(property "Reference" "C2"
@@ -5409,7 +5320,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2c537dea-3510-4d71-9403-e0866a5ecee1")
 		(property "Reference" "C3"
@@ -5478,7 +5389,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3173c9a3-e594-4307-b2ee-bdcb78fe1a07")
 		(property "Reference" "U4"
@@ -5576,7 +5487,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3295e42c-8e72-460b-b96d-ff31265b36ce")
@@ -5643,7 +5554,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "32df1fd4-c0f4-4f09-9410-1754395ccea0")
 		(property "Reference" "C4"
@@ -5712,7 +5623,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "41ef1df3-a887-4e14-a104-9707b0599913")
 		(property "Reference" "#PWR031"
@@ -5777,7 +5688,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2d26d2-7b70-4895-9cdd-d067f98d6af4")
@@ -5843,7 +5754,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c809508-9880-401f-ab3c-611f0b4a3bc4")
@@ -5909,7 +5820,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "4d0f26d9-66d1-40d0-bd3c-c90a02f74ee1")
 		(property "Reference" "C9"
@@ -5978,7 +5889,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e64d1d5-3b75-4529-a665-7dc04c677fff")
@@ -6044,7 +5955,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ec4b9aa-d028-4534-91dc-2435e6a1471b")
@@ -6110,7 +6021,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5579da42-b368-478f-8684-e629a2bed0bf")
@@ -6176,7 +6087,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "5b95c126-2113-43de-895f-2e5ce2600954")
 		(property "Reference" "C7"
@@ -6245,7 +6156,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e06d257-2c6f-4c92-b816-c99f5b0aa226")
@@ -6311,7 +6222,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67244c87-9dd4-4d47-a13e-b4f536e0df57")
@@ -6377,7 +6288,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca3ea40-a9bd-45f2-8c0d-7e3b24b6b8e8")
@@ -6444,7 +6355,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6e0c9b0b-0874-444e-9203-c9744a1f3682")
 		(property "Reference" "C5"
@@ -6513,7 +6424,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ec50b0-d376-4561-8e11-0926f5d97944")
@@ -6583,7 +6494,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "78627939-d777-4288-9195-96031d1e4197")
 		(property "Reference" "JP2"
@@ -6602,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 59.69 104.14 0)
 			(effects
 				(font
@@ -6650,7 +6561,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "796ad4e0-49bb-4bf9-acc6-ac64412165d8")
 		(property "Reference" "C1"
@@ -6719,7 +6630,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f507871-e83e-4097-bc59-0d970777d10a")
@@ -6785,7 +6696,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8275dfb8-8b0c-4f41-af99-2e45864e5bf3")
 		(property "Reference" "#PWR049"
@@ -6850,7 +6761,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83503574-da2b-45a4-ac2c-9b4d571da477")
@@ -6920,7 +6831,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "84c7bdf4-9730-4886-bae4-ae35afc8a5d3")
 		(property "Reference" "R7"
@@ -6989,7 +6900,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "89d0de83-3b76-4758-96ae-42cd878e9f5e")
 		(property "Reference" "D6"
@@ -7067,7 +6978,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8cee4551-c3be-414d-9221-491a1e52aeaf")
 		(property "Reference" "JP1"
@@ -7086,7 +6997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -7134,7 +7045,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f64cb3f-6a41-4249-b6a0-6a31d27c5f24")
@@ -7202,7 +7113,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "9832ac15-6bd2-467d-aa95-eab8b691d9e8")
 		(property "Reference" "U3"
@@ -7300,7 +7211,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "9cc281f9-aa00-45b2-a0d8-0f82b8c59ffe")
 		(property "Reference" "D5"
@@ -7378,7 +7289,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a287b4cb-bd0e-4a25-8662-70f05859504c")
 		(property "Reference" "RV2"
@@ -7458,7 +7369,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "acadb737-9777-445d-8169-209c2d5649fb")
 		(property "Reference" "D7"
@@ -7536,7 +7447,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "b0521c17-be0f-47e8-b0c7-86111475f785")
 		(property "Reference" "C8"
@@ -7605,7 +7516,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b47078a6-d7a9-4d16-bf87-e649be211ee5")
@@ -7671,7 +7582,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb3b5ee2-2369-43d1-a548-0ed6d6f30150")
@@ -7737,7 +7648,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5c64d8-97d0-4e8a-9e0a-797c40f83b47")
@@ -7798,12 +7709,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 48.26 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfa0abb8-6827-42ee-a1fc-5ad8ac939fb5")
+		(property "Reference" "#FLG09"
+			(at 50.165 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.07 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e30e7636-5c4d-42b9-8a70-1f55ee086088")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 73.66 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ecadda-757c-414e-8966-455bf4036f69")
@@ -7864,78 +7842,12 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 228.6 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c828a7ae-b414-4aa6-a061-e92218e013f0")
-		(property "Reference" "#PWR044"
-			(at 228.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 228.6 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95333834-b684-4f39-ad16-d09f56cc37f6")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 46.99 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb46ba43-d0ca-4526-b7b5-9e33e256a457")
@@ -8001,7 +7913,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfae5c46-eb5f-4b4b-8423-91b90a1b5e13")
@@ -8067,7 +7979,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d18b1aba-0ee6-4b3a-afb2-093e03018884")
 		(property "Reference" "#PWR042"
@@ -8132,7 +8044,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1cfdda3-c04e-475d-93fe-b03e20760a9d")
@@ -8198,7 +8110,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a1432c-ff7c-476b-9932-10a6aa3cd970")
@@ -8268,7 +8180,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "dac99b36-6637-4581-9cb2-38e9bf3524f4")
 		(property "Reference" "C6"
@@ -8337,7 +8249,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbe4974b-1e80-4363-af71-352d07a5e0b4")
@@ -8407,7 +8319,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "df89d6ed-40c3-4736-a0d3-233209eaa194")
 		(property "Reference" "RV3"
@@ -8487,7 +8399,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0fcca4b-604b-4e71-b60f-528a8d6bcbcb")
@@ -8553,7 +8465,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62a8256-9558-48c4-81a9-cb11d4df78d9")
@@ -8619,7 +8531,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63fa5fb-c94d-48d5-9f9a-7238a743ae13")
@@ -8685,7 +8597,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8114ee0-5dea-4533-9bbb-4991e231a30a")
@@ -8752,7 +8664,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c2d3f2-1af8-47d8-a154-62aea9868824")
@@ -8822,7 +8734,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d49ef0-b7da-4692-9513-bcc917145f3e")
@@ -8892,7 +8804,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e9e13c63-29dc-413a-84ef-acfea3eb8c3d")
 		(property "Reference" "R6"
@@ -8956,12 +8868,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 228.6 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "eaf1720c-c38a-42cb-80d4-96ac8f5b56db")
+		(property "Reference" "#PWR044"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 228.092 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 228.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3721ad3d-18f8-4255-b69a-073a61f0ea2b")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 34.29 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ee71fbe1-7e97-48bf-815e-57a48a4f370d")
 		(property "Reference" "J15"
@@ -9028,7 +9005,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb90577-dcc0-47fc-9223-4b844f338c17")
@@ -9094,7 +9071,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10f1e7d-311a-4b64-86dc-05084be050f9")
@@ -9162,7 +9139,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18d6c55-dff9-495a-a044-f47344a0d1f7")
@@ -9230,7 +9207,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f25e827f-1204-4f8d-bc0b-895c5aae58ad")
@@ -9296,7 +9273,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56711ce-40ba-4c5b-94e4-96b21a2e0140")
@@ -9363,7 +9340,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ef9e0e-d8da-40de-806f-ca67e1f6c9af")
@@ -9429,7 +9406,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2aa3da-3dd7-4b7c-9f6c-c20abb77c2d4")
@@ -9499,7 +9476,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "fe63a6fc-5429-4b4f-a04e-971cacb7ef12")
 		(property "Reference" "R10"
@@ -9568,7 +9545,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee8f9e1-9230-4823-b245-7d09b94746ec")

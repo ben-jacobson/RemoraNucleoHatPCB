@@ -855,7 +855,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
+		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -868,7 +868,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -876,8 +876,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -885,7 +885,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -894,15 +894,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -911,7 +902,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -920,13 +911,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDPWR_0_1"
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -935,10 +935,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -959,46 +959,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1006,7 +970,7 @@
 					)
 				)
 			)
-			(symbol "GNDPWR_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1028,6 +992,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "TODO - Put back GNDPWR for isolation\n"
+		(exclude_from_sim no)
+		(at 198.882 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fddc53d-4522-4a93-a254-b7d4cf5ba336")
 	)
 	(junction
 		(at 212.09 72.39)
@@ -1716,6 +1690,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 199.39 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b2964a7-ffe1-4914-b12f-77b5d898a973")
+		(property "Reference" "#PWR0117"
+			(at 199.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 199.39 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bb7499-cb0f-4759-a53e-a45ef1d613bb")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 212.09 76.2 0)
 		(unit 1)
@@ -1783,7 +1823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
+		(lib_id "power:GNDREF")
 		(at 212.09 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1791,9 +1831,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "633e4ed9-8af3-4612-bdec-c127a5395da2")
-		(property "Reference" "#PWR0117"
-			(at 212.09 86.36 0)
+		(uuid "b2e1eab5-129f-409a-b472-84fb49ca90c4")
+		(property "Reference" "#PWR0113"
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,8 +1841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 211.963 85.09 0)
+		(property "Value" "GNDREF"
+			(at 212.09 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 82.55 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 82.55 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 212.09 81.28 0)
 			(effects
 				(font
@@ -1837,12 +1877,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5f1e00c-6b28-4ce0-941b-294997cf1c81")
+			(uuid "87a0daab-52fe-4399-a99a-41bf61efd3f0")
 		)
 		(instances
-			(project "Remora Nucleo F446ZE Hat"
+			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
-					(reference "#PWR0117")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2007,72 +2047,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 199.39 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe03596-7d41-4c33-af0c-64e8909ddc1d")
-		(property "Reference" "#PWR0113"
-			(at 199.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 199.263 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 199.39 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fdbc2f1-29be-488e-886d-c43aa6ec7592")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)

@@ -937,6 +937,34 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Circuit temporarily disabled\n"
+		(exclude_from_sim no)
+		(at 139.192 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba8ffb96-1fb4-4040-8b8f-2e8bc7c83d54")
+	)
+	(no_connect
+		(at 171.45 92.71)
+		(uuid "154b0562-4720-430f-bc50-8dfb490ed13b")
+	)
+	(no_connect
+		(at 119.38 92.71)
+		(uuid "ff738246-4b8e-4d2c-9b32-749330b0c4e0")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02746ccc-fbad-477a-a48e-d191f55b4a24")
+	)
 	(wire
 		(pts
 			(xy 152.4 97.79) (xy 152.4 105.41)
@@ -1019,7 +1047,7 @@
 	)
 	(hierarchical_label "MCU_OP${DIGITAL_OUTPUT_CH}"
 		(shape input)
-		(at 119.38 92.71 180)
+		(at 121.92 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1030,7 +1058,7 @@
 	)
 	(hierarchical_label "OUTPUT${DIGITAL_OUTPUT_CH}"
 		(shape input)
-		(at 171.45 92.71 0)
+		(at 128.27 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1045,7 +1073,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2087c7f0-7206-4b79-8e0a-5ef7ac847ba1")
 		(property "Reference" "F1"
@@ -1158,7 +1186,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de27898-73fb-4d8e-b7f6-d25263756708")
@@ -1364,7 +1392,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43c22fc-8f0a-4aa3-8169-2bb8a2d5c85f")

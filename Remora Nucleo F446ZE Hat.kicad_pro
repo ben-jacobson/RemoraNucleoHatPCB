@@ -678,10 +678,6 @@
       "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
     ],
     [
-      "e0f94f66-f67a-46dc-b55b-a3f70607aba8",
-      "RST and USR Buttons, Status LEDs"
-    ],
-    [
       "be37db14-01b9-4658-a2ab-e736ce09f7af",
       "1CH digital output driver 7"
     ],

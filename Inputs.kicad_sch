@@ -1611,7 +1611,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
+		(symbol "power:GNDREF"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1624,7 +1624,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1632,8 +1632,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1641,7 +1641,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1650,15 +1650,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1667,7 +1658,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1676,13 +1667,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDPWR_0_1"
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1691,10 +1691,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1715,46 +1715,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1762,7 +1726,7 @@
 					)
 				)
 			)
-			(symbol "GNDPWR_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1784,6 +1748,16 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "TODO - Put back GNDPWR for isolation\n"
+		(exclude_from_sim no)
+		(at 234.442 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b78b582a-d177-46dc-a143-81c598d03f55")
 	)
 	(junction
 		(at 205.74 53.34)
@@ -1820,6 +1794,16 @@
 			(type default)
 		)
 		(uuid "0a65b3b3-f873-4973-b4a7-50ff4ee5d1b4")
+	)
+	(wire
+		(pts
+			(xy 43.18 97.79) (xy 48.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cedf744-a797-46c2-9fb4-cb7317e7b5ed")
 	)
 	(wire
 		(pts
@@ -2203,16 +2187,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 29.464) (xy 82.169 29.464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5f5236-7b62-4c58-b490-eab73c07306f")
-	)
-	(wire
-		(pts
 			(xy 148.59 83.82) (xy 148.59 92.71)
 		)
 		(stroke
@@ -2293,16 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.042 25.654) (xy 82.169 25.654)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e866a2-178d-4f4e-a2f2-9af26673cad6")
-	)
-	(wire
-		(pts
 			(xy 87.63 129.54) (xy 151.13 129.54)
 		)
 		(stroke
@@ -2360,16 +2324,6 @@
 			(type default)
 		)
 		(uuid "8c5a5b3d-3f4f-414d-b507-aafdcd0f4f19")
-	)
-	(wire
-		(pts
-			(xy 43.18 140.97) (xy 48.26 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ceb689c-a17b-4f84-acf6-e014ba5290ba")
 	)
 	(wire
 		(pts
@@ -2523,16 +2477,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 143.51) (xy 48.26 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a584ce3e-f278-480e-b77a-4200e5296c9b")
-	)
-	(wire
-		(pts
 			(xy 43.18 52.07) (xy 48.26 52.07)
 		)
 		(stroke
@@ -2640,16 +2584,6 @@
 			(type default)
 		)
 		(uuid "c3049c8c-0f45-4db9-80b2-85d5998fbab5")
-	)
-	(wire
-		(pts
-			(xy 43.18 97.79) (xy 48.26 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3919550-85b4-4cd4-affb-0c0a9e2117d7")
 	)
 	(wire
 		(pts
@@ -2833,6 +2767,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 140.97) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9e8653-ff6d-44ea-a48a-e9a7bc8a98a1")
+	)
+	(wire
+		(pts
 			(xy 87.63 86.36) (xy 146.05 86.36)
 		)
 		(stroke
@@ -2873,16 +2817,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 95.25) (xy 48.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e25861-cac3-449d-ae83-aba6fe7d5bb3")
-	)
-	(wire
-		(pts
 			(xy 153.67 115.57) (xy 193.04 115.57)
 		)
 		(stroke
@@ -2910,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "f0eb5fae-1669-4f36-8283-c144352dc5a4")
+	)
+	(wire
+		(pts
+			(xy 43.18 143.51) (xy 48.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dd08dd-4be8-4128-a5b7-c99e8fb7989e")
 	)
 	(wire
 		(pts
@@ -2963,6 +2907,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 95.25) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3bda15-71de-4e8f-9eba-cef2bdd11ef8")
+	)
+	(wire
+		(pts
 			(xy 43.18 163.83) (xy 48.26 163.83)
 		)
 		(stroke
@@ -3001,9 +2955,31 @@
 			)
 			(justify right)
 		)
-		(uuid "04c195ca-0866-40cd-93dc-f1e1ed9d8877")
+		(uuid "0f5b0ff6-daf2-46e7-b3a6-54d58c7d737d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.7061 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_14"
+		(shape input)
+		(at 43.18 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19bb2d93-ecd5-47e0-8919-2a72db7a6b15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7061 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,6 +3002,28 @@
 		(uuid "1c80c012-af91-4e4d-907a-698b6177436a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.9156 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_21"
+		(shape input)
+		(at 43.18 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20379005-7976-47b5-8dff-c0ae90700859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7061 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,28 +3068,6 @@
 		(uuid "25f7ae6a-2e19-45bb-9434-49482da4262b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.9156 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_13"
-		(shape input)
-		(at 43.18 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cc2560b-c8d8-404b-b207-77881d2ab1f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7061 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,28 +3156,6 @@
 		(uuid "40c9c00d-cf0a-4a7b-b1ee-5f5937e379f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.7061 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_14"
-		(shape input)
-		(at 43.18 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4142b8c5-388d-48b9-884b-7eac8ec21b8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7061 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,28 +3266,6 @@
 		(uuid "61b6e11f-e3f0-4295-92ee-71328a024eb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.9156 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_21"
-		(shape input)
-		(at 43.18 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67e85dab-0354-4552-b21c-b3498eebd186")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7061 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,6 +3517,28 @@
 			)
 		)
 	)
+	(global_label "MCU_DIGITAL_IN_13"
+		(shape input)
+		(at 43.18 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e313b226-cdc6-42b6-8e71-b52450522fe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7061 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_DIGITAL_IN_7"
 		(shape input)
 		(at 43.18 60.96 180)
@@ -3604,6 +3558,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 205.74 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171a06b7-2cc8-4b58-aa73-6c33137ffb49")
+		(property "Reference" "#PWR0208"
+			(at 205.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9121c3a2-f370-49b2-b184-8e1668d68209")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
+					(reference "#PWR0208")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3673,72 +3693,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 193.04 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ba98abc-e331-4b96-ab5d-e927758a8bec")
-		(property "Reference" "#PWR073"
-			(at 193.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 192.913 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "679a0360-964e-4642-81bd-1547949134f9")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 205.74 57.15 0)
 		(unit 1)
@@ -3800,72 +3754,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 205.74 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9693a21-ecda-4af8-aa5a-ff2ee1301f1f")
-		(property "Reference" "#PWR071"
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 205.613 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "380642e5-7d2e-458d-913b-e36431bfaeb4")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -4025,6 +3913,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 193.04 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0826113-e850-4029-9ddb-e936e52391b4")
+		(property "Reference" "#PWR0203"
+			(at 193.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea58ff2e-b4c5-4487-93f3-c30259cd5209")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 48.26 91.948)
 		(size 39.37 10.414)
@@ -4095,7 +4049,7 @@
 			)
 		)
 		(pin "MCU_IP${CH1}" input
-			(at 87.63 95.504 0)
+			(at 87.63 95.25 0)
 			(uuid "d90e8eb2-1967-4d1f-a360-db1718ddfeec")
 			(effects
 				(font
@@ -4105,7 +4059,7 @@
 			)
 		)
 		(pin "MCU_IP${CH2}" input
-			(at 87.63 98.044 0)
+			(at 87.63 97.79 0)
 			(uuid "70586852-e430-4346-8041-d60dbac59b81")
 			(effects
 				(font
@@ -5259,7 +5213,7 @@
 			)
 		)
 		(pin "MCU_IP${CH1}" input
-			(at 87.63 141.224 0)
+			(at 87.63 140.97 0)
 			(uuid "b4362365-9fc3-4a4d-a0b6-a86a4c5e0441")
 			(effects
 				(font
@@ -5269,7 +5223,7 @@
 			)
 		)
 		(pin "MCU_IP${CH2}" input
-			(at 87.63 143.764 0)
+			(at 87.63 143.51 0)
 			(uuid "8a88ea36-b445-49e8-979b-8818b45e2d1c")
 			(effects
 				(font

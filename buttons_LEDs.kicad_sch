@@ -1286,7 +1286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
 			(at 121.92 91.44 0)
 			(effects
 				(font

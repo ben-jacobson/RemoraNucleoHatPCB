@@ -1055,6 +1055,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Circuit temporarily disabled\n"
+		(exclude_from_sim no)
+		(at 137.668 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93e79efb-35b5-47ba-90b2-26a54ee2e142")
+	)
 	(junction
 		(at 100.33 71.12)
 		(diameter 0)
@@ -1066,6 +1076,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ba2663-ca4b-4d5c-b1ae-1d928ee7474e")
+	)
+	(no_connect
+		(at 121.92 88.9)
+		(uuid "011f3b12-3e76-48c4-9c8a-dff7e1ff47fc")
+	)
+	(no_connect
+		(at 121.92 93.98)
+		(uuid "a3fe8c65-69a1-4852-8f11-643409ddf655")
+	)
+	(no_connect
+		(at 156.21 88.9)
+		(uuid "ede369ea-6a89-456c-b7af-25da929e8e38")
+	)
+	(no_connect
+		(at 156.21 93.98)
+		(uuid "f4a67841-d828-490d-aab9-7100bca9a720")
 	)
 	(wire
 		(pts
@@ -1169,6 +1195,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 128.27) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81542c8f-b274-4f29-b4c4-5198225f3381")
+	)
+	(wire
+		(pts
 			(xy 161.29 71.12) (xy 175.26 71.12)
 		)
 		(stroke
@@ -1196,6 +1232,16 @@
 			(type default)
 		)
 		(uuid "985a2c42-dcae-4fc0-8372-dbbbad02dd41")
+	)
+	(wire
+		(pts
+			(xy 128.27 125.73) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1acaf5f-533a-4e8b-bac8-1eeb49c0557d")
 	)
 	(wire
 		(pts
@@ -1269,7 +1315,7 @@
 	)
 	(hierarchical_label "INPUT${CH1}"
 		(shape input)
-		(at 121.92 88.9 180)
+		(at 128.27 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1280,7 +1326,7 @@
 	)
 	(hierarchical_label "MCU_IP${CH1}"
 		(shape input)
-		(at 156.21 88.9 0)
+		(at 130.81 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1291,7 +1337,7 @@
 	)
 	(hierarchical_label "MCU_IP${CH2}"
 		(shape input)
-		(at 156.21 93.98 0)
+		(at 130.81 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1348,7 @@
 	)
 	(hierarchical_label "INPUT${CH2}"
 		(shape input)
-		(at 121.92 93.98 180)
+		(at 128.27 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1317,7 +1363,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "21316eb2-7d86-4565-8576-061db4442d93")
 		(property "Reference" "C25"
@@ -1554,7 +1600,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "60f1dc4a-71c6-4087-9564-48a2fa4fb549")
 		(property "Reference" "C26"
@@ -2025,7 +2071,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b168bc22-4c42-4fe1-b5a3-da5732bf08b4")
