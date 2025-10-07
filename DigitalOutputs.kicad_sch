@@ -5,7 +5,7 @@
 	(uuid "13145adc-1492-43a3-b80c-b95cba5c3ddf")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x12_Socket"
+		(symbol "Connector:Conn_01x10_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 15.24 0)
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x12_Socket"
-				(at 0 -17.78 0)
+			(property "Value" "Conn_01x10_Socket"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x12, script generated"
+			(property "Description" "Generic connector, single row, 01x10, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,19 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x12_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 12.7) (xy -0.508 12.7)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x10_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 10.16) (xy -0.508 10.16)
@@ -207,30 +195,6 @@
 					(pts
 						(xy -1.27 -12.7) (xy -0.508 -12.7)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -15.24) (xy -0.508 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 12.192)
-					(mid -0.5058 12.7)
-					(end 0 13.208)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -359,20 +323,8 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 -15.748)
-					(mid -0.5058 -15.24)
-					(end 0 -14.732)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -390,7 +342,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -408,7 +360,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -426,7 +378,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -444,7 +396,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -462,7 +414,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -480,7 +432,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -498,7 +450,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -516,7 +468,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -534,7 +486,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -544,42 +496,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1041,26 +957,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 200.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163f2271-9330-44f0-8344-ce3a900bdf37")
-	)
-	(wire
-		(pts
-			(xy 170.18 109.22) (xy 170.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17662d18-2429-401e-a981-b617aafd43f1")
-	)
-	(wire
-		(pts
 			(xy 165.1 104.14) (xy 165.1 119.38)
 		)
 		(stroke
@@ -1068,36 +964,6 @@
 			(type default)
 		)
 		(uuid "18cf913b-eccb-4da7-9976-217078878c2e")
-	)
-	(wire
-		(pts
-			(xy 96.52 127) (xy 102.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a7f7250-d787-4860-b293-c60507646822")
-	)
-	(wire
-		(pts
-			(xy 167.64 106.68) (xy 200.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c73ebb8-97d6-4a01-a641-22bf83dc3ab2")
-	)
-	(wire
-		(pts
-			(xy 134.62 127) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1efeab40-2d1e-4274-a173-1354a606bd85")
 	)
 	(wire
 		(pts
@@ -1251,16 +1117,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 134.62) (xy 102.87 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76342128-06a4-4a45-9611-4e5d63cc37c2")
-	)
-	(wire
-		(pts
 			(xy 212.09 72.39) (xy 212.09 73.66)
 		)
 		(stroke
@@ -1361,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 199.39 114.3)
+			(xy 199.39 106.68) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1371,17 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 134.62) (xy 170.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a86b0d6f-2c32-4f68-89fc-61d94043ccd5")
-	)
-	(wire
-		(pts
-			(xy 200.66 111.76) (xy 199.39 111.76)
+			(xy 200.66 106.68) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1431,16 +1277,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc137337-8a27-4696-8e55-8c1c8f632516")
-	)
-	(wire
-		(pts
 			(xy 160.02 99.06) (xy 200.66 99.06)
 		)
 		(stroke
@@ -1468,28 +1304,6 @@
 			(type default)
 		)
 		(uuid "f65b4cf3-31f2-424a-85fc-31d09e2f82f9")
-	)
-	(global_label "MCU_DIGITAL_OUT_9"
-		(shape input)
-		(at 96.52 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "424cc86f-2e57-439e-aeb4-8c0c98273716")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.5623 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "MCU_DIGITAL_OUT_2"
 		(shape input)
@@ -1601,28 +1415,6 @@
 			)
 		)
 	)
-	(global_label "MCU_DIGITAL_OUT_10"
-		(shape input)
-		(at 96.52 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c82a93e2-0459-4b09-ae36-1d9b59cc56f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.3528 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_DIGITAL_OUT_4"
 		(shape input)
 		(at 96.52 88.9 180)
@@ -1691,7 +1483,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 199.39 114.3 0)
+		(at 199.39 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1700,7 +1492,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b2964a7-ffe1-4914-b12f-77b5d898a973")
 		(property "Reference" "#PWR0117"
-			(at 199.39 120.65 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1501,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 199.39 119.38 0)
+			(at 199.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 114.3 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 114.3 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 199.39 114.3 0)
+			(at 199.39 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +1746,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x12_Socket")
-		(at 205.74 96.52 0)
+		(lib_id "Connector:Conn_01x10_Socket")
+		(at 205.74 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1963,7 +1755,7 @@
 		(dnp no)
 		(uuid "e606c479-9a0b-4844-916c-9d93892e83ae")
 		(property "Reference" "J12"
-			(at 202.946 80.01 0)
+			(at 202.946 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1764,7 @@
 			)
 		)
 		(property "Value" "DIGITAL_OUTPUTS"
-			(at 208.534 105.664 90)
+			(at 208.534 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,8 +1772,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EBWA_06_A:CONN_EBWA-12-A_ADM"
-			(at 205.74 96.52 0)
+		(property "Footprint" "EBWA_06_A:CONN_EBWA-10-A_ADM"
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 96.52 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,8 +1790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 205.74 96.52 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,12 +1828,6 @@
 		)
 		(pin "4"
 			(uuid "30e6bb81-87ed-4d81-90bc-37aedae28792")
-		)
-		(pin "12"
-			(uuid "c7ec0ee1-da7a-4502-bb55-f8d61edd91c4")
-		)
-		(pin "11"
-			(uuid "5c9dab58-08d0-4b53-97e1-bc1ca35c81d9")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
@@ -2186,75 +1972,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 102.87 130.81)
-		(size 31.75 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "49370d92-281f-43fd-85e2-bd3930420692")
-		(property "Sheetname" "1CH digital output driver 10"
-			(at 103.124 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "1ch_output_driver.kicad_sch"
-			(at 102.616 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "DIGITAL_OUTPUT_CH" "10"
-			(at 129.54 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "MCU_OP${DIGITAL_OUTPUT_CH}" input
-			(at 102.87 134.62 180)
-			(uuid "c32ea02a-aa8f-4b23-bfbe-e9619f76159f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT${DIGITAL_OUTPUT_CH}" input
-			(at 134.62 134.62 0)
-			(uuid "a751bc61-0d8d-42df-bfff-bbdcbd051f35")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
-					(page "16")
 				)
 			)
 		)
@@ -2600,75 +2317,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 102.87 123.19)
-		(size 31.75 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "dcb3f0e6-0f43-4944-b372-1b15f6985d9f")
-		(property "Sheetname" "1CH digital output driver 9"
-			(at 103.124 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "1ch_output_driver.kicad_sch"
-			(at 102.616 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "DIGITAL_OUTPUT_CH" "9"
-			(at 129.032 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "MCU_OP${DIGITAL_OUTPUT_CH}" input
-			(at 102.87 127 180)
-			(uuid "9a36f412-21dc-42e3-af30-37d4952f0d8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT${DIGITAL_OUTPUT_CH}" input
-			(at 134.62 127 0)
-			(uuid "384f98fc-512d-4349-b758-197dac9bae0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/a10f9653-3098-46b3-8571-958500eea49a"
-					(page "15")
 				)
 			)
 		)

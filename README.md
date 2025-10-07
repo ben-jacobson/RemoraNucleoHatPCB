@@ -14,9 +14,9 @@ Schematics and board layout can be read with Kicad 9. Gerbers and PDF's of the s
 ## Design spec goals - To be revised as design progresses.
 - Nucleo-144 Hat for 6 axis LinuxCNC motion control using custom port of Remora built for STM32.
 - Up to 6 axes of isolated, hardware step generation. Default max step gen rate is 40Khz. Can be used with any 5V single ended or differential stepper drivers. Unused axes can be reconfigured as differential digital outputs.   
-- IO: 4x analog inputs, 28x digital inputs, 10x digital outputs. 
+- IO: 2x analog inputs, 16x digital inputs, 8x digital outputs. 
 - Digital Outputs can be configured as high/low sink logic or PWM. Can sink up to 40mA.
-- 2x high speed encoder inputs for ABZ encoders. Max RPM TBC. 
+- 1x extra input for high speed differential AB encoders. Max RPM TBC. 
 - 1x non-isolated 0-10v DAC for spindle control. Additional indexing or direction control to be done with digital outputs.
 - Console logging available via UART port (TX only).
 - 12-24V DC power input for powering Nucleo and supplying 3.3V to sections of the board that are isolated. Galvanic isolation between Nucleo and external devices is achieved by supplying your own isolated 5V supply. Or you can set a jumper and have the board supply 5V to your external devices. 
