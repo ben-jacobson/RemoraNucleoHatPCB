@@ -1565,6 +1565,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/kemet/C1206C104K5RACTU/411248 "
@@ -1573,6 +1574,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1847,6 +1849,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey URL" ""
@@ -1855,6 +1858,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
