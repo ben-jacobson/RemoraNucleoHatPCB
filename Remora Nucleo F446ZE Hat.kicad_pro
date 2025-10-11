@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -95,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -180,7 +186,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +217,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -486,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/V0.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -497,7 +512,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "F:\\GoogleDrive\\Projects\\Electronics\\KiCad 9 Projects\\Remora Nucleo F446RE Hat\\Remora Nucleo F446ZE Hat.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -519,16 +534,118 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #（optional）",
+          "name": "JLCPCB Part #（optional）",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         },
         {
           "group_by": true,
@@ -549,40 +666,16 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Digikey URL",
+          "name": "Digikey URL",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB Part #（optional）",
-          "name": "JLCPCB Part #（optional）",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -647,27 +740,11 @@
     ],
     [
       "75bfee9f-dba1-4332-b42b-f74c9030c21f",
-      "1CH digital output driver 1"
+      "4CH digital output driver 1"
     ],
     [
-      "455c10af-7b62-4794-9ad7-d5e1944edd00",
-      "1CH digital output driver 2"
-    ],
-    [
-      "7e7c735f-9b06-4a77-82b5-cd52d4798a5a",
-      "1CH digital output driver 3"
-    ],
-    [
-      "c9335f60-c03a-4512-bd65-d0261a984930",
-      "1CH digital output driver 4"
-    ],
-    [
-      "fe21da7f-7aa5-41b9-995f-11902d4a289b",
-      "1CH digital output driver 5"
-    ],
-    [
-      "511cd8b7-3e67-472f-9a06-23d9f7789ea5",
-      "1CH digital output driver 6"
+      "389ca262-c58e-40b0-996c-af5bca34fee3",
+      "4CH digital output driver 2"
     ],
     [
       "ee859447-e27b-4f56-862a-3601314a5b43",
@@ -676,14 +753,6 @@
     [
       "de6abc2f-b4f3-405f-80dc-20e6ec6edfe3",
       "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
-    ],
-    [
-      "be37db14-01b9-4658-a2ab-e736ce09f7af",
-      "1CH digital output driver 7"
-    ],
-    [
-      "262aff85-41f1-4da9-8699-86dfa1e841b0",
-      "1CH digital output driver 8"
     ],
     [
       "a10f9653-3098-46b3-8571-958500eea49a",

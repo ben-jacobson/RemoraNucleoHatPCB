@@ -2084,10 +2084,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "0bc88597-9b62-41dd-a4a2-729aa074359a")
-		(property "Reference" "U25"
+		(property "Reference" "U18"
 			(at 157.48 98.044 0)
 			(effects
 				(font
@@ -2167,6 +2167,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4fae28cc-f608-42fe-83ef-a1a67fe2ea3d")
 		)
@@ -2185,7 +2201,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U25")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -2197,10 +2213,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "0e2ebf3d-22a9-4a4e-8d3e-a71aaedfcc04")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 107.442 64.516 90)
 			(effects
 				(font
@@ -2243,6 +2259,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f136dfc-fee3-4add-aea3-b86be8bce573")
 		)
@@ -2252,7 +2284,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2264,11 +2296,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fbb282-1539-412c-9e2f-872edc2b9f29")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 66.04 87.63 90)
 			(effects
 				(font
@@ -2311,6 +2343,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "672a70c3-77aa-4f48-a943-e228704d1478")
 		)
@@ -2320,7 +2368,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R27")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2332,11 +2380,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d4b49d-113d-4bde-91f4-aa35bb00b52f")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 135.89 106.6799 0)
 			(effects
 				(font
@@ -2381,6 +2429,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0305fae4-7140-4d6f-8a91-e52268e10574")
 		)
@@ -2390,7 +2454,7 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1d1da8-3645-499e-893b-c8c4a7e48c6d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0130"
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -2456,7 +2520,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR032")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2468,11 +2532,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb07d5f-3b6f-4781-af9b-f6d8ad767358")
-		(property "Reference" "U40"
+		(property "Reference" "U15"
 			(at 80.01 87.63 0)
 			(effects
 				(font
@@ -2524,6 +2588,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5817110-f174-417e-96d9-4bb45a4e3877")
 		)
@@ -2539,7 +2619,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U40")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f4f434-34dc-49eb-993d-61aca83eb2f9")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0125"
 			(at 105.41 95.25 0)
 			(effects
 				(font
@@ -2605,7 +2685,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0148")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -2617,11 +2697,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76413b1f-c262-4dc6-a31c-0910a886784e")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 184.15 104.1399 0)
 			(effects
 				(font
@@ -2666,6 +2746,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19942b04-d0ae-4c66-bbd5-8d1e77e91dfe")
 		)
@@ -2675,7 +2771,7 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "J13")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "882ac073-80e5-4e2d-af4e-00abbb4bf5ef")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0124"
 			(at 68.58 123.19 0)
 			(effects
 				(font
@@ -2741,7 +2837,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR033")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d252a43-3254-4f46-9297-c116cf68c287")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0127"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -2807,7 +2903,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0154")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -2819,11 +2915,11 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9419d8af-6fbc-4cf7-8795-e5f3ba096b54")
-		(property "Reference" "U42"
+		(property "Reference" "U17"
 			(at 124.46 57.1499 90)
 			(effects
 				(font
@@ -2870,6 +2966,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "481dda9e-307d-400f-8fa6-3849030f4741")
 		)
@@ -2882,7 +2994,7 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U42")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -2898,7 +3010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b30742ba-ebc1-435f-a19f-62e3a2fbd3d8")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0132"
 			(at 173.99 121.92 0)
 			(effects
 				(font
@@ -2948,7 +3060,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0139")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -2960,10 +3072,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "b371cd16-a370-4377-befe-f007c96dea04")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 107.442 51.816 90)
 			(effects
 				(font
@@ -3006,6 +3118,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8d4a5f6-d472-45c0-98d5-e0a81d4f226d")
 		)
@@ -3015,7 +3143,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3031,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cf66d8-e4d8-4455-8e9e-5eeb82db0f4a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0131"
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -3081,7 +3209,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR026")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3093,10 +3221,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "bcea18b8-b77c-4155-a450-973b42b6b64c")
-		(property "Reference" "R24"
+		(property "Reference" "R27"
 			(at 123.444 104.902 90)
 			(effects
 				(font
@@ -3139,6 +3267,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20b3d9bf-08d6-4666-9ecf-8a6c7bb2c773")
 		)
@@ -3148,7 +3292,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "R24")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3164,7 +3308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56f100f-ba48-4ae9-934e-8a707b0c841d")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0128"
 			(at 121.92 80.01 0)
 			(effects
 				(font
@@ -3214,7 +3358,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0155")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -3230,7 +3374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36e457b-7766-49d8-bb36-c46a269b1ac3")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0129"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -3280,7 +3424,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0138")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4d51ed-b4c7-40f6-b25b-e853fde467a4")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0126"
 			(at 105.41 116.84 0)
 			(effects
 				(font
@@ -3346,7 +3490,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "#PWR0149")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -3358,10 +3502,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "f47c492c-1210-48f8-8acc-d6df1c9c6146")
-		(property "Reference" "U41"
+		(property "Reference" "U16"
 			(at 109.22 95.504 0)
 			(effects
 				(font
@@ -3441,6 +3585,22 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" ""
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey URL" ""
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de6ef76f-78f6-48d0-beed-3dfa85eaf241")
 		)
@@ -3459,7 +3619,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/5cdad347-c6ad-4791-9d53-e4d1ad999196"
-					(reference "U41")
+					(reference "U16")
 					(unit 1)
 				)
 			)
