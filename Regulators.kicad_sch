@@ -2745,23 +2745,13 @@
 	)
 	(text "Regulator Status LEDs\n"
 		(exclude_from_sim no)
-		(at 250.444 110.744 0)
+		(at 250.444 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d58eb60e-b008-4c68-a8d0-854185504a18")
-	)
-	(text "All PSUs Temporarily disabled\n"
-		(exclude_from_sim no)
-		(at 141.986 15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa878946-f20c-4d3d-a2f4-fe5e12b803fa")
 	)
 	(junction
 		(at 121.92 120.65)
@@ -2840,6 +2830,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de14384-9229-4815-9305-0c210fece97c")
+	)
+	(junction
+		(at 217.17 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efd56d0-9960-4d28-a777-6ca62598318c")
+	)
+	(junction
+		(at 217.17 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76ebcf19-5b47-4219-b877-6f6cd8f2198d")
 	)
 	(junction
 		(at 146.05 50.8)
@@ -2928,6 +2930,16 @@
 			(type default)
 		)
 		(uuid "06212532-ad0e-4420-af73-5bed0efad608")
+	)
+	(wire
+		(pts
+			(xy 207.01 114.3) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a18d9b-7f29-4f7b-a5f8-743df85e8f4a")
 	)
 	(wire
 		(pts
@@ -3161,6 +3173,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 99.06) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569f0141-5708-4924-926a-137c89bb1deb")
+	)
+	(wire
+		(pts
 			(xy 52.07 123.19) (xy 52.07 130.81)
 		)
 		(stroke
@@ -3168,6 +3190,16 @@
 			(type default)
 		)
 		(uuid "5899abb7-f277-46e7-a84d-e0b107348ec7")
+	)
+	(wire
+		(pts
+			(xy 238.76 123.19) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a929156-e18a-477e-bb3a-a8a2a16f2f0b")
 	)
 	(wire
 		(pts
@@ -3511,6 +3543,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 96.52) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abeb7cbe-649a-4688-82e0-0fa96626e6f1")
+	)
+	(wire
+		(pts
 			(xy 162.56 78.74) (xy 162.56 81.28)
 		)
 		(stroke
@@ -3731,6 +3773,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 116.84) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7366fdd-207e-4e41-b95c-79cdfa3ff237")
+	)
+	(wire
+		(pts
+			(xy 217.17 113.03) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaeab050-ddea-45f5-a83b-df3626e2d02a")
+	)
+	(wire
+		(pts
 			(xy 52.07 110.49) (xy 52.07 115.57)
 		)
 		(stroke
@@ -3779,16 +3841,6 @@
 		)
 		(uuid "fd57d608-25b7-42b2-a744-b9261c8a266e")
 	)
-	(wire
-		(pts
-			(xy 238.76 123.19) (xy 238.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf60cd4-7f3a-4973-a2fb-6af76e6d11c5")
-	)
 	(label "9V_SENSE"
 		(at 109.22 60.96 0)
 		(effects
@@ -3835,8 +3887,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00167fa3-7724-4e31-a5e7-a1f59e5622f9")
 		(property "Reference" "R12"
@@ -3918,13 +3970,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 217.17 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "00f8e424-89a2-480b-be68-2b9d7d61501d")
+		(property "Reference" "#PWR0171"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 222.758 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f82d8b4a-0f45-4710-96ca-3e2b2eca4801")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 52.07 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0620ebdb-5eb0-44a9-bbbd-58731fcd0eb6")
 		(property "Reference" "#PWR033"
@@ -3989,8 +4106,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "08b57bca-fdf4-4280-b5df-f791e09427ea")
 		(property "Reference" "RV2"
 			(at 172.212 144.526 0)
@@ -4037,7 +4154,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #（optional）" "C56340"
+		(property "JLCPCB Part #（optional）" ""
 			(at 159.258 143.764 90)
 			(effects
 				(font
@@ -4089,7 +4206,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "18613b4c-5a5a-478a-a568-2281f32f01e2")
 		(property "Reference" "#PWR036"
@@ -4219,8 +4336,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "20a08b8b-2fe3-42b3-8946-59af1b8df1aa")
 		(property "Reference" "J5"
 			(at 39.878 44.958 0)
@@ -4304,8 +4421,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "234bd2e0-de4b-4a2b-bcbf-77466df170ab")
 		(property "Reference" "U3"
 			(at 90.17 113.03 0)
@@ -4352,7 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #（optional）" "C9864"
+		(property "JLCPCB Part #（optional）" ""
 			(at 90.17 123.698 0)
 			(effects
 				(font
@@ -4421,8 +4538,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27af8abb-f65d-4ba1-be30-b55ec97698a0")
 		(property "Reference" "R11"
@@ -4509,8 +4626,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2ac936a3-2f02-42f6-a6fb-ec5dca08890e")
 		(property "Reference" "C6"
 			(at 114.554 114.554 90)
@@ -4596,8 +4713,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2c537dea-3510-4d71-9403-e0866a5ecee1")
 		(property "Reference" "C3"
 			(at 59.69 59.944 0)
@@ -4684,7 +4801,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2fb9d16c-56ff-4fb8-9892-11ac134aabe8")
 		(property "Reference" "#PWR040"
@@ -4750,7 +4867,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3295e42c-8e72-460b-b96d-ff31265b36ce")
 		(property "Reference" "#FLG04"
@@ -4816,8 +4933,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "32df1fd4-c0f4-4f09-9410-1754395ccea0")
 		(property "Reference" "C8"
 			(at 141.224 132.842 0)
@@ -4904,7 +5021,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(uuid "41ef1df3-a887-4e14-a104-9707b0599913")
 		(property "Reference" "#PWR047"
 			(at 162.56 115.57 0)
@@ -4969,7 +5086,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a2d26d2-7b70-4895-9cdd-d067f98d6af4")
 		(property "Reference" "#PWR041"
@@ -5029,13 +5146,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 217.17 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4a949a43-4871-4506-8e28-7451a8f72b8c")
+		(property "Reference" "#PWR0170"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 216.662 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088c24dc-a971-4f54-9927-9ff9fbf11a39")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 64.77 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e64d1d5-3b75-4529-a665-7dc04c677fff")
 		(property "Reference" "#PWR037"
@@ -5101,7 +5283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ec4b9aa-d028-4534-91dc-2435e6a1471b")
 		(property "Reference" "#PWR048"
@@ -5166,8 +5348,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5b95c126-2113-43de-895f-2e5ce2600954")
 		(property "Reference" "C7"
 			(at 142.494 62.738 0)
@@ -5254,7 +5436,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67244c87-9dd4-4d47-a13e-b4f536e0df57")
 		(property "Reference" "#PWR054"
@@ -5320,7 +5502,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6ca3ea40-a9bd-45f2-8c0d-7e3b24b6b8e8")
 		(property "Reference" "#FLG02"
@@ -5386,8 +5568,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6e0c9b0b-0874-444e-9203-c9744a1f3682")
 		(property "Reference" "C5"
 			(at 114.554 44.704 90)
@@ -5473,8 +5655,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "78627939-d777-4288-9195-96031d1e4197")
 		(property "Reference" "JP2"
 			(at 230.632 56.388 0)
@@ -5519,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "N/A"
 			(at 226.06 54.61 0)
 			(effects
 				(font
@@ -5528,7 +5710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "N/A"
 			(at 226.06 54.61 0)
 			(effects
 				(font
@@ -5558,8 +5740,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "796ad4e0-49bb-4bf9-acc6-ac64412165d8")
 		(property "Reference" "C4"
 			(at 59.182 130.048 0)
@@ -5646,7 +5828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "819ac70a-0f4e-42fb-a9ce-93dbdc061a9c")
 		(property "Reference" "#PWR044"
@@ -5706,34 +5888,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 260.35 130.81 0)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 201.93 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "84c7bdf4-9730-4886-bae4-ae35afc8a5d3")
-		(property "Reference" "R15"
-			(at 264.16 129.032 0)
+		(uuid "8737f708-46d8-4238-b2d5-d4a159836a3c")
+		(property "Reference" "J16"
+			(at 202.438 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "150R"
-			(at 263.398 132.08 0)
+		(property "Value" "5V External Power Inlet"
+			(at 202.438 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 261.366 131.064 90)
+		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5922,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 130.81 0)
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,8 +5930,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 260.35 130.81 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,8 +5939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
-			(at 260.35 130.81 0)
+		(property "Digikey Part Number" "2057-EBWA-02-A-ND"
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,8 +5948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
-			(at 260.35 130.81 0)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/adam-tech/EBWA-02-A/9830631"
+			(at 201.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,15 +5958,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "236c7ef8-7798-4c2d-a9cc-2f1b790cec71")
+			(uuid "46efa5b7-e75a-43ca-93c6-8962503e8a91")
 		)
 		(pin "2"
-			(uuid "35fab390-7389-4af3-bdd4-da8c8703dbb6")
+			(uuid "5fc5789f-1e51-415d-a818-a238224fac0e")
 		)
 		(instances
-			(project "Remora Nucleo F446RE Hat"
+			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "R15")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5894,8 +6074,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "8cee4551-c3be-414d-9221-491a1e52aeaf")
 		(property "Reference" "JP1"
 			(at 230.886 50.292 0)
@@ -5940,7 +6120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "N/A"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -5949,7 +6129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "N/A"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -5979,8 +6159,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f64cb3f-6a41-4249-b6a0-6a31d27c5f24")
 		(property "Reference" "L1"
@@ -6060,13 +6240,80 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 217.17 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a6e520-0532-4a65-ab77-12caba298309")
+		(property "Reference" "#FLG010"
+			(at 219.075 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38503842-726f-4484-be98-3f587299f1e9")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 64.77 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "966f7b52-3b7b-41a9-a31f-0cfd98ed3b37")
 		(property "Reference" "#PWR038"
@@ -6126,13 +6373,98 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS5430DDA")
-		(at 90.17 55.88 0)
+		(lib_id "Device:R_US")
+		(at 260.35 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(uuid "96865d85-9eb4-4a8f-b134-22b9e8e4d4e6")
+		(property "Reference" "R55"
+			(at 264.668 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 265.176 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 261.366 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 260.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "156f8264-1430-40b2-a29d-39c891afd813")
+		)
+		(pin "1"
+			(uuid "b2a61c77-8b16-4206-ab56-ffb30ca4f39b")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS5430DDA")
+		(at 90.17 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
 		(uuid "9832ac15-6bd2-467d-aa95-eab8b691d9e8")
 		(property "Reference" "U2"
 			(at 90.17 43.18 0)
@@ -6179,7 +6511,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #（optional）" "C9864"
+		(property "JLCPCB Part #（optional）" ""
 			(at 89.916 53.848 0)
 			(effects
 				(font
@@ -6243,6 +6575,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 217.17 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9beae5ae-36c7-4930-b916-7e6782449aae")
+		(property "Reference" "#FLG06"
+			(at 219.075 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 220.98 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 217.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2b5595-d3a1-4335-82dd-e70b6611db60")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 238.76 140.97 90)
 		(unit 1)
@@ -6260,7 +6659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12VLED"
+		(property "Value" "9VLED"
 			(at 242.316 141.986 90)
 			(effects
 				(font
@@ -6410,8 +6809,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "a287b4cb-bd0e-4a25-8662-70f05859504c")
 		(property "Reference" "RV1"
 			(at 172.212 74.676 0)
@@ -6458,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #（optional）" "C56340"
+		(property "JLCPCB Part #（optional）" ""
 			(at 156.464 73.152 0)
 			(effects
 				(font
@@ -6504,13 +6903,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 201.93 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57b5d02-3358-4be7-bdfc-11e04e7c2c6a")
+		(property "Reference" "J17"
+			(at 202.438 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "9V External Power Inlet"
+			(at 202.438 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "2057-EBWA-02-A-ND"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/adam-tech/EBWA-02-A/9830631"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562aa3f3-ac1f-4198-82ab-7409598dc4d9")
+		)
+		(pin "2"
+			(uuid "edea5d16-d2ef-4400-913e-99af36ee6c0a")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 52.07 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9bb06f1-6c48-4ded-a942-07fb33001cc4")
 		(property "Reference" "#FLG03"
@@ -6577,7 +7061,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bc5c64d8-97d0-4e8a-9e0a-797c40f83b47")
 		(property "Reference" "#PWR035"
@@ -6643,7 +7127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bfa0abb8-6827-42ee-a1fc-5ad8ac939fb5")
 		(property "Reference" "#FLG07"
@@ -6710,7 +7194,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c2ecadda-757c-414e-8966-455bf4036f69")
 		(property "Reference" "#PWR053"
@@ -6770,13 +7254,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 217.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c43b679f-8274-4850-9298-129f9b1e424e")
+		(property "Reference" "#PWR0169"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 223.774 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1fff896-ada6-41d6-95fe-8790482becf0")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 213.36 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cb46ba43-d0ca-4526-b7b5-9e33e256a457")
 		(property "Reference" "#PWR050"
@@ -6842,7 +7391,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d06f43ac-68b5-450d-a581-71e633cff5f1")
 		(property "Reference" "#PWR042"
@@ -6972,8 +7521,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d2a1432c-ff7c-476b-9932-10a6aa3cd970")
 		(property "Reference" "D3"
@@ -7060,8 +7609,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dbe4974b-1e80-4363-af71-352d07a5e0b4")
 		(property "Reference" "R13"
@@ -7143,13 +7692,79 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 217.17 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e007a668-ae65-4a9b-9f10-920fd283e1cb")
+		(property "Reference" "#PWR0168"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16b54bcf-e6e1-46d6-b177-7535ff58cbaf")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 87.63 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e0fcca4b-604b-4e71-b60f-528a8d6bcbcb")
 		(property "Reference" "#PWR039"
@@ -7215,7 +7830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e62a8256-9558-48c4-81a9-cb11d4df78d9")
 		(property "Reference" "#PWR046"
@@ -7280,8 +7895,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9c2d3f2-1af8-47d8-a154-62aea9868824")
 		(property "Reference" "R10"
@@ -7368,8 +7983,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9d49ef0-b7da-4692-9513-bcc917145f3e")
 		(property "Reference" "D4"
@@ -7468,7 +8083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500R"
+		(property "Value" "360R"
 			(at 241.808 132.08 0)
 			(effects
 				(font
@@ -7504,7 +8119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "RMCF1206JT360RCT-ND"
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -7513,7 +8128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF1206JT360R/1753824"
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -7608,8 +8223,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "ee71fbe1-7e97-48bf-815e-57a48a4f370d")
 		(property "Reference" "J6"
 			(at 39.878 114.808 0)
@@ -7694,7 +8309,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "efb90577-dcc0-47fc-9223-4b844f338c17")
 		(property "Reference" "#PWR043"
@@ -7759,8 +8374,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f10f1e7d-311a-4b64-86dc-05084be050f9")
 		(property "Reference" "L2"
@@ -7846,7 +8461,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f25e827f-1204-4f8d-bc0b-895c5aae58ad")
 		(property "Reference" "#PWR034"
@@ -7911,8 +8526,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f4393e32-a981-4f11-82c5-00c338062515")
 		(property "Reference" "#PWR045"
@@ -7978,7 +8593,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f56711ce-40ba-4c5b-94e4-96b21a2e0140")
 		(property "Reference" "#FLG05"
@@ -8045,7 +8660,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5ef9e0e-d8da-40de-806f-ca67e1f6c9af")
 		(property "Reference" "#PWR049"

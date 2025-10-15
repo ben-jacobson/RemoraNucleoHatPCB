@@ -5,37 +5,34 @@
 	(uuid "eb658d59-83e7-4297-854d-020e4db92a9d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "R"
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,13 +76,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -94,10 +91,46 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -105,10 +138,10 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -125,8 +158,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -145,12 +178,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:ADuM1200AR"
+		(symbol "Isolator:LTV-247"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -10.16 8.89 0)
+				(at -5.08 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -158,8 +191,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADuM1200AR"
-				(at -2.032 8.89 0)
+			(property "Value" "LTV-247"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,26 +200,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -10.16 0)
+			(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf"
-				(at -11.43 10.16 0)
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8"
+			(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
 				(at 0 0 0)
 				(effects
 					(font
@@ -195,7 +230,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Dual-channel digital isolator"
+			(property "ki_keywords" "NPN DC Quad Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -204,7 +239,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOP*4.4x10.4mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -213,10 +248,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADuM1200AR_0_1"
+			(symbol "LTV-247_0_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -227,7 +262,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 6.985) (xy -1.27 4.445)
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -239,7 +286,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy -1.27 0.635)
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -251,10 +310,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.635) (xy -1.27 -3.175)
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -263,10 +322,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -4.445) (xy -1.27 -6.985)
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -275,10 +334,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 1.27) (xy 0.635 1.905) (xy -0.635 2.54) (xy -0.635 1.27)
+						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -287,10 +346,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 -1.27) (xy -0.635 -2.54) (xy 0.635 -1.905) (xy -0.635 -1.27)
+						(xy 2.54 0.635) (xy 4.445 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -299,10 +358,22 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 6.985) (xy 1.27 4.445)
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -311,34 +382,22 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 3.175) (xy 1.27 0.635)
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -0.635) (xy 1.27 -3.175)
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -4.445) (xy 1.27 -6.985)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -346,11 +405,11 @@
 					)
 				)
 			)
-			(symbol "ADuM1200AR_1_1"
-				(pin power_in line
-					(at -12.7 5.08 0)
+			(symbol "LTV-247_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VDD1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -365,10 +424,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 2.54 0)
+				(pin passive line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "VIA"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -383,10 +442,48 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "VIB"
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-247_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -401,10 +498,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 -5.08 0)
+				(pin passive line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "GND1"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -419,17 +516,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 5.08 180)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "VDD2"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -437,17 +534,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 2.54 180)
+				(pin passive line
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "VOA"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -455,28 +552,12 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 -2.54 180)
+			)
+			(symbol "LTV-247_3_1"
+				(pin passive line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VOB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "GND2"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -491,116 +572,9 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -608,7 +582,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -616,116 +590,9 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5VD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -733,7 +600,99 @@
 							)
 						)
 					)
-					(number "1"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-247_4_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1055,221 +1014,311 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 100.33 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc18b92b-a7e1-414e-afcc-76fcb0b11974")
-	)
-	(junction
-		(at 175.26 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3ba2663-ca4b-4d5c-b1ae-1d928ee7474e")
-	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 116.84 86.36)
+			(xy 157.48 58.42) (xy 162.56 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00803e6c-0cda-4a1f-b47d-811666bc2203")
+		(uuid "08ba4845-e431-4a20-97cb-a23209c24538")
 	)
 	(wire
 		(pts
-			(xy 100.33 68.58) (xy 100.33 71.12)
+			(xy 162.56 134.62) (xy 162.56 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e276415-5648-4774-bd9d-d5ffc8f2c7ad")
+		(uuid "0bab4d7b-e1c5-491d-a8f6-2ad634b83534")
 	)
 	(wire
 		(pts
-			(xy 175.26 80.01) (xy 175.26 77.47)
+			(xy 157.48 53.34) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12effc04-4183-4564-9a4f-58d5403ee364")
+		(uuid "1208e14f-f928-4401-b2b9-96a06f061765")
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 116.84 71.12)
+			(xy 139.7 58.42) (xy 142.24 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "237acf96-eef4-4356-9e89-3798a0e35a8f")
+		(uuid "1869d1ed-c098-4ae7-82ba-96f76c336ec5")
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 175.26 72.39)
+			(xy 157.48 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4abe5a89-1e7f-4911-a816-a6a2e8217d0f")
+		(uuid "1a1bf306-16b0-426c-a40d-03736f963fad")
 	)
 	(wire
 		(pts
-			(xy 100.33 77.47) (xy 100.33 80.01)
+			(xy 157.48 104.14) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5851e7c0-9a32-4ead-a482-0f3d441cf5d5")
+		(uuid "2252039f-6154-44a5-a695-0f42c5fc7376")
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 175.26 71.12)
+			(xy 124.46 129.54) (xy 129.54 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eaa8d30-6e1e-41b9-aed3-013dab70f270")
+		(uuid "23e9e5da-173e-4a9f-972b-ea080e449acd")
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 125.73 96.52)
+			(xy 137.16 129.54) (xy 142.24 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "673fd820-5721-4109-b6f4-d810962b4712")
+		(uuid "2f457203-8bdd-4d57-97c7-2ae2cc633d4a")
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 125.73 93.98)
+			(xy 139.7 109.22) (xy 142.24 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68f31175-dc59-411e-bc34-1b4eded67368")
+		(uuid "35098f89-c9d7-412d-8792-56a37c65d350")
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 100.33 71.12)
+			(xy 139.7 109.22) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cd2fb02-3ce4-45a5-a7fc-e9430de49baa")
+		(uuid "4cc3ba86-8413-4ae5-8619-df2ae151bee8")
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 175.26 71.12)
+			(xy 137.16 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82bbb0f2-50e9-40bd-a6e9-07bd630ae514")
+		(uuid "4f88a29c-fe4a-41e2-9852-920c733703ed")
 	)
 	(wire
 		(pts
-			(xy 161.29 86.36) (xy 151.13 86.36)
+			(xy 162.56 83.82) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8afb853e-bcbf-4fc0-be01-9df412c0da24")
+		(uuid "5e648184-432b-48bb-a19c-8cdaa3550c3f")
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 100.33 72.39)
+			(xy 137.16 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "985a2c42-dcae-4fc0-8372-dbbbad02dd41")
+		(uuid "6d289075-9c10-4010-a774-298ed91e4689")
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 156.21 88.9)
+			(xy 162.56 109.22) (xy 162.56 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c21e6037-dc06-4896-9dfc-b2f69d24e634")
+		(uuid "773fed36-ab85-40e2-8e0b-1868bcc64769")
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 121.92 88.9)
+			(xy 139.7 83.82) (xy 142.24 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8a9d801-fe76-4ae6-be7b-86766eb2786b")
+		(uuid "785f87b6-f161-43fd-9e47-d6bcb6f5dad8")
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 121.92 99.06)
+			(xy 162.56 58.42) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d44fb172-468f-4698-9435-26c3dbe1e094")
+		(uuid "85f648e4-e523-4890-9fa7-de721a7eac0d")
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 154.94 99.06)
+			(xy 124.46 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d91df0e2-94bf-4036-a3ce-90eae82ad308")
+		(uuid "8ab82862-067b-4b83-99c2-89e133568cc0")
 	)
 	(wire
 		(pts
-			(xy 151.13 93.98) (xy 156.21 93.98)
+			(xy 124.46 78.74) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfb8883d-3740-4c15-9012-b7b870a44674")
+		(uuid "8f52c426-f43e-42d1-a662-63b7c406155f")
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 161.29 86.36)
+			(xy 157.48 134.62) (xy 162.56 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f59e330d-309c-4139-8028-a7f5b965b994")
+		(uuid "96d80caf-43a1-477d-9968-068db39ab166")
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 154.94 96.52)
+			(xy 157.48 78.74) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f73abd4d-a9d0-4c72-94e1-b4b9a507a78e")
+		(uuid "9a9f0f1b-a289-449c-96e3-182af51e2bd1")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ed2fab-96fa-4b5f-be2a-8192d09d9890")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a825dff5-8546-42d4-9ba8-72898d549b0f")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87d3700-bae4-4879-a0da-e5a1c43d4774")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac87a74f-0725-4423-89da-0de2a9a71d25")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed28c13-fd69-41a9-a396-dcc41222a76e")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77ce079-652e-4831-b0d0-c8958401f164")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac8251d-0faf-41f1-8a23-a7b95adacf7a")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 142.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e12f2d-6cb2-4866-a268-099f52641aa2")
+	)
+	(hierarchical_label "INPUT${CH4}"
+		(shape input)
+		(at 124.46 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d4abdd-6521-414f-a714-164e58853d24")
+	)
+	(hierarchical_label "MCU_IP${CH3}"
+		(shape input)
+		(at 175.26 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "801f2fda-3356-4aff-bf36-c138c4bc79f1")
 	)
 	(hierarchical_label "INPUT${CH1}"
 		(shape input)
-		(at 121.92 88.9 180)
+		(at 124.46 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1280,7 +1329,7 @@
 	)
 	(hierarchical_label "MCU_IP${CH1}"
 		(shape input)
-		(at 156.21 88.9 0)
+		(at 175.26 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1291,7 +1340,7 @@
 	)
 	(hierarchical_label "MCU_IP${CH2}"
 		(shape input)
-		(at 156.21 93.98 0)
+		(at 175.26 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1351,7 @@
 	)
 	(hierarchical_label "INPUT${CH2}"
 		(shape input)
-		(at 121.92 93.98 180)
+		(at 124.46 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1311,131 +1360,39 @@
 		)
 		(uuid "deca611b-ef1e-48ce-9932-696132f701d8")
 	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 100.33 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21316eb2-7d86-4565-8576-061db4442d93")
-		(property "Reference" "C24"
-			(at 96.52 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "MCU_IP${CH4}"
+		(shape input)
+		(at 175.26 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "100nF"
-			(at 96.266 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "e5c2166b-a71a-472c-af18-54daa84098c3")
+	)
+	(hierarchical_label "INPUT${CH3}"
+		(shape input)
+		(at 124.46 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "399-C1206C104K5RACTUCT-ND "
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/kemet/C1206C104K5RACTU/411248 "
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f12b0fb-e276-4712-aec8-05342ae22bb3")
-		)
-		(pin "2"
-			(uuid "89003464-8df6-4f3d-9083-b6c03bc13600")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "C32")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "C24")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "C34")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "C36")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fb02bf1f-9a83-4e11-8905-52920ccccaf1")
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 154.94 99.06 0)
+		(at 162.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "606da94e-ff21-4f7c-a284-2f0631c0c538")
-		(property "Reference" "#PWR0139"
-			(at 154.94 105.41 0)
+		(uuid "00e2e693-3989-4974-8331-1bc4ddf30858")
+		(property "Reference" "#PWR0149"
+			(at 162.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1401,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 154.94 104.14 0)
+			(at 162.56 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 99.06 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 99.06 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 154.94 99.06 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,72 +1436,199 @@
 			)
 		)
 		(pin "1"
-			(uuid "367dadea-dd31-4c8e-854d-965b8b3c4d08")
+			(uuid "1fba5c9e-86f6-401e-aafa-87dc7925d9df")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0163")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0139")
+					(reference "#PWR0141")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0169")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0165")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0181")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
 					(reference "#PWR0157")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0175")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "#PWR0151")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 175.26 74.93 180)
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 132.08 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "184f21f2-1fa6-4fd0-b2d9-3579ecf3a243")
+		(property "Reference" "U19"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eeb")
+		)
+		(pin "7"
+			(uuid "529e7477-3ce4-41e6-8b3e-85a6a2592567")
+		)
+		(pin "9"
+			(uuid "d86ec363-8bfb-4f52-bcc6-88253f64a934")
+		)
+		(pin "2"
+			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503eb")
+		)
+		(pin "8"
+			(uuid "afbd9585-9415-4b48-a9a4-fb70f37baff0")
+		)
+		(pin "10"
+			(uuid "f0b12d11-be9a-4a3e-b957-63cde25fd5b0")
+		)
+		(pin "6"
+			(uuid "d1726913-5dfb-4533-9661-f30d09036953")
+		)
+		(pin "12"
+			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbc")
+		)
+		(pin "3"
+			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70b")
+		)
+		(pin "11"
+			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b6")
+		)
+		(pin "1"
+			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc0")
+		)
+		(pin "16"
+			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7c9")
+		)
+		(pin "14"
+			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09a8")
+		)
+		(pin "13"
+			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a44")
+		)
+		(pin "15"
+			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae15")
+		)
+		(pin "5"
+			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d449")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "U22")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U21")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U20")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U19")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "60f1dc4a-71c6-4087-9564-48a2fa4fb549")
-		(property "Reference" "C25"
-			(at 180.34 70.612 0)
+		(uuid "3bde13d4-5fd5-4cae-a7a1-037bac6046c0")
+		(property "Reference" "R32"
+			(at 128.524 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 180.34 73.152 0)
+		(property "Value" "180R"
+			(at 128.524 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 175.26 74.93 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.604 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 74.93 0)
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,8 +1645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 175.26 74.93 0)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,8 +1654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "399-C1206C104K5RACTUCT-ND "
-			(at 175.26 74.93 0)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,69 +1663,91 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/kemet/C1206C104K5RACTU/411248 "
-			(at 175.26 74.93 0)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 133.35 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "b85a8910-076a-40c7-a10b-8e88db211855")
 		)
 		(pin "2"
-			(uuid "7adce561-e79a-4335-9b59-44f59d1ea83f")
+			(uuid "fd7857ef-e2c7-4e7e-84ba-5a2b9e260ac2")
+		)
+		(pin "1"
+			(uuid "40489951-6862-4e5e-9128-19cb1fef44c1")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "C33")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "C25")
+					(reference "R28")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "C35")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "R40")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "C39")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "R36")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "C31")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "C37")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "C29")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "R32")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 100.33 68.58 0)
-		(unit 1)
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 81.28 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "89c93701-2e9e-4293-b8f3-effda8bca6ac")
-		(property "Reference" "#PWR0136"
-			(at 100.33 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "4a92787e-2223-4d04-9379-1ff65ab41b6c")
+		(property "Reference" "U19"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,8 +1755,256 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
-			(at 99.822 64.516 0)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "400413ac-b1df-409a-8e0f-aba807c837b5")
+		)
+		(pin "7"
+			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf0")
+		)
+		(pin "9"
+			(uuid "3ee83d52-8c2b-46c7-9ef5-b73803186429")
+		)
+		(pin "2"
+			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503ec")
+		)
+		(pin "8"
+			(uuid "4de94d5b-aa88-4523-8255-6bc48576f62f")
+		)
+		(pin "10"
+			(uuid "c7c161b6-5589-44d2-b67f-e7b265350437")
+		)
+		(pin "6"
+			(uuid "d1726913-5dfb-4533-9661-f30d09036954")
+		)
+		(pin "12"
+			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbd")
+		)
+		(pin "3"
+			(uuid "eb29eae5-67af-4096-b07f-da36a377cb3f")
+		)
+		(pin "11"
+			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b7")
+		)
+		(pin "1"
+			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc1")
+		)
+		(pin "16"
+			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7ca")
+		)
+		(pin "14"
+			(uuid "28672d3e-1def-412f-b180-4f42ac5f3d23")
+		)
+		(pin "13"
+			(uuid "f2392e83-4a47-46aa-b43b-878a770160af")
+		)
+		(pin "15"
+			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae16")
+		)
+		(pin "5"
+			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d44a")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "U22")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U21")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U20")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U19")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 106.68 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af4288a-186f-4c33-b166-6f200f1022eb")
+		(property "Reference" "U19"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eec")
+		)
+		(pin "7"
+			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf1")
+		)
+		(pin "9"
+			(uuid "3ee83d52-8c2b-46c7-9ef5-b7380318642a")
+		)
+		(pin "2"
+			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503ed")
+		)
+		(pin "8"
+			(uuid "4de94d5b-aa88-4523-8255-6bc48576f630")
+		)
+		(pin "10"
+			(uuid "c7c161b6-5589-44d2-b67f-e7b265350438")
+		)
+		(pin "6"
+			(uuid "9de7dd12-e9a6-4925-9958-d38367ce744e")
+		)
+		(pin "12"
+			(uuid "b01834f7-9720-4838-94a9-b85ca82f59ab")
+		)
+		(pin "3"
+			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70c")
+		)
+		(pin "11"
+			(uuid "88b342a9-f7e7-4bb8-8d95-161729718586")
+		)
+		(pin "1"
+			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc2")
+		)
+		(pin "16"
+			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7cb")
+		)
+		(pin "14"
+			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09a9")
+		)
+		(pin "13"
+			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a45")
+		)
+		(pin "15"
+			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae17")
+		)
+		(pin "5"
+			(uuid "50eef8b4-2204-4f34-b9ed-b247c667a5dc")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "U22")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U21")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U20")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U19")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 162.56 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d0d5617-212a-4404-a6cb-e2d3924b81af")
+		(property "Reference" "#PWR0148"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 162.56 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 68.58 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +2021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 68.58 0)
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,8 +2029,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 100.33 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 162.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,39 +2039,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "f542e7fc-960e-47ca-bd04-046768d4878f")
+			(uuid "fc9f85d5-423f-41b5-b6dc-b45cc1f08368")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0160")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0136")
+					(reference "#PWR0140")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0166")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0164")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0178")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "#PWR0156")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR0148")
 					(unit 1)
 				)
@@ -1725,16 +2063,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 68.58 0)
+		(lib_id "power:GNDPWR")
+		(at 139.7 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8f72b017-31b8-43ce-beea-d0c353a56840")
-		(property "Reference" "#PWR0140"
-			(at 175.26 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "6a094db3-995d-4fba-90d1-394d7684826a")
+		(property "Reference" "#PWR0146"
+			(at 139.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,8 +2081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 177.8 64.262 0)
+		(property "Value" "GNDPWR"
+			(at 139.573 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +2090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 68.58 0)
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +2099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 68.58 0)
+			(at 139.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,8 +2107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 139.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,40 +2117,277 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0194219-18ca-484c-a62c-b79b2b868c9d")
+			(uuid "34e367ed-4dfb-41d3-b69c-354682d89577")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0164")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0140")
+					(reference "#PWR0138")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0170")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0162")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0182")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "#PWR0154")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "#PWR0158")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0176")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR0146")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 139.7 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a106ecd-21a6-4dbf-ace7-a6c8c2f79a4c")
+		(property "Reference" "#PWR0144"
+			(at 139.7 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 139.573 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728f0c22-a251-4b26-b383-6dca19dd6df9")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef91b38-dc6c-4da3-94f7-e48b013c6cb4")
+		(property "Reference" "#PWR0145"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 139.573 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4901ee17-dbbb-4e0f-8e6f-bf0d4b50c6b4")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91edd390-826e-460b-a746-3d4c2941d8df")
+		(property "Reference" "R33"
+			(at 128.524 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 128.524 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.604 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 133.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "144dd00b-c1dd-491d-b5ea-093ae13aae23")
+		)
+		(pin "1"
+			(uuid "e7115f1e-1417-4d79-a3a3-8891c56e9537")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1819,15 +2395,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 175.26 80.01 0)
+		(at 162.56 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afb3cf55-13a1-49b4-8c6d-328013613c5a")
-		(property "Reference" "#PWR0141"
-			(at 175.26 86.36 0)
+		(uuid "bd6fb85d-c6c6-411f-9bbf-6c056f29ee99")
+		(property "Reference" "#PWR0151"
+			(at 162.56 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,16 +2412,15 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 178.308 85.852 0)
+			(at 162.56 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 80.01 0)
+			(at 162.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1854,7 +2429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 80.01 0)
+			(at 162.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 175.26 80.01 0)
+			(at 162.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,173 +2447,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b431e6b5-a2ed-40a8-80a7-7601b417dc24")
+			(uuid "2a5d5b94-593d-4e7a-9b12-27420b859370")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0165")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0141")
+					(reference "#PWR0143")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0171")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0167")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
 					(reference "#PWR0159")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0177")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "#PWR0153")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:ADuM1200AR")
-		(at 138.43 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b168bc22-4c42-4fe1-b5a3-da5732bf08b4")
-		(property "Reference" "U19"
-			(at 138.43 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADUM1201ARZ"
-			(at 138.43 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf"
-			(at 127 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8"
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 138.43 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "1554c155-d256-4422-9aa7-c270eb047313")
-		)
-		(pin "2"
-			(uuid "598aef2e-1360-48e8-be5a-850f8cce98ad")
-		)
-		(pin "5"
-			(uuid "816f70b1-dc30-4e00-a1ec-91f932dc8023")
-		)
-		(pin "1"
-			(uuid "b08c63a8-56b3-4338-b9e9-43e455848c7d")
-		)
-		(pin "6"
-			(uuid "cbad7d9c-76e3-4ee5-956d-9deef963287b")
-		)
-		(pin "3"
-			(uuid "21bedee1-f777-4ab6-8a4b-e3913dcf5cb6")
-		)
-		(pin "8"
-			(uuid "d3afa01f-3e68-41a1-ab91-64c3638ff758")
-		)
-		(pin "4"
-			(uuid "d295e239-7919-44bf-9c09-532449efc5ac")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "U23")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "U19")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "U24")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "U26")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "U22")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "U25")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "U20")
-					(unit 1)
-				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "U21")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -2046,16 +2472,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 121.92 99.06 0)
+		(at 139.7 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0eaa7f0-152f-4cf1-8f55-ab75af204e90")
-		(property "Reference" "#PWR0138"
-			(at 121.92 104.14 0)
+		(uuid "c62e61b4-2ead-4bb3-9b59-5ccbb283f941")
+		(property "Reference" "#PWR0147"
+			(at 139.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2490,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 121.793 102.87 0)
+			(at 139.573 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 100.33 0)
+			(at 139.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 100.33 0)
+			(at 139.7 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 121.92 99.06 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,39 +2525,243 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ce4674c-e12e-4e50-8239-b21f179723b8")
+			(uuid "cdc81f40-68a9-46c3-bb6e-215e58f8845c")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0162")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0168")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0163")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0180")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "#PWR0155")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "#PWR0156")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "#PWR0147")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0174")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c64b4bf4-f08c-4b60-bcfa-c0230cc96adb")
+		(property "Reference" "U19"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eed")
+		)
+		(pin "7"
+			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf2")
+		)
+		(pin "9"
+			(uuid "3ee83d52-8c2b-46c7-9ef5-b7380318642b")
+		)
+		(pin "2"
+			(uuid "c5f91185-ddaf-4cf9-9e23-1ce45c7dc7de")
+		)
+		(pin "8"
+			(uuid "4de94d5b-aa88-4523-8255-6bc48576f631")
+		)
+		(pin "10"
+			(uuid "c7c161b6-5589-44d2-b67f-e7b265350439")
+		)
+		(pin "6"
+			(uuid "d1726913-5dfb-4533-9661-f30d09036955")
+		)
+		(pin "12"
+			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbe")
+		)
+		(pin "3"
+			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70d")
+		)
+		(pin "11"
+			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b8")
+		)
+		(pin "1"
+			(uuid "6a37d5d7-c238-49df-ade6-c4a4b0a8f1ab")
+		)
+		(pin "16"
+			(uuid "a1a1deac-77a5-48b2-951e-d32f61d1171e")
+		)
+		(pin "14"
+			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09aa")
+		)
+		(pin "13"
+			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a46")
+		)
+		(pin "15"
+			(uuid "fa549bd7-4cf2-46c1-a0ea-e982a3d5f6d4")
+		)
+		(pin "5"
+			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d44b")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "U22")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "#PWR0144")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U21")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 162.56 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d069adc2-5409-412e-862f-fd9ec79235df")
+		(property "Reference" "#PWR0150"
+			(at 162.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 162.56 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9b3e36a-c836-47ab-8fb9-1305791d6986")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR0150")
 					(unit 1)
 				)
@@ -2139,16 +2769,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 100.33 80.01 0)
+		(lib_id "Device:R_US")
+		(at 133.35 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0c5c740-01a3-47b1-a19c-cb48e704794b")
-		(property "Reference" "#PWR0137"
-			(at 100.33 85.09 0)
+		(uuid "d9f1285d-e8f8-4344-9c2a-f4959c521e3b")
+		(property "Reference" "R34"
+			(at 128.524 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 128.524 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.604 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,16 +2802,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 100.203 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 81.28 0)
+		(property "Datasheet" "~"
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,8 +2811,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 81.28 0)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,50 +2820,143 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 100.33 80.01 0)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08dcf700-2c02-4cd0-9249-060818e698bf")
 		)
 		(pin "1"
-			(uuid "e250320e-cbcc-4d9e-b257-a7417145cd5d")
+			(uuid "a742a591-f17e-48fe-a7ff-dad0d177b0e2")
 		)
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/09ea1db5-cc28-4565-8b71-14b18878d7ed"
-					(reference "#PWR0161")
-					(unit 1)
-				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0137")
+					(reference "R30")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3e9a4623-8cf9-42bf-a408-86a7ec491b8c"
-					(reference "#PWR0167")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "R42")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/42a25be0-442e-4dcc-b855-ecbfb0163906"
-					(reference "#PWR0179")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "R38")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/56fe1cc6-ab04-4f12-96cd-6dd6f1902d1c"
-					(reference "#PWR0155")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "R34")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/78457638-3051-4bb8-845d-78da68d5cf98"
-					(reference "#PWR0173")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 133.35 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea1bebe6-5afd-4665-b50d-ddd0b3a47d80")
+		(property "Reference" "R35"
+			(at 128.524 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 128.524 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.604 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e87ad55d-15f7-4211-ac77-57d84dc90c0b")
+		)
+		(pin "1"
+			(uuid "f72953aa-2f31-4fc1-8780-d91445270772")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
+					(reference "R31")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/7a36167f-ee5c-4db1-bb2f-632179e1edeb"
-					(reference "#PWR0143")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "R43")
 					(unit 1)
 				)
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/da9f89c4-3773-4e32-8800-541a3e7cebf5"
-					(reference "#PWR0149")
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "R35")
 					(unit 1)
 				)
 			)

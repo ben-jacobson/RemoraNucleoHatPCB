@@ -2302,16 +2302,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Temporarily removed this part of the circuit\n"
-		(exclude_from_sim no)
-		(at 134.62 50.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44176fc4-1652-4c65-bddc-0811f9a627bd")
-	)
 	(junction
 		(at 138.43 106.68)
 		(diameter 0)
@@ -3418,7 +3408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "505-ADUM1201ARZ-RL7CT-ND"
 			(at 113.03 81.28 0)
 			(effects
 				(font
@@ -3427,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/analog-devices-inc/ADUM1201ARZ-RL7/995629"
 			(at 113.03 81.28 0)
 			(effects
 				(font
@@ -4576,7 +4566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "296-1010-1-ND"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -4585,7 +4575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/texas-instruments/AM26LS31CDR/276654"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -4934,7 +4924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "505-ADUM1201ARZ-RL7CT-ND"
 			(at 113.03 123.19 0)
 			(effects
 				(font
@@ -4943,7 +4933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/analog-devices-inc/ADUM1201ARZ-RL7/995629"
 			(at 113.03 123.19 0)
 			(effects
 				(font
@@ -5196,7 +5186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "2057-EBWA-06-A-ND "
 			(at 200.66 80.01 0)
 			(effects
 				(font
@@ -5205,7 +5195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/adam-tech/EBWA-06-A/9830532 "
 			(at 200.66 80.01 0)
 			(effects
 				(font
@@ -5670,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "5239-EK350A-06P-ND "
 			(at 200.66 105.41 0)
 			(effects
 				(font
@@ -5679,7 +5669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/dinkle-corporation-usa/EK350A-06P/25601688 "
 			(at 200.66 105.41 0)
 			(effects
 				(font

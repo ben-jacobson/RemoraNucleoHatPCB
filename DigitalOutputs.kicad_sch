@@ -1843,7 +1843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "See Manual BOM"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "See Manual BOM"
 			(at 205.74 93.98 0)
 			(effects
 				(font

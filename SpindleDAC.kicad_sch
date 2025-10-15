@@ -2084,8 +2084,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "0bc88597-9b62-41dd-a4a2-729aa074359a")
 		(property "Reference" "U18"
 			(at 157.48 98.044 0)
@@ -2215,8 +2215,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "0e2ebf3d-22a9-4a4e-8d3e-a71aaedfcc04")
 		(property "Reference" "R26"
 			(at 107.442 64.516 90)
@@ -2261,7 +2261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-10.0KFRCT-ND "
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -2270,7 +2270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-0710KL/728483 "
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -2300,8 +2300,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25fbb282-1539-412c-9e2f-872edc2b9f29")
 		(property "Reference" "R24"
@@ -2386,8 +2386,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "34d4b49d-113d-4bde-91f4-aa35bb00b52f")
 		(property "Reference" "C22"
@@ -2475,7 +2475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4c1d1da8-3645-499e-893b-c8c4a7e48c6d")
 		(property "Reference" "#PWR0130"
@@ -2540,8 +2540,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6cb07d5f-3b6f-4781-af9b-f6d8ad767358")
 		(property "Reference" "U15"
@@ -2587,7 +2587,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #（optional）" "C189217"
+		(property "JLCPCB Part #（optional）" ""
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71f4f434-34dc-49eb-993d-61aca83eb2f9")
 		(property "Reference" "#PWR0125"
@@ -2707,8 +2707,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "76413b1f-c262-4dc6-a31c-0910a886784e")
 		(property "Reference" "J14"
@@ -2796,7 +2796,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "882ac073-80e5-4e2d-af4e-00abbb4bf5ef")
 		(property "Reference" "#PWR0124"
@@ -2862,7 +2862,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8d252a43-3254-4f46-9297-c116cf68c287")
 		(property "Reference" "#PWR0127"
@@ -2927,8 +2927,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9419d8af-6fbc-4cf7-8795-e5f3ba096b54")
 		(property "Reference" "U17"
@@ -3021,7 +3021,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b30742ba-ebc1-435f-a19f-62e3a2fbd3d8")
 		(property "Reference" "#PWR0132"
@@ -3086,8 +3086,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b371cd16-a370-4377-befe-f007c96dea04")
 		(property "Reference" "R25"
 			(at 107.442 51.816 90)
@@ -3172,7 +3172,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b3cf66d8-e4d8-4455-8e9e-5eeb82db0f4a")
 		(property "Reference" "#PWR0131"
@@ -3237,8 +3237,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "bcea18b8-b77c-4155-a450-973b42b6b64c")
 		(property "Reference" "R27"
 			(at 123.444 104.902 90)
@@ -3283,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-10.0KFRCT-ND "
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-0710KL/728483 "
 			(at 123.19 101.6 0)
 			(effects
 				(font
@@ -3323,7 +3323,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c56f100f-ba48-4ae9-934e-8a707b0c841d")
 		(property "Reference" "#PWR0128"
@@ -3389,7 +3389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e36e457b-7766-49d8-bb36-c46a269b1ac3")
 		(property "Reference" "#PWR0129"
@@ -3455,7 +3455,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec4d51ed-b4c7-40f6-b25b-e853fde467a4")
 		(property "Reference" "#PWR0126"
@@ -3520,8 +3520,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f47c492c-1210-48f8-8acc-d6df1c9c6146")
 		(property "Reference" "U16"
 			(at 109.22 95.504 0)

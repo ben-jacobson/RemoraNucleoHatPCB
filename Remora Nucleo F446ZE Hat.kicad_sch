@@ -8414,7 +8414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -8423,7 +8423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 118.11 31.75 0)
 			(effects
 				(font
@@ -8641,7 +8641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 118.11 31.75 0)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 113.03 31.75 0)
 			(effects
 				(font
@@ -9011,7 +9011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 113.03 31.75 0)
 			(effects
 				(font
@@ -9485,7 +9485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -9494,7 +9494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 107.95 31.75 0)
 			(effects
 				(font
@@ -9800,7 +9800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -9885,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "SSW-135-03-T-D-ND"
 			(at 129.54 148.59 0)
 			(effects
 				(font
@@ -9894,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/SSW-135-03-T-D/7886849 "
 			(at 129.54 148.59 0)
 			(effects
 				(font
@@ -10189,6 +10189,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79c319e2-e765-4df5-afd6-dd143f43a7f1")
+		(property "Reference" "R53"
+			(at 62.738 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 63.246 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 59.436 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 58.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08207890-619d-408d-9be4-d3fa66c5ce3c")
+		)
+		(pin "1"
+			(uuid "2ab31998-6a68-457d-b8cb-c7b684d36bcb")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 58.42 82.55 0)
 		(unit 1)
@@ -10444,7 +10529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "2223-MSD-1-ACT-ND "
 			(at 55.88 25.4 0)
 			(effects
 				(font
@@ -10453,7 +10538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/same-sky-formerly-cui-devices/MSD-1-A/21799641 "
 			(at 55.88 25.4 0)
 			(effects
 				(font
@@ -10564,7 +10649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -10573,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -10657,93 +10742,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 58.42 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f4ab5fc-946c-4acf-9c10-56a1036d7f8a")
-		(property "Reference" "R2"
-			(at 62.23 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 61.468 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 59.436 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 58.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a3f2956-076c-41f1-b950-6da20fbe7d3d")
-		)
-		(pin "2"
-			(uuid "2b5bd546-8d70-4023-81af-2e59c052313f")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10960,94 +10958,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 35.56 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98fa17a4-4fda-4e2a-9b41-ad45d9853308")
-		(property "Reference" "R1"
-			(at 38.1 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 38.1 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 36.576 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 35.56 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbfa8711-2a5c-41e9-950c-b15fc9e7758a")
-		)
-		(pin "2"
-			(uuid "69139fac-e8de-4943-ab27-5e3f7ffe6875")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11414,6 +11324,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8b5ea11-4e5b-4515-b2ce-881383402ff1")
+		(property "Reference" "R54"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "180R"
+			(at 105.41 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 101.346 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-180FRCT-ND"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77888c3a-384b-4eed-aeb0-3bd745569b47")
+		)
+		(pin "1"
+			(uuid "1ca46186-e3fd-44f4-b64a-209ebb818d4f")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "W5500EvalModule:W5500EvalModule")
 		(at 153.67 76.2 0)
 		(unit 1)
@@ -11466,7 +11461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "SAM12520-ND "
 			(at 153.67 76.2 0)
 			(effects
 				(font
@@ -11475,7 +11470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/ESQ-105-23-T-D/6692284 "
 			(at 153.67 76.2 0)
 			(effects
 				(font
@@ -11852,6 +11847,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 35.56 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c119bef7-7f80-4dcd-9ae2-fdb72fde8e0b")
+		(property "Reference" "R44"
+			(at 29.718 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4K7"
+			(at 29.718 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 36.576 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-4.70KFRCT-ND "
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f46e4121-d95c-4a96-88c1-1f768d8b3138")
+		)
+		(pin "2"
+			(uuid "20ff1ab9-7f98-4e84-9b1e-707f9cd26a94")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 187.96 125.73 0)
 		(unit 1)
@@ -12068,7 +12150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "SAM15594-ND"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -12077,7 +12159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/ESQ-120-44-T-D/7098774 "
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -12496,7 +12578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "PH1-02-UA "
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -12505,7 +12587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/adam-tech/PH1-02-UA/9830266 "
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -12596,94 +12678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1586b53-b47b-4a2d-8a79-dcf11e2eba41")
-		(property "Reference" "R3"
-			(at 102.87 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 102.87 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 101.346 65.024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" ""
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "454f20e8-fa36-441c-9ac9-0e0e4b6a3245")
-		)
-		(pin "2"
-			(uuid "95dee292-8fa6-4759-89d5-0f9a480bb482")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x35_Odd_Even")
 		(at 52.07 148.59 0)
 		(unit 1)
@@ -12735,7 +12729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" ""
+		(property "Digikey Part Number" "SSW-135-03-T-D-ND"
 			(at 52.07 148.59 0)
 			(effects
 				(font
@@ -12744,7 +12738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" ""
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/SSW-135-03-T-D/7886849"
 			(at 52.07 148.59 0)
 			(effects
 				(font
@@ -13038,13 +13032,12 @@
 		)
 	)
 	(sheet
-		(at 246.38 41.91)
-		(size 34.29 20.955)
+		(at 246.38 16.51)
+		(size 34.29 20.066)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -13053,8 +13046,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "181d5939-8311-41b3-8216-f7233e3a75eb")
-		(property "Sheetname" "Inputs"
-			(at 246.38 41.1984 0)
+		(property "Sheetname" "Digital Inputs"
+			(at 248.158 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +13056,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs.kicad_sch"
-			(at 246.38 63.4496 0)
+			(at 246.38 37.1606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,7 +13097,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 212.09 38.354 0)
+			(at 212.09 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13219,13 +13212,12 @@
 		)
 	)
 	(sheet
-		(at 246.38 16.51)
-		(size 34.29 20.32)
+		(at 246.634 41.91)
+		(size 34.29 20.828)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -13235,7 +13227,7 @@
 		)
 		(uuid "a10f9653-3098-46b3-8571-958500eea49a")
 		(property "Sheetname" "Digital Outputs"
-			(at 246.38 15.7984 0)
+			(at 248.666 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13244,7 +13236,7 @@
 			)
 		)
 		(property "Sheetfile" "DigitalOutputs.kicad_sch"
-			(at 246.38 37.4146 0)
+			(at 246.634 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +13416,7 @@
 			)
 		)
 		(property "Sheetfile" "Stepper_drivers.kicad_sch"
-			(at 212.09 63.754 0)
+			(at 212.09 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
