@@ -1989,226 +1989,6 @@
 	)
 	(global_label "MCU_DIGITAL_IN_14"
 		(shape input)
-		(at 187.96 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19bb2d93-ecd5-47e0-8919-2a72db7a6b15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4339 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_5"
-		(shape input)
-		(at 187.96 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c80c012-af91-4e4d-907a-698b6177436a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_3"
-		(shape input)
-		(at 187.96 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "20f23940-fe9d-4330-ba6b-dea0e91c0989")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_1"
-		(shape input)
-		(at 187.96 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25f7ae6a-2e19-45bb-9434-49482da4262b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_9"
-		(shape input)
-		(at 187.96 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34ebfd7b-213b-46ee-ae49-3da3d835f553")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_2"
-		(shape input)
-		(at 187.96 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "354d43a9-1395-467d-ba99-234cb50e7089")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_4"
-		(shape input)
-		(at 187.96 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39b9260f-3807-42ef-a24f-19382d041210")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_11"
-		(shape input)
-		(at 187.96 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4529139e-c9ef-478f-9893-2811394c481b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4339 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_8"
-		(shape input)
-		(at 187.96 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51d39b14-4750-48a7-837f-d7800362370c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_6"
-		(shape input)
-		(at 187.96 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61b6e11f-e3f0-4295-92ee-71328a024eb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_DIGITAL_IN_15"
-		(shape input)
 		(at 187.96 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2217,7 +1997,7 @@
 			)
 			(justify left)
 		)
-		(uuid "87d692bc-f47b-4bae-bfa7-56f54cb4cd95")
+		(uuid "19bb2d93-ecd5-47e0-8919-2a72db7a6b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4339 129.54 0)
 			(effects
@@ -2229,9 +2009,9 @@
 			)
 		)
 	)
-	(global_label "MCU_DIGITAL_IN_16"
+	(global_label "MCU_DIGITAL_IN_5"
 		(shape input)
-		(at 187.96 132.08 0)
+		(at 187.96 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2239,9 +2019,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8a3cd4b2-17d9-46ef-b96d-5f04b7bb69d0")
+		(uuid "1c80c012-af91-4e4d-907a-698b6177436a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4339 132.08 0)
+			(at 207.2244 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2031,51 @@
 			)
 		)
 	)
-	(global_label "MCU_DIGITAL_IN_10"
+	(global_label "MCU_DIGITAL_IN_3"
+		(shape input)
+		(at 187.96 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20f23940-fe9d-4330-ba6b-dea0e91c0989")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_1"
+		(shape input)
+		(at 187.96 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25f7ae6a-2e19-45bb-9434-49482da4262b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_9"
 		(shape input)
 		(at 187.96 101.6 0)
 		(fields_autoplaced yes)
@@ -2261,9 +2085,9 @@
 			)
 			(justify left)
 		)
-		(uuid "bae9125a-866a-4a29-bf63-35b8e962bab6")
+		(uuid "34ebfd7b-213b-46ee-ae49-3da3d835f553")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4339 101.6 0)
+			(at 207.2244 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2097,51 @@
 			)
 		)
 	)
-	(global_label "MCU_DIGITAL_IN_12"
+	(global_label "MCU_DIGITAL_IN_2"
+		(shape input)
+		(at 187.96 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "354d43a9-1395-467d-ba99-234cb50e7089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_4"
+		(shape input)
+		(at 187.96 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39b9260f-3807-42ef-a24f-19382d041210")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_11"
 		(shape input)
 		(at 187.96 109.22 0)
 		(fields_autoplaced yes)
@@ -2283,7 +2151,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d4fd5eb8-ed65-4d3d-bde0-70e3312d846a")
+		(uuid "4529139e-c9ef-478f-9893-2811394c481b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4339 109.22 0)
 			(effects
@@ -2295,7 +2163,117 @@
 			)
 		)
 	)
-	(global_label "MCU_DIGITAL_IN_13"
+	(global_label "MCU_DIGITAL_IN_8"
+		(shape input)
+		(at 187.96 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51d39b14-4750-48a7-837f-d7800362370c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_6"
+		(shape input)
+		(at 187.96 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61b6e11f-e3f0-4295-92ee-71328a024eb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_15"
+		(shape input)
+		(at 187.96 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87d692bc-f47b-4bae-bfa7-56f54cb4cd95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4339 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_0"
+		(shape input)
+		(at 187.96 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92915444-d917-46d7-a55e-9d54950b71bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2244 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_10"
+		(shape input)
+		(at 187.96 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bae9125a-866a-4a29-bf63-35b8e962bab6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4339 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DIGITAL_IN_12"
 		(shape input)
 		(at 187.96 121.92 0)
 		(fields_autoplaced yes)
@@ -2305,7 +2283,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e313b226-cdc6-42b6-8e71-b52450522fe8")
+		(uuid "d4fd5eb8-ed65-4d3d-bde0-70e3312d846a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.4339 121.92 0)
 			(effects
@@ -2317,9 +2295,31 @@
 			)
 		)
 	)
+	(global_label "MCU_DIGITAL_IN_13"
+		(shape input)
+		(at 187.96 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e313b226-cdc6-42b6-8e71-b52450522fe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.4339 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_DIGITAL_IN_7"
 		(shape input)
-		(at 187.96 83.82 0)
+		(at 187.96 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2329,7 +2329,7 @@
 		)
 		(uuid "e4ee29c9-032c-43d6-9ba8-f97b9836e8fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2244 83.82 0)
+			(at 207.2244 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +2773,7 @@
 		)
 		(uuid "1fe6751c-d44f-4f1b-8c0c-fbb5540720e0")
 		(property "Sheetname" "Digital Input ${CH1}-${CH4}"
-			(at 154.94 50.546 0)
+			(at 160.782 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 				(justify left top)
 			)
 		)
-		(property "CH1" "1"
+		(property "CH1" "0"
 			(at 145.034 50.038 0)
 			(effects
 				(font
@@ -2798,7 +2798,7 @@
 				)
 			)
 		)
-		(property "CH2" "2"
+		(property "CH2" "1"
 			(at 146.304 50.038 0)
 			(effects
 				(font
@@ -2806,7 +2806,7 @@
 				)
 			)
 		)
-		(property "CH3" "3"
+		(property "CH3" "2"
 			(at 147.828 50.038 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 				)
 			)
 		)
-		(property "CH4" "4"
+		(property "CH4" "3"
 			(at 149.352 50.038 0)
 			(effects
 				(font
@@ -2926,7 +2926,7 @@
 		)
 		(uuid "38a9b34d-220a-4331-8671-09e3a6b76818")
 		(property "Sheetname" "Digital Input ${CH1}-${CH4}"
-			(at 154.94 119.634 0)
+			(at 160.782 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +2943,7 @@
 				(justify left top)
 			)
 		)
-		(property "CH1" "13"
+		(property "CH1" "12"
 			(at 145.034 119.126 0)
 			(effects
 				(font
@@ -2951,7 +2951,7 @@
 				)
 			)
 		)
-		(property "CH2" "14"
+		(property "CH2" "13"
 			(at 147.828 119.126 0)
 			(effects
 				(font
@@ -2959,7 +2959,7 @@
 				)
 			)
 		)
-		(property "CH3" "15"
+		(property "CH3" "14"
 			(at 150.622 119.126 0)
 			(effects
 				(font
@@ -2967,7 +2967,7 @@
 				)
 			)
 		)
-		(property "CH4" "16"
+		(property "CH4" "15"
 			(at 153.416 119.126 0)
 			(effects
 				(font
@@ -3079,7 +3079,7 @@
 		)
 		(uuid "3ddea5d6-e83a-4299-ab19-77514b1abca5")
 		(property "Sheetname" "Digital Input ${CH1}-${CH4}"
-			(at 154.94 96.774 0)
+			(at 160.782 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3096,7 @@
 				(justify left top)
 			)
 		)
-		(property "CH1" "9"
+		(property "CH1" "8"
 			(at 144.78 96.266 0)
 			(effects
 				(font
@@ -3104,7 +3104,7 @@
 				)
 			)
 		)
-		(property "CH2" "10"
+		(property "CH2" "9"
 			(at 147.066 96.266 0)
 			(effects
 				(font
@@ -3112,7 +3112,7 @@
 				)
 			)
 		)
-		(property "CH3" "11"
+		(property "CH3" "10"
 			(at 149.86 96.266 0)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 				)
 			)
 		)
-		(property "CH4" "12"
+		(property "CH4" "11"
 			(at 152.654 96.266 0)
 			(effects
 				(font
@@ -3232,7 +3232,7 @@
 		)
 		(uuid "adf08f85-0659-4d18-9c0c-1da5c9849bec")
 		(property "Sheetname" "Digital Input ${CH1}-${CH4}"
-			(at 154.94 73.406 0)
+			(at 160.782 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3249,7 @@
 				(justify left top)
 			)
 		)
-		(property "CH1" "5"
+		(property "CH1" "4"
 			(at 145.034 72.898 0)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 				)
 			)
 		)
-		(property "CH2" "6"
+		(property "CH2" "5"
 			(at 146.304 72.898 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				)
 			)
 		)
-		(property "CH3" "7"
+		(property "CH3" "6"
 			(at 147.828 72.898 0)
 			(effects
 				(font
@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "CH4" "8"
+		(property "CH4" "7"
 			(at 149.352 72.898 0)
 			(effects
 				(font
