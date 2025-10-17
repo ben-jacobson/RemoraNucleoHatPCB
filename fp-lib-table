@@ -5,4 +5,5 @@
   (lib (name "EBWA_02_A")(type "KiCad")(uri "${KIPRJMOD}/Adam Tech Footprints/EBWA_02_A")(options "")(descr ""))
   (lib (name "MSD1A Symbols")(type "KiCad")(uri "${KIPRJMOD}/MSD1A Symbols")(options "")(descr ""))
   (lib (name "RPI3FootPrint")(type "KiCad")(uri "${KIPRJMOD}/RPI3FootPrint")(options "")(descr ""))
+  (lib (name "Amphenol QT")(type "KiCad")(uri "${KIPRJMOD}/AmphenolQT_Footprints")(options "")(descr ""))
 )

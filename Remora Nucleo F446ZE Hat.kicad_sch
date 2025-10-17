@@ -4925,6 +4925,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Nucleo144 CN12 Header"
+		(exclude_from_sim no)
+		(at 131.064 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5a712e0-7596-428c-8112-d17b3b972dd2")
+	)
+	(text "Nucleo144 CN11 Header"
+		(exclude_from_sim no)
+		(at 53.34 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa7382e6-90c7-426f-a272-a3d67373176d")
+	)
 	(junction
 		(at 35.56 78.74)
 		(diameter 0)
@@ -5058,8 +5078,16 @@
 		(uuid "07e998ab-455e-436e-8d75-72053ec28e1c")
 	)
 	(no_connect
+		(at 124.46 173.99)
+		(uuid "0b1792f5-42f9-4984-8a85-3ead288a1303")
+	)
+	(no_connect
 		(at 267.97 140.97)
 		(uuid "0c6b2ba6-0b7d-4593-99e0-102e28bcc783")
+	)
+	(no_connect
+		(at 137.16 130.81)
+		(uuid "1335c0ad-5ae6-45bd-9c56-62a74fde3b33")
 	)
 	(no_connect
 		(at 46.99 138.43)
@@ -5068,6 +5096,10 @@
 	(no_connect
 		(at 59.69 158.75)
 		(uuid "16269d58-f1d3-4312-b511-977840873e13")
+	)
+	(no_connect
+		(at 137.16 123.19)
+		(uuid "1ab0fe6a-c32a-4587-bb8c-d1d341183ba4")
 	)
 	(no_connect
 		(at 59.69 173.99)
@@ -5094,10 +5126,6 @@
 		(uuid "26497ab2-1093-4f1f-8ddb-560736278d5a")
 	)
 	(no_connect
-		(at 137.16 140.97)
-		(uuid "26f1f3d2-4bdd-43d4-bc95-ae2ebc7eb687")
-	)
-	(no_connect
 		(at 46.99 176.53)
 		(uuid "2a00b719-87e9-4337-911d-1cb4a37f8d00")
 	)
@@ -5108,10 +5136,6 @@
 	(no_connect
 		(at 59.69 118.11)
 		(uuid "2af6a229-ae01-4941-bfb3-5e96910d5e35")
-	)
-	(no_connect
-		(at 124.46 171.45)
-		(uuid "2b3902d0-3eac-437c-bbf1-df7390763193")
 	)
 	(no_connect
 		(at 194.31 140.97)
@@ -5138,10 +5162,6 @@
 		(uuid "3fcf889b-b66a-43c7-b555-57321d324b61")
 	)
 	(no_connect
-		(at 124.46 168.91)
-		(uuid "4286f14f-2b46-4191-8241-d95eb448c65b")
-	)
-	(no_connect
 		(at 46.99 184.15)
 		(uuid "44543bf6-e335-4d5b-88f9-e812d057367b")
 	)
@@ -5162,6 +5182,10 @@
 		(uuid "4a73c4a1-aaeb-402d-84ef-bd523c290029")
 	)
 	(no_connect
+		(at 124.46 168.91)
+		(uuid "4cc8c83c-2ab2-4d1b-bd09-f022a41c85bb")
+	)
+	(no_connect
 		(at 46.99 158.75)
 		(uuid "4e290086-3b13-4c28-96ac-24132ea93c4d")
 	)
@@ -5172,6 +5196,10 @@
 	(no_connect
 		(at 194.31 133.35)
 		(uuid "51860fb0-dfab-47a0-9af1-d78fd073fd7e")
+	)
+	(no_connect
+		(at 124.46 176.53)
+		(uuid "53899b30-0812-4ee8-bb60-20d9cfc84fa7")
 	)
 	(no_connect
 		(at 137.16 161.29)
@@ -5234,10 +5262,6 @@
 		(uuid "73cceb54-704c-43fb-874f-bd7a4b5edfca")
 	)
 	(no_connect
-		(at 137.16 173.99)
-		(uuid "75338c27-bc78-4343-ab0f-1c8412658cb9")
-	)
-	(no_connect
 		(at 46.99 179.07)
 		(uuid "76f30ec9-44cc-4041-becd-9ef32e77150c")
 	)
@@ -5254,6 +5278,10 @@
 		(uuid "7cc21bec-7c6c-42fe-b447-45ce36f7ad9b")
 	)
 	(no_connect
+		(at 137.16 125.73)
+		(uuid "7d06c8bd-5ff6-486a-a887-bdc1d0805957")
+	)
+	(no_connect
 		(at 124.46 138.43)
 		(uuid "7d0a226b-8c61-4b3a-8f25-58e9bb9a8fc2")
 	)
@@ -5266,6 +5294,10 @@
 		(uuid "80771d17-0c01-41ff-aa5f-b90f5bbffab0")
 	)
 	(no_connect
+		(at 137.16 118.11)
+		(uuid "87e89983-6e40-425e-92d3-b93e65c10769")
+	)
+	(no_connect
 		(at 267.97 135.89)
 		(uuid "88a17c16-656a-4bd0-b164-665ca6a53c42")
 	)
@@ -5276,6 +5308,10 @@
 	(no_connect
 		(at 267.97 153.67)
 		(uuid "8ac8ba95-5dc0-44a7-9a07-6d455be146ae")
+	)
+	(no_connect
+		(at 124.46 171.45)
+		(uuid "8e21a089-273b-4ee4-9174-c219a0e54d48")
 	)
 	(no_connect
 		(at 267.97 115.57)
@@ -5294,10 +5330,6 @@
 		(uuid "9bc2b1fb-7404-42d1-a34a-102e5c0da81c")
 	)
 	(no_connect
-		(at 124.46 125.73)
-		(uuid "a01f3696-7ddd-4944-b006-bc17fcb645fb")
-	)
-	(no_connect
 		(at 267.97 120.65)
 		(uuid "a2e48e35-c9e9-4543-b8e2-7fd34cf561d0")
 	)
@@ -5310,20 +5342,12 @@
 		(uuid "a644a02a-be58-44c4-8609-a7d2a86be643")
 	)
 	(no_connect
-		(at 137.16 176.53)
-		(uuid "a7c9603b-27b5-4ad0-bc08-f4a167b2b738")
-	)
-	(no_connect
 		(at 194.31 113.03)
 		(uuid "a80fcf92-3227-434a-8a88-7095b89c22f6")
 	)
 	(no_connect
 		(at 137.16 146.05)
 		(uuid "aa85bed4-3bbf-417b-9a5f-7b0ffd88a257")
-	)
-	(no_connect
-		(at 124.46 133.35)
-		(uuid "b3f52b45-2eb2-43b7-bd90-8842a1717c16")
 	)
 	(no_connect
 		(at 194.31 135.89)
@@ -5438,10 +5462,6 @@
 		(uuid "eaaade27-fc3c-4084-b47b-f293ce7bda67")
 	)
 	(no_connect
-		(at 124.46 130.81)
-		(uuid "ec9d06a3-5761-4fcd-9bad-74a319a7c8f1")
-	)
-	(no_connect
 		(at 88.9 38.1)
 		(uuid "eecbfc45-5bbc-4c23-a987-755bdd4bda7a")
 	)
@@ -5506,6 +5526,16 @@
 			(type default)
 		)
 		(uuid "00d191c6-7c01-46a0-a88b-a1604881a779")
+	)
+	(wire
+		(pts
+			(xy 121.92 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d9331c-7d37-4708-9b09-0692e0c62862")
 	)
 	(wire
 		(pts
@@ -5599,16 +5629,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 176.53) (xy 124.46 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cea9883-fd5d-4ad9-975a-d86d864124b9")
-	)
-	(wire
-		(pts
 			(xy 44.45 156.21) (xy 46.99 156.21)
 		)
 		(stroke
@@ -5629,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 58.42 62.23)
+			(xy 66.04 58.42) (xy 66.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5659,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 139.7 130.81)
+			(xy 137.16 133.35) (xy 139.7 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 58.42 82.55)
+			(xy 66.04 80.01) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5719,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 58.42 72.39)
+			(xy 66.04 69.85) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 135.89) (xy 139.7 135.89)
+			(xy 137.16 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5996,16 +6016,6 @@
 			(type default)
 		)
 		(uuid "3c516f0c-753c-4a46-901b-a4db37d53d37")
-	)
-	(wire
-		(pts
-			(xy 137.16 123.19) (xy 139.7 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cb9c668-c534-478b-a0e7-193cf7918034")
 	)
 	(wire
 		(pts
@@ -6379,16 +6389,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 173.99) (xy 124.46 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8545db94-e3ff-4f73-a84e-a86071f18349")
-	)
-	(wire
-		(pts
 			(xy 115.57 35.56) (xy 115.57 38.1)
 		)
 		(stroke
@@ -6479,13 +6479,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 139.7 125.73)
+			(xy 137.16 176.53) (xy 143.51 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e8811f3-efd4-4d99-b484-3f0ad3007183")
+		(uuid "901ce3ca-8c26-4db2-bb61-d040043a2a74")
 	)
 	(wire
 		(pts
@@ -6539,7 +6539,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 63.5 58.42)
+			(xy 66.04 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6609,7 +6609,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 138.43) (xy 139.7 138.43)
+			(xy 137.16 140.97) (xy 139.7 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6799,6 +6799,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 125.73) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c742694f-6b98-47e5-b539-b5bde24f6aad")
+	)
+	(wire
+		(pts
 			(xy 59.69 156.21) (xy 62.23 156.21)
 		)
 		(stroke
@@ -6879,6 +6889,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 173.99) (xy 143.51 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f896cf-e939-4fc9-ad8e-59c285892ac5")
+	)
+	(wire
+		(pts
+			(xy 121.92 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a1e645-fdee-423a-ae01-70358edd826d")
+	)
+	(wire
+		(pts
 			(xy 44.45 130.81) (xy 46.99 130.81)
 		)
 		(stroke
@@ -6956,16 +6986,6 @@
 			(type default)
 		)
 		(uuid "dd65429e-b114-4bd9-8201-c1e38581e8b1")
-	)
-	(wire
-		(pts
-			(xy 137.16 118.11) (xy 139.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0e3412-07cd-467b-a4dc-9f3ef7111aa8")
 	)
 	(wire
 		(pts
@@ -7079,7 +7099,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 139.7 133.35)
+			(xy 137.16 135.89) (xy 139.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7167,7 +7187,7 @@
 		)
 		(uuid "09597870-8120-41b6-abb3-31829fa0f7f6")
 	)
-	(label "USR_LED"
+	(label "STATUS_LED"
 		(at 118.11 186.69 180)
 		(effects
 			(font
@@ -7198,12 +7218,12 @@
 		(uuid "0c7c8f18-985e-450a-a6f9-a31d61fb5bfb")
 	)
 	(label "MCU_B_DIR"
-		(at 118.11 173.99 180)
+		(at 143.51 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "10fc9a3c-3cf7-4a97-a816-a16754c6e608")
 	)
@@ -7447,8 +7467,8 @@
 		)
 		(uuid "6f167102-34c6-49d4-8318-395d812d794d")
 	)
-	(label "USR_LED"
-		(at 63.5 58.42 0)
+	(label "STATUS_LED"
+		(at 71.12 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7558,7 +7578,7 @@
 		(uuid "a0dff073-7839-4113-b35e-ff9489612238")
 	)
 	(label "MCU_C_DIR"
-		(at 143.51 179.07 0)
+		(at 143.51 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7638,7 +7658,7 @@
 		(uuid "d4fa43ea-b988-4128-b8d0-7a9427367637")
 	)
 	(label "MCU_C_STEP"
-		(at 143.51 181.61 0)
+		(at 143.51 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7648,12 +7668,12 @@
 		(uuid "d780efe3-e944-41ae-8f95-7231bdf57aae")
 	)
 	(label "MCU_B_STEP"
-		(at 118.11 176.53 180)
+		(at 143.51 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "dba70fb1-7d4a-452e-a9ff-bb29b546d56a")
 	)
@@ -7813,7 +7833,7 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_1"
 		(shape input)
-		(at 139.7 135.89 0)
+		(at 139.7 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7823,7 +7843,7 @@
 		)
 		(uuid "296f9a74-c6e0-4856-99d3-b024ad6fc22e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 135.89 0)
+			(at 160.6577 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7877,7 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_0"
 		(shape input)
-		(at 139.7 138.43 0)
+		(at 139.7 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7867,7 +7887,7 @@
 		)
 		(uuid "3631a282-f717-48a8-a571-9fc99aea76b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 138.43 0)
+			(at 160.6577 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,22 +7987,22 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_5"
 		(shape input)
-		(at 139.7 123.19 0)
+		(at 121.92 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7e12969a-aab3-44a7-befa-93cf634d021c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 123.19 0)
+			(at 100.9623 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8011,22 +8031,22 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_4"
 		(shape input)
-		(at 139.7 125.73 0)
+		(at 121.92 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "82400be5-16e5-4828-8037-fe2147b4ba3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 125.73 0)
+			(at 100.9623 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8055,7 +8075,7 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_2"
 		(shape input)
-		(at 139.7 133.35 0)
+		(at 139.7 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8065,7 +8085,7 @@
 		)
 		(uuid "a5ce35cd-2c36-40d1-9d2c-3c5d36f350f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 133.35 0)
+			(at 160.6577 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,22 +8119,22 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_6"
 		(shape input)
-		(at 139.7 120.65 0)
+		(at 121.92 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b6322e00-b3fb-4d28-8026-43225f788c4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 120.65 0)
+			(at 100.9623 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8187,7 +8207,7 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_3"
 		(shape input)
-		(at 139.7 130.81 0)
+		(at 139.7 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8197,7 +8217,7 @@
 		)
 		(uuid "e4f37440-db7e-41af-bdd7-5f35b677b741")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 130.81 0)
+			(at 160.6577 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8295,7 @@
 	)
 	(global_label "MCU_DIGITAL_OUT_7"
 		(shape input)
-		(at 139.7 118.11 0)
+		(at 139.7 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8285,7 +8305,7 @@
 		)
 		(uuid "fc12c2c2-fb68-40a9-8ab5-0a0b9c9757c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.6577 118.11 0)
+			(at 160.6577 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8540,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cf478f5-1415-4205-a2f6-2435c3aa2698")
 		(property "Reference" "#PWR017"
 			(at 100.33 95.25 0)
@@ -9668,7 +9687,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TXLED"
+		(property "Value" "LED"
 			(at 104.902 76.2 0)
 			(effects
 				(font
@@ -9713,7 +9732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "3147-B1501USD-20D000313U1930CT-ND"
+		(property "Digikey Part Number" "3147-B1501USD-20D000313U1930CT-ND "
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -9843,15 +9862,15 @@
 		(dnp no)
 		(uuid "76977cfb-3734-4c5c-bf1f-be8cafb6c7e1")
 		(property "Reference" "J4"
-			(at 131.064 97.028 0)
+			(at 130.556 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NucleoF446ZE CN12 Header"
-			(at 131.572 99.822 0)
+		(property "Value" "Conn_02x35_Odd_Even"
+			(at 131.064 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/SSW-135-03-T-D/7886849 "
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/SSW-135-03-T-D/7886849"
 			(at 129.54 148.59 0)
 			(effects
 				(font
@@ -10190,7 +10209,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 58.42 66.04 0)
+		(at 66.04 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10198,7 +10217,7 @@
 		(dnp no)
 		(uuid "79c319e2-e765-4df5-afd6-dd143f43a7f1")
 		(property "Reference" "R53"
-			(at 62.738 65.786 0)
+			(at 70.358 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10225,7 @@
 			)
 		)
 		(property "Value" "180R"
-			(at 63.246 68.326 0)
+			(at 70.866 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 59.436 66.294 90)
+			(at 67.056 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 66.04 0)
+			(at 66.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,7 +10251,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 58.42 66.04 0)
+			(at 66.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10260,7 @@
 			)
 		)
 		(property "Digikey Part Number" "311-180FRCT-ND"
-			(at 58.42 66.04 0)
+			(at 66.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,7 +10269,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-07180RL/728597"
-			(at 58.42 66.04 0)
+			(at 66.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10294,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 58.42 82.55 0)
+		(at 66.04 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10283,7 +10302,7 @@
 		(dnp no)
 		(uuid "7dd6b655-d1b3-41f1-99c1-bf0ca9423609")
 		(property "Reference" "#PWR07"
-			(at 58.42 88.9 0)
+			(at 66.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10311,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 65.024 83.82 0)
+			(at 66.04 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 82.55 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 82.55 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 58.42 82.55 0)
+			(at 66.04 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11182,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 76.2 90)
+		(at 66.04 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11171,7 +11190,7 @@
 		(dnp no)
 		(uuid "a018c0b7-7342-48a3-aa81-08d39f6eaca8")
 		(property "Reference" "D1"
-			(at 62.23 74.168 90)
+			(at 69.85 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,8 +11198,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USR_LED"
-			(at 61.976 77.216 90)
+		(property "Value" "LED"
+			(at 69.596 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11208,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +11217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11226,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11235,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11244,7 @@
 			)
 		)
 		(property "Digikey Part Number" "3147-B1501USD-20D000313U1930CT-ND "
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11253,7 @@
 			)
 		)
 		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/harvatek-corporation/B1501USD-20D000313U1930/24635249 "
-			(at 58.42 76.2 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,7 +11445,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Wiznet W5500 Eval Module"
 			(at 153.67 67.31 0)
 			(effects
 				(font
@@ -12150,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "SAM15594-ND"
+		(property "Digikey Part Number" "SAM1204-20-ND"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -12159,7 +12178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/ESQ-120-44-T-D/7098774 "
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/samtec-inc/SSQ-120-03-T-D/1111840"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -12687,15 +12706,15 @@
 		(dnp no)
 		(uuid "fe2c3cf4-4ffc-425c-ad17-137645dd7d89")
 		(property "Reference" "J1"
-			(at 53.848 99.06 0)
+			(at 53.848 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NucleoF446ZE CN11 Header"
-			(at 53.848 101.6 0)
+		(property "Value" "Conn_02x35_Odd_Even"
+			(at 53.848 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,6 +13081,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -13103,6 +13123,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "X"
@@ -13111,6 +13132,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "Y"
@@ -13119,6 +13141,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
@@ -13201,6 +13224,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -13242,6 +13266,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -13283,6 +13308,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "B"
@@ -13291,6 +13317,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "C"
@@ -13299,6 +13326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
@@ -13381,6 +13409,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -13422,6 +13451,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH1_NAME" "Z"
@@ -13430,6 +13460,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "STEPGEN_CH2_NAME" "A"
@@ -13438,6 +13469,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "${STEPGEN_CH1_NAME}_DIR" input
