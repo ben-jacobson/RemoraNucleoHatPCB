@@ -12102,7 +12102,7 @@
 				)
 			)
 		)
-		(property "Value" "Raspberry_Pi_2_3"
+		(property "Value" "Raspberry_Pi_Header"
 			(at 231.14 100.33 0)
 			(effects
 				(font
