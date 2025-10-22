@@ -541,14 +541,14 @@
         },
         {
           "group_by": false,
-          "label": "Digikey Part Number",
-          "name": "Digikey Part Number",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
           "show": true
         },
         {
@@ -683,7 +683,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Digikey Part Number"
+      "sort_field": "${QUANTITY}"
     },
     "connection_grid_size": 50.0,
     "drawing": {

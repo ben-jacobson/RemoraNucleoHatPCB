@@ -7149,7 +7149,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 120.65) (xy 66.04 120.65)
+			(xy 59.69 120.65) (xy 62.23 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7638,7 +7638,7 @@
 		(uuid "d1cdc984-48bb-4652-880e-5d9ab6098854")
 	)
 	(label "MCU_RST"
-		(at 66.04 120.65 0)
+		(at 62.23 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9205,7 +9205,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 78.486 127 90)
+			(at 90.17 127.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9611,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73c571ba-f1f1-47e0-91d7-c4b0a84c3096")
 		(property "Reference" "#PWR011"
 			(at 88.9 125.73 0)
@@ -9623,7 +9622,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 88.9 116.84 0)
+			(at 90.424 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10850,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.708 116.586 0)
+			(at 74.676 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11066,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 67.31 124.46 90)
+			(at 78.232 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +11620,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 83.312 119.888 0)
+			(at 88.392 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
