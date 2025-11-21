@@ -1391,7 +1391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00e2e693-3989-4974-8331-1bc4ddf30858")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0101"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -1441,19 +1441,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0141")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0165")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0157")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0149")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "184f21f2-1fa6-4fd0-b2d9-3579ecf3a243")
-		(property "Reference" "U19"
+		(property "Reference" "U7"
 			(at 149.86 123.19 0)
 			(effects
 				(font
@@ -1584,19 +1584,19 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "U22")
+					(reference "U19")
 					(unit 4)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "U21")
+					(reference "U10")
 					(unit 4)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "U20")
+					(reference "U9")
 					(unit 4)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "U19")
+					(reference "U7")
 					(unit 4)
 				)
 			)
@@ -1681,15 +1681,15 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "R28")
+					(reference "R84")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "R40")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "R36")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
@@ -1709,7 +1709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a92787e-2223-4d04-9379-1ff65ab41b6c")
-		(property "Reference" "U19"
+		(property "Reference" "U7"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -1824,19 +1824,19 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "U22")
+					(reference "U19")
 					(unit 2)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "U21")
+					(reference "U10")
 					(unit 2)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "U20")
+					(reference "U9")
 					(unit 2)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "U19")
+					(reference "U7")
 					(unit 2)
 				)
 			)
@@ -1852,7 +1852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4af4288a-186f-4c33-b166-6f200f1022eb")
-		(property "Reference" "U19"
+		(property "Reference" "U7"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -1967,19 +1967,19 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "U22")
+					(reference "U19")
 					(unit 3)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "U21")
+					(reference "U10")
 					(unit 3)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "U20")
+					(reference "U9")
 					(unit 3)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "U19")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -1994,7 +1994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d0d5617-212a-4404-a6cb-e2d3924b81af")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0100"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -2044,19 +2044,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0140")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0164")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0156")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0148")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a094db3-995d-4fba-90d1-394d7684826a")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR098"
 			(at 139.7 116.84 0)
 			(effects
 				(font
@@ -2122,19 +2122,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0138")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0162")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0154")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0146")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a106ecd-21a6-4dbf-ace7-a6c8c2f79a4c")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR096"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -2200,19 +2200,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0136")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0160")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0152")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0144")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2228,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef91b38-dc6c-4da3-94f7-e48b013c6cb4")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR097"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -2278,19 +2278,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0137")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0161")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0153")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0145")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -2375,15 +2375,15 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "R29")
+					(reference "R85")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "R41")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "R37")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
@@ -2402,7 +2402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd6fb85d-c6c6-411f-9bbf-6c056f29ee99")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0103"
 			(at 162.56 143.51 0)
 			(effects
 				(font
@@ -2452,19 +2452,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0143")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0167")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0159")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0151")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2480,7 +2480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c62e61b4-2ead-4bb3-9b59-5ccbb283f941")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR099"
 			(at 139.7 142.24 0)
 			(effects
 				(font
@@ -2530,19 +2530,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0139")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0163")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0155")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0147")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64b4bf4-f08c-4b60-bcfa-c0230cc96adb")
-		(property "Reference" "U19"
+		(property "Reference" "U7"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -2673,19 +2673,19 @@
 		(instances
 			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "U22")
+					(reference "U19")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "U21")
+					(reference "U10")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "U20")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "U19")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d069adc2-5409-412e-862f-fd9ec79235df")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0102"
 			(at 162.56 118.11 0)
 			(effects
 				(font
@@ -2750,19 +2750,19 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "#PWR0142")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "#PWR0166")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "#PWR0158")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
-					(reference "#PWR0150")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2847,15 +2847,15 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "R30")
+					(reference "R86")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "R42")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "R38")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
@@ -2944,15 +2944,15 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/1fe6751c-d44f-4f1b-8c0c-fbb5540720e0"
-					(reference "R31")
+					(reference "R87")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
-					(reference "R43")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
-					(reference "R39")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
