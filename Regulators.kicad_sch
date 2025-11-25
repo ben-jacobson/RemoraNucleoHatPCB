@@ -5143,7 +5143,7 @@
 				)
 			)
 		)
-		(property "Value" "Peripheral->Logic GND Jumper"
+		(property "Value" "Isolated->Logic GND Jumper"
 			(at 256.54 55.372 0)
 			(effects
 				(font
@@ -5456,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Value" "Peripheral->Logic VDD Jumper"
+		(property "Value" "Isolated->Logic VDD Jumper"
 			(at 256.286 51.562 0)
 			(effects
 				(font
@@ -7309,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Value" "24V Peripheral"
+		(property "Value" "24V Isolated"
 			(at 38.608 117.348 0)
 			(effects
 				(font
