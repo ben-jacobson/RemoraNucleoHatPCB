@@ -23,6 +23,17 @@ Schematics and board layout are editable with Kicad 9. Gerbers and PDF's of the 
 - 1x non-isolated 0-10v DAC for spindle control. Additional indexing or direction control to be done with digital outputs.
 - 12-24V DC power input for powering Nucleo and supplying 3.3V to sections of the board that are isolated. Galvanic isolation between Nucleo and external devices is achieved by supplying your own isolated 5V supply. Or you can set a jumper and have the board supply 5V to your external devices. 
 
+## Set up Guide
+A full build guide will be provided. In the mean time, have provided a few important notes. 
+
+**Jumper settings:**
+Before powering on your Nucleo hat, ensure that the following two jumpers are set: 
+JP1: Please remove this jumper entirely
+JP3: Place to the far right position, indicating VIN, as per the picture in JP3Setting.png
+
+**Connecting to USB:**
+Take care when connecting the device to USB. Please make sure that the board is fully powered up before connecting to USB, failing to do so could result in damage to your computer. This is not an issue caused by our design, but in the Nucleo itself. For more info see 7.4.2 in the datasheet. The device does not need USB to run. USB can be used to flash new firmware or monitor serial output. For the latter, the provided TX pin header is a better choice if you'd like constant serial monitoring.
+
 ## Todos
 - Finish spindle design
 - Work on high speed differential AB encoder, calculate the max speed given 40Khz thread

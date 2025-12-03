@@ -5077,12 +5077,6 @@
 		(uuid "040e62f1-11aa-4e75-8326-26658a761043")
 	)
 	(junction
-		(at 97.79 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "063e3ec0-785b-45d2-b041-af1011c1b716")
-	)
-	(junction
 		(at 77.47 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5267,10 +5261,6 @@
 		(uuid "2c41e691-6856-4dd9-a9f3-abbca51edd86")
 	)
 	(no_connect
-		(at 124.46 148.59)
-		(uuid "2e39c684-e53f-4b9a-bbbc-99574a3f39ab")
-	)
-	(no_connect
 		(at 124.46 128.27)
 		(uuid "34c972b3-bead-4d9d-839d-1ebf4322f464")
 	)
@@ -5341,10 +5331,6 @@
 	(no_connect
 		(at 124.46 113.03)
 		(uuid "5e81a215-625b-4ffc-8591-5ffe83db42d2")
-	)
-	(no_connect
-		(at 124.46 151.13)
-		(uuid "60e2bf5b-bbb1-4c1a-9b7e-81b16bb3d5d5")
 	)
 	(no_connect
 		(at 267.97 156.21)
@@ -6280,6 +6266,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 151.13) (xy 124.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577e7c5e-2c2f-4f35-a986-1783196e2889")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 100.33 71.12)
 		)
 		(stroke
@@ -6357,6 +6353,16 @@
 			(type default)
 		)
 		(uuid "638d6587-4fcd-4ebf-ade1-d99608c0ddc7")
+	)
+	(wire
+		(pts
+			(xy 121.92 148.59) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665b0382-9b30-4cac-94c6-e6b22e0b4410")
 	)
 	(wire
 		(pts
@@ -7918,6 +7924,28 @@
 		)
 		(uuid "ff8022fe-c3fb-4776-ab3d-210671fb76af")
 	)
+	(global_label "MCU_ANALOG_IN_0"
+		(shape input)
+		(at 121.92 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "048503df-41b2-4def-a246-b3e886b9d6da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3532 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_DIGITAL_IN_7"
 		(shape input)
 		(at 62.23 146.05 0)
@@ -8446,6 +8474,28 @@
 			)
 		)
 	)
+	(global_label "MCU_ANALOG_IN_1"
+		(shape input)
+		(at 121.92 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd21cd7f-ddaf-4e11-be21-2e89539c4409")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3532 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 111.76 21.59 0)
@@ -8895,72 +8945,6 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 97.79 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1786a002-6c71-45c8-a53f-e746e6915f92")
-		(property "Reference" "#FLG03"
-			(at 97.79 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 97.79 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 97.79 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "402ad5ad-c70a-4028-971e-55c1527b4e9c")
-		)
-		(instances
-			(project "Remora Nucleo F446RE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -13470,6 +13454,49 @@
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
 					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 67.31)
+		(size 34.29 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4dfed52-cba5-44a6-a641-6a90c0b6c0aa")
+		(property "Sheetname" "Analog Inputs"
+			(at 246.38 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analogins.kicad_sch"
+			(at 246.38 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf"
+					(page "15")
 				)
 			)
 		)

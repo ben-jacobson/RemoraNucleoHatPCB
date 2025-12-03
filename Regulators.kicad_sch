@@ -2731,6 +2731,12 @@
 		(uuid "060f80d9-de65-44f7-922b-4a236e17ac87")
 	)
 	(junction
+		(at 153.67 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1486990a-c63b-4f70-8ee8-ac07c9a582c8")
+	)
+	(junction
 		(at 63.5 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2789,6 +2795,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d85fd953-6dae-41fe-88f0-33af6b306cbc")
+	)
+	(junction
+		(at 153.67 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d962d8cc-986c-4d2b-93fa-cb0fd183e1b4")
 	)
 	(junction
 		(at 76.2 120.65)
@@ -4160,7 +4172,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 148.336 107.442 0)
+			(at 153.67 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,6 +4592,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "5923b84a-c843-42de-baed-eac782fcffff")
+		(property "Reference" "#FLG09"
+			(at 155.575 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c70e97-7f19-4ee1-a4df-feedc8e76b23")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 153.67 59.69 0)
 		(unit 1)
@@ -4916,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca3ea40-a9bd-45f2-8c0d-7e3b24b6b8e8")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 52.705 45.72 0)
 			(effects
 				(font
@@ -4967,7 +5045,7 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ef3f74-cb3a-463f-bdd3-5420743687ef")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 47.625 60.96 0)
 			(effects
 				(font
@@ -5120,7 +5198,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -5525,6 +5603,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8e8d95fe-114f-4e7a-bbbf-dd2d7baeaf48")
+		(property "Reference" "#FLG07"
+			(at 155.575 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 157.48 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2d815bd-5e29-41e3-98e0-30e77615ccb1")
+		)
+		(instances
+			(project "Remora Nucleo F446ZE Hat"
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 137.16 50.8 90)
 		(unit 1)
@@ -5772,7 +5916,7 @@
 		(dnp no)
 		(uuid "9bf23d6a-83ae-42dd-a9fa-df9c6c5673d8")
 		(property "Reference" "JP2"
-			(at 156.21 110.236 90)
+			(at 156.464 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9bb06f1-6c48-4ded-a942-07fb33001cc4")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG06"
 			(at 52.705 115.57 0)
 			(effects
 				(font
@@ -6269,7 +6413,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa0abb8-6827-42ee-a1fc-5ad8ac939fb5")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG04"
 			(at 47.625 130.81 0)
 			(effects
 				(font
@@ -6402,7 +6546,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#FLG05")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -6977,7 +7121,7 @@
 		(dnp no)
 		(uuid "d2f9097d-4f24-471a-9523-b2c7baebeab0")
 		(property "Reference" "JP1"
-			(at 156.21 40.386 90)
+			(at 156.972 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56711ce-40ba-4c5b-94e4-96b21a2e0140")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG010"
 			(at 155.575 120.65 0)
 			(effects
 				(font
@@ -7570,7 +7714,7 @@
 		(instances
 			(project "Remora Nucleo F446RE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e0dc83df-f7d9-4488-bd0b-6c0af36f8703"
-					(reference "#FLG09")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)

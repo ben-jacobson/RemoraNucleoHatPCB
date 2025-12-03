@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.75,
+          "width": 1.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -769,6 +769,10 @@
     [
       "de6abc2f-b4f3-405f-80dc-20e6ec6edfe3",
       "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
+    ],
+    [
+      "c4dfed52-cba5-44a6-a641-6a90c0b6c0aa",
+      "Analog Inputs"
     ],
     [
       "a10f9653-3098-46b3-8571-958500eea49a",
