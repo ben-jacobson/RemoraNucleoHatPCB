@@ -2698,6 +2698,16 @@
 		)
 		(uuid "60fcb8c9-580c-4e33-aac8-840b005f21fd")
 	)
+	(text "PSUs - 18-36V. Nominal 24V"
+		(exclude_from_sim no)
+		(at 67.31 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66a95a32-cc18-4c55-b41d-015bf470d709")
+	)
 	(text "Peripheral Side 24V DC In\n"
 		(exclude_from_sim no)
 		(at 34.036 110.236 0)

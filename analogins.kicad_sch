@@ -2396,7 +2396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "311-4.70KFRCT-ND "
+		(property "Digikey Part Number" "RMCF1206JT2K40CT-ND"
 			(at 161.29 48.26 0)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF1206JT2K40/1757490"
 			(at 161.29 48.26 0)
 			(effects
 				(font
@@ -2437,10 +2437,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b830b37-0dbd-4942-889e-e36c5ed2a3f2")
 		(property "Reference" "U15"
-			(at 138.43 110.4899 0)
+			(at 142.494 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2448,7 @@
 			)
 		)
 		(property "Value" "MCP6042"
-			(at 138.43 113.0299 0)
+			(at 140.97 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -3477,7 +3476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -3712,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -4309,7 +4308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "311-4.70KFRCT-ND "
+		(property "Digikey Part Number" "RMCF1206JT2K40CT-ND"
 			(at 161.29 111.76 0)
 			(effects
 				(font
@@ -4318,7 +4317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/yageo/RC1206FR-074K7L/728887 "
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/stackpole-electronics-inc/RMCF1206JT2K40/1757490"
 			(at 161.29 111.76 0)
 			(effects
 				(font
