@@ -775,6 +775,10 @@
       "Analog Inputs"
     ],
     [
+      "e401cb00-fa11-4a99-9e35-1d19f69fa4a0",
+      "Encoder Inputs"
+    ],
+    [
       "a10f9653-3098-46b3-8571-958500eea49a",
       "Digital Outputs"
     ],

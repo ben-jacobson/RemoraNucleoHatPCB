@@ -1163,6 +1163,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NPN Outputs"
+		(exclude_from_sim no)
+		(at 145.034 52.832 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "165ffa5b-8fb3-425e-b3a1-0e2cef16d41f")
+	)
 	(junction
 		(at 158.75 106.68)
 		(diameter 0)
