@@ -763,6 +763,10 @@
       "Digital Input ${CH1}-${CH4}"
     ],
     [
+      "0efd5135-f8b7-4cd1-8e93-f14156388778",
+      "Digital Input ${CH1}-${CH4}"
+    ],
+    [
       "ee859447-e27b-4f56-862a-3601314a5b43",
       "${STEPGEN_CH1_NAME} and ${STEPGEN_CH2_NAME} Stepper Drivers"
     ],
@@ -789,10 +793,6 @@
     [
       "181d5939-8311-41b3-8216-f7233e3a75eb",
       "Digital Inputs"
-    ],
-    [
-      "1fe6751c-d44f-4f1b-8c0c-fbb5540720e0",
-      "Digital Input ${CH1}-${CH4}"
     ]
   ],
   "text_variables": {}
