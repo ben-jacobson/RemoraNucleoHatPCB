@@ -1403,7 +1403,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0228")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -1417,137 +1417,6 @@
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR0101")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-247")
-		(at 149.86 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "184f21f2-1fa6-4fd0-b2d9-3579ecf3a243")
-		(property "Reference" "U"
-			(at 149.86 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-247"
-			(at 149.86 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 144.78 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 149.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 149.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "160-2255-1-ND"
-			(at 149.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
-			(at 149.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eeb")
-		)
-		(pin "7"
-			(uuid "d37b27c4-e912-4cd2-97ec-5eb8b5dca4a6")
-		)
-		(pin "9"
-			(uuid "43bcf1ec-ddc5-4942-92b7-298b5496468e")
-		)
-		(pin "2"
-			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503eb")
-		)
-		(pin "8"
-			(uuid "2eba2f58-ee76-46d8-b245-36cc6da13153")
-		)
-		(pin "10"
-			(uuid "6336b396-a257-44f7-a16b-b6c0b45967e1")
-		)
-		(pin "6"
-			(uuid "d1726913-5dfb-4533-9661-f30d09036953")
-		)
-		(pin "12"
-			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbc")
-		)
-		(pin "3"
-			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70b")
-		)
-		(pin "11"
-			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b6")
-		)
-		(pin "1"
-			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc0")
-		)
-		(pin "16"
-			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7c9")
-		)
-		(pin "14"
-			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09a8")
-		)
-		(pin "13"
-			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a44")
-		)
-		(pin "15"
-			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae15")
-		)
-		(pin "5"
-			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d449")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "U16")
-					(unit 4)
 				)
 			)
 		)
@@ -1611,7 +1480,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0226")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -1688,7 +1557,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0223")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -1785,7 +1654,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "R95")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -1799,268 +1668,6 @@
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "R32")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-247")
-		(at 149.86 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a92787e-2223-4d04-9379-1ff65ab41b6c")
-		(property "Reference" "U"
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-247"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 144.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "160-2255-1-ND"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
-			(at 149.86 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3c2622e4-b592-49cf-b035-ab87c43effeb")
-		)
-		(pin "7"
-			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf0")
-		)
-		(pin "9"
-			(uuid "3ee83d52-8c2b-46c7-9ef5-b73803186429")
-		)
-		(pin "2"
-			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503ec")
-		)
-		(pin "8"
-			(uuid "4de94d5b-aa88-4523-8255-6bc48576f62f")
-		)
-		(pin "10"
-			(uuid "c7c161b6-5589-44d2-b67f-e7b265350437")
-		)
-		(pin "6"
-			(uuid "d1726913-5dfb-4533-9661-f30d09036954")
-		)
-		(pin "12"
-			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbd")
-		)
-		(pin "3"
-			(uuid "3c0ab957-e9b0-4e14-be30-fa1f094c97a4")
-		)
-		(pin "11"
-			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b7")
-		)
-		(pin "1"
-			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc1")
-		)
-		(pin "16"
-			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7ca")
-		)
-		(pin "14"
-			(uuid "58427d92-d2d5-471f-98f7-d46f8d5a7db2")
-		)
-		(pin "13"
-			(uuid "2bce6715-512c-4b51-91cf-9ac51197d10d")
-		)
-		(pin "15"
-			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae16")
-		)
-		(pin "5"
-			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d44a")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "U17")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-247")
-		(at 149.86 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4af4288a-186f-4c33-b166-6f200f1022eb")
-		(property "Reference" "U"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-247"
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "160-2255-1-ND"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
-			(at 149.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eec")
-		)
-		(pin "7"
-			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf1")
-		)
-		(pin "9"
-			(uuid "3ee83d52-8c2b-46c7-9ef5-b7380318642a")
-		)
-		(pin "2"
-			(uuid "243200b3-d3a1-4a2f-bfe2-bbafe5c503ed")
-		)
-		(pin "8"
-			(uuid "4de94d5b-aa88-4523-8255-6bc48576f630")
-		)
-		(pin "10"
-			(uuid "c7c161b6-5589-44d2-b67f-e7b265350438")
-		)
-		(pin "6"
-			(uuid "0a248fcd-81d6-4f5d-bdfa-b0472b4edd7c")
-		)
-		(pin "12"
-			(uuid "076eb6c4-7a8d-48f5-9eea-8a0f5ef78939")
-		)
-		(pin "3"
-			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70c")
-		)
-		(pin "11"
-			(uuid "ac9cd22b-fac0-4bec-b6a1-240c89244214")
-		)
-		(pin "1"
-			(uuid "7cec06da-b88a-40aa-a84c-82af5ad53fc2")
-		)
-		(pin "16"
-			(uuid "6e8141dc-ac0e-421d-8f96-6b400f71c7cb")
-		)
-		(pin "14"
-			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09a9")
-		)
-		(pin "13"
-			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a45")
-		)
-		(pin "15"
-			(uuid "a59cae39-0a05-4a4b-b733-eed5aca3ae17")
-		)
-		(pin "5"
-			(uuid "d3c996cc-63ac-4e9d-8260-04602a711be0")
-		)
-		(instances
-			(project "Remora Nucleo F446ZE Hat"
-				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "U17")
-					(unit 3)
 				)
 			)
 		)
@@ -2124,7 +1731,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0227")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2138,6 +1745,256 @@
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR0100")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 132.08 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88fad7ac-7a18-4853-8729-9f3362bff9ed")
+		(property "Reference" "U7"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "c72257a3-f3da-41a3-9e4e-1ea7ece0d6ef")
+		)
+		(pin "3"
+			(uuid "ec5a200b-d1a1-473d-8e10-8ef3ea518160")
+		)
+		(pin "6"
+			(uuid "b23e8ace-2210-4ac4-b158-7f6d643511f0")
+		)
+		(pin "12"
+			(uuid "06aaddf5-6e03-4b25-9948-c883c3492c77")
+		)
+		(pin "8"
+			(uuid "d1782db3-45cf-4404-8e98-ccf89d8667f2")
+		)
+		(pin "10"
+			(uuid "974e5a15-ed60-4a04-a802-3e1c226cdfda")
+		)
+		(pin "9"
+			(uuid "8fa4ff16-6ec4-4747-a215-75db6e59e2c7")
+		)
+		(pin "1"
+			(uuid "73abb837-76d9-4b3a-9923-1edd2f3f891e")
+		)
+		(pin "2"
+			(uuid "f53d0bf3-9ae9-42db-9768-15d313b90ac3")
+		)
+		(pin "13"
+			(uuid "791ccb7b-e961-483e-97fd-f85849650994")
+		)
+		(pin "14"
+			(uuid "20127623-8ebc-48ed-b0fe-af1c45f3d076")
+		)
+		(pin "4"
+			(uuid "c6343b00-15ac-4a00-93db-a73b849a3671")
+		)
+		(pin "5"
+			(uuid "a9684ed5-b419-4318-aa0f-aae8a2a096b7")
+		)
+		(pin "7"
+			(uuid "d429cd33-2031-4a56-b0d2-9ebd954592fc")
+		)
+		(pin "16"
+			(uuid "3caf087e-2522-4082-8a9c-0799b46cc61c")
+		)
+		(pin "11"
+			(uuid "c16068de-9df6-4a4d-b9bf-cf4b55dd60d8")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
+					(reference "U11")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U10")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U9")
+					(unit 4)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 106.68 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a352d38-31d5-4496-af63-c9d3bd48bbe4")
+		(property "Reference" "U7"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "c72257a3-f3da-41a3-9e4e-1ea7ece0d6ef")
+		)
+		(pin "3"
+			(uuid "ec5a200b-d1a1-473d-8e10-8ef3ea518160")
+		)
+		(pin "6"
+			(uuid "b23e8ace-2210-4ac4-b158-7f6d643511f0")
+		)
+		(pin "12"
+			(uuid "06aaddf5-6e03-4b25-9948-c883c3492c77")
+		)
+		(pin "8"
+			(uuid "d1782db3-45cf-4404-8e98-ccf89d8667f2")
+		)
+		(pin "10"
+			(uuid "974e5a15-ed60-4a04-a802-3e1c226cdfda")
+		)
+		(pin "9"
+			(uuid "8fa4ff16-6ec4-4747-a215-75db6e59e2c7")
+		)
+		(pin "1"
+			(uuid "73abb837-76d9-4b3a-9923-1edd2f3f891e")
+		)
+		(pin "2"
+			(uuid "f53d0bf3-9ae9-42db-9768-15d313b90ac3")
+		)
+		(pin "13"
+			(uuid "791ccb7b-e961-483e-97fd-f85849650994")
+		)
+		(pin "14"
+			(uuid "20127623-8ebc-48ed-b0fe-af1c45f3d076")
+		)
+		(pin "4"
+			(uuid "c6343b00-15ac-4a00-93db-a73b849a3671")
+		)
+		(pin "5"
+			(uuid "a9684ed5-b419-4318-aa0f-aae8a2a096b7")
+		)
+		(pin "7"
+			(uuid "d429cd33-2031-4a56-b0d2-9ebd954592fc")
+		)
+		(pin "16"
+			(uuid "3caf087e-2522-4082-8a9c-0799b46cc61c")
+		)
+		(pin "11"
+			(uuid "c16068de-9df6-4a4d-b9bf-cf4b55dd60d8")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
+					(reference "U11")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U10")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U9")
+					(unit 3)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -2221,7 +2078,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "R96")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2298,7 +2155,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0225")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2312,6 +2169,131 @@
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
 					(reference "#PWR098")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-247")
+		(at 149.86 81.28 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b727c6-99f8-4208-a426-a7fcb7955a4a")
+		(property "Reference" "U7"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-247"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "c72257a3-f3da-41a3-9e4e-1ea7ece0d6ef")
+		)
+		(pin "3"
+			(uuid "ec5a200b-d1a1-473d-8e10-8ef3ea518160")
+		)
+		(pin "6"
+			(uuid "b23e8ace-2210-4ac4-b158-7f6d643511f0")
+		)
+		(pin "12"
+			(uuid "06aaddf5-6e03-4b25-9948-c883c3492c77")
+		)
+		(pin "8"
+			(uuid "d1782db3-45cf-4404-8e98-ccf89d8667f2")
+		)
+		(pin "10"
+			(uuid "974e5a15-ed60-4a04-a802-3e1c226cdfda")
+		)
+		(pin "9"
+			(uuid "8fa4ff16-6ec4-4747-a215-75db6e59e2c7")
+		)
+		(pin "1"
+			(uuid "73abb837-76d9-4b3a-9923-1edd2f3f891e")
+		)
+		(pin "2"
+			(uuid "f53d0bf3-9ae9-42db-9768-15d313b90ac3")
+		)
+		(pin "13"
+			(uuid "791ccb7b-e961-483e-97fd-f85849650994")
+		)
+		(pin "14"
+			(uuid "20127623-8ebc-48ed-b0fe-af1c45f3d076")
+		)
+		(pin "4"
+			(uuid "c6343b00-15ac-4a00-93db-a73b849a3671")
+		)
+		(pin "5"
+			(uuid "a9684ed5-b419-4318-aa0f-aae8a2a096b7")
+		)
+		(pin "7"
+			(uuid "d429cd33-2031-4a56-b0d2-9ebd954592fc")
+		)
+		(pin "16"
+			(uuid "3caf087e-2522-4082-8a9c-0799b46cc61c")
+		)
+		(pin "11"
+			(uuid "c16068de-9df6-4a4d-b9bf-cf4b55dd60d8")
+		)
+		(instances
+			(project ""
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
+					(reference "U11")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U10")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U9")
+					(unit 2)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U7")
+					(unit 2)
 				)
 			)
 		)
@@ -2375,7 +2357,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0230")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2402,8 +2384,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c64b4bf4-f08c-4b60-bcfa-c0230cc96adb")
-		(property "Reference" "U"
+		(uuid "c438adb5-276b-4a33-bfab-c32b7ca5617c")
+		(property "Reference" "U7"
 			(at 149.86 46.99 0)
 			(effects
 				(font
@@ -2449,76 +2431,70 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "160-2255-1-ND"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e684fa9e-032d-421f-87c5-2fced1b77eed")
-		)
-		(pin "7"
-			(uuid "ceaa3fee-d348-4a6c-9f5b-6194f66aadf2")
-		)
-		(pin "9"
-			(uuid "3ee83d52-8c2b-46c7-9ef5-b7380318642b")
-		)
-		(pin "2"
-			(uuid "6a37c414-3f80-429d-8014-43a1a8ce8d22")
-		)
-		(pin "8"
-			(uuid "4de94d5b-aa88-4523-8255-6bc48576f631")
-		)
-		(pin "10"
-			(uuid "c7c161b6-5589-44d2-b67f-e7b265350439")
-		)
-		(pin "6"
-			(uuid "d1726913-5dfb-4533-9661-f30d09036955")
-		)
-		(pin "12"
-			(uuid "79d3dd21-f103-4cd2-a355-fa2642e48bbe")
+		(pin "15"
+			(uuid "c72257a3-f3da-41a3-9e4e-1ea7ece0d6ef")
 		)
 		(pin "3"
-			(uuid "5bf441d2-281e-44d3-a7a8-b5238536f70d")
+			(uuid "ec5a200b-d1a1-473d-8e10-8ef3ea518160")
 		)
-		(pin "11"
-			(uuid "ac9ac156-688b-4cc9-b5d1-4aa2780a44b8")
+		(pin "6"
+			(uuid "b23e8ace-2210-4ac4-b158-7f6d643511f0")
+		)
+		(pin "12"
+			(uuid "06aaddf5-6e03-4b25-9948-c883c3492c77")
+		)
+		(pin "8"
+			(uuid "d1782db3-45cf-4404-8e98-ccf89d8667f2")
+		)
+		(pin "10"
+			(uuid "974e5a15-ed60-4a04-a802-3e1c226cdfda")
+		)
+		(pin "9"
+			(uuid "8fa4ff16-6ec4-4747-a215-75db6e59e2c7")
 		)
 		(pin "1"
-			(uuid "3c49c065-49c7-4c38-aaf8-d3a41b757668")
+			(uuid "73abb837-76d9-4b3a-9923-1edd2f3f891e")
 		)
-		(pin "16"
-			(uuid "53b061f3-d054-4fa3-903c-c2376dac7211")
-		)
-		(pin "14"
-			(uuid "c20b7c30-a3c7-4021-9c93-d48e5a1a09aa")
+		(pin "2"
+			(uuid "f53d0bf3-9ae9-42db-9768-15d313b90ac3")
 		)
 		(pin "13"
-			(uuid "cefe23b6-c464-4fb6-9638-4b87af427a46")
+			(uuid "791ccb7b-e961-483e-97fd-f85849650994")
 		)
-		(pin "15"
-			(uuid "bf8f9434-c52e-4e2a-b460-19a2d0fbe89a")
+		(pin "14"
+			(uuid "20127623-8ebc-48ed-b0fe-af1c45f3d076")
+		)
+		(pin "4"
+			(uuid "c6343b00-15ac-4a00-93db-a73b849a3671")
 		)
 		(pin "5"
-			(uuid "88cbdfe3-f442-4185-a446-6d3f4cd6d44b")
+			(uuid "a9684ed5-b419-4318-aa0f-aae8a2a096b7")
+		)
+		(pin "7"
+			(uuid "d429cd33-2031-4a56-b0d2-9ebd954592fc")
+		)
+		(pin "16"
+			(uuid "3caf087e-2522-4082-8a9c-0799b46cc61c")
+		)
+		(pin "11"
+			(uuid "c16068de-9df6-4a4d-b9bf-cf4b55dd60d8")
 		)
 		(instances
-			(project "Remora Nucleo F446ZE Hat"
+			(project ""
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "U19")
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/3ddea5d6-e83a-4299-ab19-77514b1abca5"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/adf08f85-0659-4d18-9c0c-1da5c9849bec"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2559,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0224")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2660,7 +2636,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "#PWR0229")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2757,7 +2733,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "R97")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"
@@ -2854,7 +2830,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/0efd5135-f8b7-4cd1-8e93-f14156388778"
-					(reference "R98")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/181d5939-8311-41b3-8216-f7233e3a75eb/38a9b34d-220a-4331-8671-09e3a6b76818"

@@ -6,4 +6,6 @@
   (lib (name "MSD1A Symbols")(type "KiCad")(uri "${KIPRJMOD}/MSD1A Symbols")(options "")(descr ""))
   (lib (name "RPI3FootPrint")(type "KiCad")(uri "${KIPRJMOD}/RPI3FootPrint")(options "")(descr ""))
   (lib (name "Amphenol QT")(type "KiCad")(uri "${KIPRJMOD}/AmphenolQT_Footprints")(options "")(descr ""))
+  (lib (name "691412120002B")(type "KiCad")(uri "${KIPRJMOD}/TerminalConnectors/691412120002B")(options "")(descr ""))
+  (lib (name "691412120004B")(type "KiCad")(uri "${KIPRJMOD}/TerminalConnectors/691412120004B")(options "")(descr ""))
 )

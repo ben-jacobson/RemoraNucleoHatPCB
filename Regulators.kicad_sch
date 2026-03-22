@@ -3884,7 +3884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
+		(property "Footprint" "691412120002B:691412120002B"
 			(at 38.1 53.34 0)
 			(effects
 				(font
@@ -3911,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1818-QT02ADP83V0000G-ND"
+		(property "Digikey Part Number" "732-691412120002B-ND"
 			(at 38.1 53.34 0)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/amphenol-anytek/QT02ADP83V0000G/25618889"
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/w%C3%BCrth-elektronik/691412120002B/11478592"
 			(at 38.1 53.34 0)
 			(effects
 				(font
@@ -7471,7 +7471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EBWA_02_A:ADAMTECH_EBWA-02-A"
+		(property "Footprint" "691412120002B:691412120002B"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -7498,7 +7498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1818-QT02ADP83V0000G-ND"
+		(property "Digikey Part Number" "732-691412120002B-ND"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/amphenol-anytek/QT02ADP83V0000G/25618889"
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/w%C3%BCrth-elektronik/691412120002B/11478592"
 			(at 38.1 123.19 0)
 			(effects
 				(font
