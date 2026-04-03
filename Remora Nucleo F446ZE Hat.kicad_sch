@@ -7379,7 +7379,7 @@
 		(uuid "ffa1840f-1987-4b2f-b796-3e772f601c0b")
 	)
 	(label "MCU_Z_DIR"
-		(at 118.11 179.07 180)
+		(at 118.11 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,7 +7389,7 @@
 		(uuid "039ea065-c751-4468-b3c1-5f0a7a4dcfbb")
 	)
 	(label "MCU_Z_STEP"
-		(at 118.11 181.61 180)
+		(at 118.11 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7429,7 +7429,7 @@
 		(uuid "0c7c8f18-985e-450a-a6f9-a31d61fb5bfb")
 	)
 	(label "MCU_B_DIR"
-		(at 143.51 179.07 0)
+		(at 143.51 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,12 +7449,12 @@
 		(uuid "16352309-c871-4b1e-bc9f-e7750b5ca3d9")
 	)
 	(label "MCU_Y_DIR"
-		(at 143.51 189.23 0)
+		(at 118.11 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "180edb3b-e061-4a89-ae5f-e3dad7c08440")
 	)
@@ -7499,7 +7499,7 @@
 		(uuid "1f74b089-f9a2-48fc-8aea-01ff4a78a0c7")
 	)
 	(label "MCU_A_DIR"
-		(at 143.51 184.15 0)
+		(at 143.51 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,12 +7749,12 @@
 		(uuid "8ed68b25-cb14-4517-8355-ff380b04225c")
 	)
 	(label "MCU_X_DIR"
-		(at 118.11 189.23 180)
+		(at 143.51 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "90a8ec82-c8c4-4426-b369-2a4234d6b2a6")
 	)
@@ -7789,7 +7789,7 @@
 		(uuid "a0dff073-7839-4113-b35e-ff9489612238")
 	)
 	(label "MCU_C_DIR"
-		(at 143.51 173.99 0)
+		(at 143.51 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,7 +7869,7 @@
 		(uuid "d4fa43ea-b988-4128-b8d0-7a9427367637")
 	)
 	(label "MCU_C_STEP"
-		(at 143.51 176.53 0)
+		(at 143.51 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7879,7 +7879,7 @@
 		(uuid "d780efe3-e944-41ae-8f95-7231bdf57aae")
 	)
 	(label "MCU_B_STEP"
-		(at 143.51 181.61 0)
+		(at 143.51 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7959,7 +7959,7 @@
 		(uuid "f4588e1a-36c8-4bd0-93e7-9c4c304aea78")
 	)
 	(label "MCU_A_STEP"
-		(at 143.51 186.69 0)
+		(at 143.51 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7969,7 +7969,7 @@
 		(uuid "f796fb11-5735-405a-9bac-7136b163a5cc")
 	)
 	(label "MCU_X_STEP"
-		(at 118.11 191.77 180)
+		(at 118.11 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
