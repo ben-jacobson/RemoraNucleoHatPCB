@@ -522,10 +522,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerbers/V0.1/",
+      "plot": "Gerbers/V1/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Remora Nucleo F446ZE Hat.stl",
       "svg": "",
       "vrml": ""
     },
