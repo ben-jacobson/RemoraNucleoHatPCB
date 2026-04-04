@@ -49,4 +49,5 @@ fp-info-cache
 _autosave*
 *.lck
 .~lock.*
+*.zip
 
