@@ -39,6 +39,9 @@ fp-info-cache
 *.csv
 *.tsv
 
+# But include the BOM
+!Remora Nucleo F446ZE Hat BOM.csv
+
 # Misc
 *.log
 *.raw
@@ -46,3 +49,4 @@ fp-info-cache
 _autosave*
 *.lck
 .~lock.*
+

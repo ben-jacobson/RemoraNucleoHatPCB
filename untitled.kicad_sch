@@ -2467,6 +2467,14 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "19c2ada4-407a-4233-bce7-dae837379413")
 		)
@@ -3035,6 +3043,14 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "edb55cb8-774a-4d8c-ab53-b66d69abdf44")
 		)
@@ -3298,6 +3314,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"

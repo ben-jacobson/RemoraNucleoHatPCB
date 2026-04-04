@@ -3044,6 +3044,14 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part Number" "160-2255-1-ND"
+			(at 85.09 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "19c2ada4-407a-4233-bce7-dae837379413")
 		)
@@ -3742,7 +3750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "1818-QT02ADP83V0000G-ND"
+		(property "Digikey Part Number" "732-691412120002B-ND"
 			(at 204.47 134.62 0)
 			(effects
 				(font
@@ -3751,7 +3759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/amphenol-anytek/QT02ADP83V0000G/25618889"
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/w%C3%BCrth-elektronik/691412120002B/11478592"
 			(at 204.47 134.62 0)
 			(effects
 				(font
