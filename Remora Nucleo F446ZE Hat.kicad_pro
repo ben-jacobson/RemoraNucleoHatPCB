@@ -506,7 +506,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers/V1/",
-      "pos_files": "",
+      "pos_files": "Gerbers/V1/PickPlace/",
       "specctra_dsn": "",
       "step": "Remora Nucleo F446ZE Hat.stl",
       "svg": "",

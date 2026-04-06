@@ -37,6 +37,8 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 27.051 184.232)
+		(grid_origin 27.051 184.232)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -59973,7 +59975,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JLCJLCJLCJLC"
+	(gr_text "WayWayWay"
 		(at 130.840375 177.643031 0)
 		(layer "F.SilkS")
 		(uuid "d2eab05c-13cc-4e7a-95db-8a70184fe471")

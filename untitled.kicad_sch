@@ -2333,7 +2333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "266b122f-4d3a-465d-bf3d-7f6a2c9fb6db")
-		(property "Reference" "R90"
+		(property "Reference" "R93"
 			(at 143.002 105.664 90)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e401cb00-fa11-4a99-9e35-1d19f69fa4a0"
-					(reference "R90")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -2473,6 +2473,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 165.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "7"
@@ -3049,6 +3059,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "7"
@@ -3182,7 +3202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3c2ad62-0429-47f2-bb7c-c374b02a30f5")
-		(property "Reference" "R89"
+		(property "Reference" "R92"
 			(at 143.002 89.154 90)
 			(effects
 				(font
@@ -3254,7 +3274,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e401cb00-fa11-4a99-9e35-1d19f69fa4a0"
-					(reference "R89")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -3322,6 +3342,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com.au/en/products/detail/lite-on-inc/ltv-247/4307982"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "7"
@@ -3739,7 +3769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd4a9779-2e0b-40b8-908e-198128b6d43f")
-		(property "Reference" "R88"
+		(property "Reference" "R91"
 			(at 143.002 72.644 90)
 			(effects
 				(font
@@ -3811,7 +3841,7 @@
 		(instances
 			(project "Remora Nucleo F446ZE Hat"
 				(path "/5473abc6-7b93-43cc-a401-f691c4d7d7cf/e401cb00-fa11-4a99-9e35-1d19f69fa4a0"
-					(reference "R88")
+					(reference "R91")
 					(unit 1)
 				)
 			)
