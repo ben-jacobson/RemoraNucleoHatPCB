@@ -2539,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey Part Number" "MCP6042-I/SN-ND"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6042-I-SN/413367"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -3748,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey Part Number" "MCP6042-I/SN-ND"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -3757,7 +3757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6042-I-SN/413367"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "150-MCP6042T-E/MSVAOCT-ND"
+		(property "Digikey Part Number" "MCP6042-I/SN-ND"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/mcp6042t-e-snvao/9993094"
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/microchip-technology/MCP6042-I-SN/413367"
 			(at 139.7 48.26 0)
 			(effects
 				(font
