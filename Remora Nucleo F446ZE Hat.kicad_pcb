@@ -3346,6 +3346,7 @@
 		(property "Reference" "H5"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f670446-48f0-423e-ab71-7d94dddb9da6")
 			(effects
 				(font
@@ -3357,6 +3358,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "01859a38-0779-4e2e-8ecf-1610fe432734")
 			(effects
 				(font
@@ -19461,6 +19463,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b66f7c75-450d-463e-a6a2-dadeb9a63b4f")
 			(effects
 				(font
@@ -19472,6 +19475,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ba1ce7c3-f77c-48f5-a0de-de584396671a")
 			(effects
 				(font
@@ -26586,6 +26590,7 @@
 		(property "Reference" "H9"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bb5e90d1-bb97-480e-901f-36db3fe340c1")
 			(effects
 				(font
@@ -26597,6 +26602,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7250447e-83b4-4965-ac0d-e2eaa4218d85")
 			(effects
 				(font
@@ -34289,6 +34295,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ab7318a7-230d-42f6-9abf-5958e9d73a1c")
 			(effects
 				(font
@@ -34300,6 +34307,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "03f3377f-5632-4fdd-a1e9-c3211211decb")
 			(effects
 				(font
@@ -37786,7 +37794,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R100"
-			(at 3.925 -0.05 180)
+			(at 4.555 -0.05 180)
 			(layer "F.SilkS")
 			(uuid "53c33325-68dd-48b6-8ab1-278c900be21b")
 			(effects
@@ -42946,6 +42954,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "59cc0186-f5e5-450e-91de-3443e54fd634")
 			(effects
 				(font
@@ -42957,6 +42966,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2def6885-6bff-4ae3-b56b-274dc5c69df4")
 			(effects
 				(font
@@ -43989,6 +43999,7 @@
 		(property "Reference" "H6"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a4fc9dc0-b502-4cc9-a449-6b9fb58de9eb")
 			(effects
 				(font
@@ -44000,6 +44011,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b01efcf9-e93d-4b4e-9de3-520449865dcc")
 			(effects
 				(font
@@ -47845,6 +47857,7 @@
 		(property "Reference" "H8"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "868aa6e8-d3d0-489a-b8f4-2e0174482462")
 			(effects
 				(font
@@ -47856,6 +47869,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a16c44a2-1116-4a4d-a505-161a55b439b5")
 			(effects
 				(font
@@ -48194,6 +48208,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c300da7f-2927-426f-97dd-21412ed30410")
 			(effects
 				(font
@@ -48205,6 +48220,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "12af9f84-2f8b-4102-8e7b-9d9ac4080740")
 			(effects
 				(font
@@ -51873,6 +51889,7 @@
 		(property "Reference" "H7"
 			(at 0 -3.35 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "382d7c97-e30e-4f30-a49d-90d1f96a5208")
 			(effects
 				(font
@@ -51884,6 +51901,7 @@
 		(property "Value" "MountingHole_Pad"
 			(at 0 3.35 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0d7442d3-6153-4bbb-a0de-14e294550699")
 			(effects
 				(font
